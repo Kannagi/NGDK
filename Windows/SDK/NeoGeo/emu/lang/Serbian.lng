@@ -1,0 +1,273 @@
+&Fajl
+  &Uchitaj igru	Alt+L
+  Automatski startuj igru
+  Podesi putanje
+  Startuj/pauziraj emulaciju	Enter
+  Pojedinachni frejm	Shift+Space
+  Resetuj
+  Zapochni netplay
+  Slotovi za snimanje ...
+    Slot 0
+    Slot 1
+    Slot 2
+    Slot 3
+    Slot 4
+    Slot 5
+    Slot 6
+    Slot 7
+    Slot 8
+    Slot 9
+  Prethodni slot za snimanje	F6
+  Sledeci slot za snimanje	F8
+  Snimi status	F5
+  Uchitaj status	F7
+  Record input slot...
+    Slot 0
+    Slot 1
+    Slot 2
+    Slot 3
+    Slot 4
+    Slot 5
+    Slot 6
+    Slot 7
+    Slot 8
+    Slot 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Record input	Shift+F5
+  Replay input	Shift+F7
+  I&zlaz	Alt+F4
+&Video
+  Ceo ekran	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Don't rotate vertical games
+  Alokacija video memorije...
+    Sistemska memorija
+    Memorija na video kartici
+    Autodetektovanje
+  Triple buffering
+  Preskakanje frejmova...
+    Bez
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Automatsko preskakanje frejmova	Alt+A
+  Turbo mod	Alt+T
+  Gamma adjustment
+  Osvetljenje...
+    Tamnije
+    Normalno
+    Svetlije
+  Iskljuchi ...
+    Iskljuchi 8x8 layer	Alt+1
+    Iskljuchi 16x16 layer	Alt+2
+    Iskljuchi 32x32 layer	Alt+3
+    Iskljuchi sve sprajtove	Alt+4
+    Iskljuchi slojeve sprajtova (CPS2) ...
+      Iskljuchi sloj sprajta 0	Alt+Shift+0
+      Iskljuchi sloj sprajta 1	Alt+Shift+1
+      Iskljuchi sloj sprajta 2	Alt+Shift+2
+      Iskljuchi sloj sprajta 3	Alt+Shift+3
+      Iskljuchi sloj sprajta 4	Alt+Shift+4
+      Iskljuchi sloj sprajta 5	Alt+Shift+5
+      Iskljuchi sloj sprajta 6	Alt+Shift+6
+      Iskljuchi sloj sprajta 7	Alt+Shift+7
+      Ponovo ukljuchi sve	Alt+Shift+8
+    Iskljuchi skrolovanje podloge	Alt+R
+    Iskljuchi BgHi (CPS1)	Alt+H
+    Iskljuchi sprite masking (CPS2)	Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Podesi boju pozadine...
+    Osnovna
+    Crna
+    Roze
+    Plava
+    Crvena
+    Cian plava
+    Plava
+  Ponovo iscrtaj frejm  bez poruka	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Odaberi video mod...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Zoom window...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Tachan odnos strana u prozoru...
+    Ne
+    Manja slika (radi sa svim modovima)
+    Veca slika (nepodesno za scanlines modove)
+  Tachan  odnos strana na celom ekranu...
+    Ne
+    Manja slika (radi sa svim modovima i dozvoljava 640x480)
+    Veca slika (nepodesna za scanlines modove)
+    Rashiri na ceo ekran
+&Zvuk
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Obrni stereo
+  Mono zvuk
+  Interpolacija zvuka (samo NeoGeo)
+  &Low-pass filter
+  CPS1 zvuchne opcije...
+    Iskljuchi OKIM6295
+    Iskljuchi OKIM6295 kanal...
+      Kanal 1
+      Kanal 2
+      Kanal 3
+      Kanal 4
+    Iskljuchi YM2151
+    Ukljuchi YM2151
+  QSound opcije (CPS2 & CPS1)...
+    QSound jachina...
+      Smanjen
+      Normalna
+      Glasno
+    Iskljuchi QSound efekte
+    Iskljuchi QSound muziku
+    Iskljuchi najavljivacha u SFA3
+  NeoGeo zvucne opcije...
+    Iskljuchi YM2610
+    Iskljuchi AY-3-8910
+  Winamp jukebox	Alt+J
+  Ispisuj informacije o pesmi
+  Snimaj zvuk u 16-tobitni stereo (raw format) 
+&Ostalo
+  Podesi frekvenciju 68000 	Alt+F
+  Uvek na vrhu	Ctrl+Alt+A
+  Autopauza	Pause
+  Ukljuchi hotkey tastere u menijima
+  Podrska za multitask
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Odabeti jezik
+&Igra
+  Zonski kod
+  Dipswitches (CPS1)
+  NeoGeo podeshavanja...
+    Automat
+    Konzola
+    Evropa
+    SAD
+    Japan
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Varanja	Alt+C
+  Brza izmena shifri...
+    Prikazhi shifre	Ctrl+Shift+0
+    Ukljuchi varanje 1	Ctrl+Shift+1
+    Ukljuchi varanje 2	Ctrl+Shift+2
+    Ukljuchi varanje 3	Ctrl+Shift+3
+    Ukljuchi varanje 4	Ctrl+Shift+4
+    Ukljuchi varanje 5	Ctrl+Shift+5
+    Ukljuchi varanje 6	Ctrl+Shift+6
+    Ukljuchi varanje 7	Ctrl+Shift+7
+    Ukljuchi varanje 8	Ctrl+Shift+8
+    Ukljuchi varanje 9	Ctrl+Shift+9
+  Ponovo uchitaj fajl sa varanjima
+  Trazhi varanja...
+    Zapochni novu pretragu	Numlock
+    Vrednost se nije promenila od proshle revizije	Numpad /
+    Vrednost se promenila od proshle revizije	Numpad *
+    Vrednost je smanjena od proshle revizije	Shift + numpad /
+    Vrednost je povecana od poslednje revizije	Shift + numpad *
+    Dump matches to file
+  Podesi tastere...
+    Redefinishi tastere Player 1 ...
+    Redefinishi tastere Player 2 ...
+    Redefinishi tastere Player 3 ...
+    Redefinishi tastere Player 4 ...
+  Ponishi osnovne tastere
+  Koristi Hotrod konfiguraciju
+  Uchitaj  setovanja iz .ini-ja
+  Snimi setovanja u .ini 
+  Snimi podeshene tastere kao osnovne
+&Alati
+  No emu text on screenshots
+  Slika iz igre (nefiltrirana)	Ctrl+P
+  Slika iz igre (filtrirana)	Ctrl+Alt+P
+  Fabrika slika iz igre	Ctrl+F
+  Tileviewer	Ctrl+T
+  68000 debager	Ctrl+D
+  Proveri ispravnost ROm-ova
+  Generishi Romcenter DAT
+  Generishi ClrMAMEPro DAT
+  Ukljuchi snimanje dekriptovanih C-a posle uchitavanja
+&?
+  &O Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Serbian
+Author=[forsaken demon]

@@ -1,0 +1,1352 @@
+What's new in 1.64:
+-------------------
+
+
+     * New drivers:
+
+         - Forgotten Worlds (US set 4)
+         - Three Wonders (World 910513)
+         - Street Fighter II' - Champion Edition (Hung Hsi, bootleg)
+         - Street Fighter II - The World Warrior (Japan 910411)
+         - Street Fighter II - The World Warrior (Japan 910522)
+         - Street Fighter II - The World Warrior (Japan 920312)
+         - Street Fighter II - The World Warrior (World 910318)
+         - Final Fight (Japan 900613)
+         - Dai Makai-Mura (Japan Resale Ver.)
+         - Willow (World)
+
+         - Progear No Arashi (Japan 010117 Bootleg)
+         - Street Fighter Zero (Asia 950605)
+         - Dungeons and Dragons: Tower of Doom (Asia 940412)
+         - X-Men Vs. Street Fighter (Asia 961004)
+         - 19XX: The War Against Destiny (Japan 960104)
+         - 19XX: The War Against Destiny (Asia 960104)
+         - Armored Warriors (Asia 941024)
+         - Super Street Fighter II: The New Challengers (World 931005)
+         - Dungeons and Dragons: Shadow over Mystara (Asia 960208)
+         - Super Puzzle Fighter II Turbo (Euro 960529)
+         - X-Men Vs. Street Fighter (US 960910)
+
+         - Bang Bang Busters
+         - Treasure of the Caribbean (homebrew)
+         - The King of Fighters '95 (alt)
+         - The King of Fighters '98: The Slugfest (alt)
+
+     * Changed sfa2u ROM names to match MAME 0162.
+     * Changed a nemoj ROM to match MAME 0162.
+     * Changed a dinou ROM to match MAME 0162.
+     * Changed a diggerma ROM to match MAME 0162.
+     * Changed a puzzldpr ROM to match MAME 0162.
+
+     * Fixed a long standing bug that could cause CPS2 games that use raster effects to freeze
+       while the effect is being used.
+     * added DIP settings for 'Street Fighter II - Hyper Fighting'
+
+
+1.63 * New drivers:
+
+         - Street Fighter Alpha 3 (Hispanic 980904)
+         - X-Men Vs. Street Fighter (Asia 960910)
+         - X-Men: Children of the Atom (Euro 950331)
+         - X-Men: Children of the Atom (Asia 950105)
+         - Marvel Vs. Capcom: Clash of Super Heroes (US 971222)
+         - Street Fighter Zero (Hispanic 950718)
+         - Street Fighter Alpha 2 (US 960430)
+         - Ring of Destruction: Slammasters II (Asia 940831)
+         - PuzzLoop 2 (Japan 010226)
+         - Vampire Hunter: Darkstalkers' Revenge (Japan 950307 stop version)
+         - Super Street Fighter II X (Japan 940223 rent version)
+         - Marvel Vs. Capcom: Clash of Super Heroes (Jap 980123, PCB)
+         - Street Fighter Zero 2 (Japan 960430)
+         - Super Street Fighter II: The Tournament Battle (Hispanic 931005)
+
+         - The King of Fighters '98: The Slugfest (Korean M1 set 2)
+         - The King of Fighters '97 (Korean)
+         - The King of Fighters '97 Oroshi Plus 2003 (bootleg)
+         - Jockey Grandprix (set 2)
+         - Alpha Mission II (Prototype)
+         - Burning Fight (Prototype)
+         - Choutetsu Brikin'ger - Iron clad (Prototype)
+         - King of the Monsters 2: The Next Thing (Prototype)
+         - Final Romance 2 (Neo CD conversion)
+	 - Super Bubble Pop
+
+         - 1941 - Counter Attack (US 900227)
+         - 1941 - Counter Attack (World 900227)
+         - Captain Commando (World 911202)
+         - Captain Commando (Japan 910928)
+         - Forgotten Worlds (US set 2)
+         - Area 88 (Japan resale version)
+         - Knights of the Round (Japan 911127 alt)
+         - The King of Dragons (Japan 910805 alt)
+         - The King of Dragons (World 910805)
+         - Mega Man - The Power Battle (CPS1, US 951006)
+         - Tenchi wo Kurau (Japan Resale Version)
+         - Final Fight (US set 2)
+         - Pang! 3 (Euro 950511)
+         - Warriors of Fate (World 921031)
+         - Street Fighter II': Champion Edition (Japan 920322)
+         - Forgotten Worlds (US set 2)
+         - Final Fight (World set 2)
+         - Street Fighter II - The World Warrior (US 910522 G)
+         - Street Fighter II - The World Warrior (World 910228)
+         - Street Fighter II - The World Warrior (US 910306)
+         - Street Fighter II' - Champion Edition (World 920513)
+         - Street Fighter II' - Champion Edition (Japan 920803)
+         - Street Fighter II' - Champion Edition (Accelerator set 2)
+         - The Punisher (Hispanic 930422)
+
+
+     * Changed kof99nd to use non Korean P ROMs.
+     * Changed SSF2T parent / clone relationship to match MAME.
+     * Changed SF2T parent / clone relationship to match MAME.
+     * Various other changes to match MAME 148 ROM naming.
+
+
+1.62 * New drivers:
+
+         - X-Men: Children of the Atom (Japan 950105)
+         - X-Men: Children of the Atom (Hispanic 950105)
+         - Street Fighter Alpha 3 (Hispanic 980629)
+         - Giga Wing (Hispanic 990222)
+         - Eco Fighters (Hispanic 931203)
+         - Dungeons and Dragons: Tower of Doom (Hispanic 940113)
+
+         - Real Bout Fatal Fury Special (Korean version)
+         - Quiz Daisousa Sen: The Last Count Down (Korean version)
+         - Quiz King of fighters (Korean version)
+
+         - Final Fight (Japan hack)
+         - Biaofeng Zhanjing (Chinese bootleg)
+         - Dinosaur Hunter (Chinese bootleg)
+         - Pang! 3 (Euro 950601)
+         - Street Fighter II - The World Warrior (Thunder Edition)
+
+     * Changed Ironclads C and P ROM makeup to how its suspected they
+       would have been on a real MVS cart.
+     * Fixed incorrect ROM sizes in KODB and WOFHFH.
+     * Fixed KNIGHTS and clones ROM names to match MAME.
+     * Fixed HSF2J ROMs to match MAME.
+
+
+1.61 * New drivers:
+
+         - Super Street Fighter II: The New Challengers (Hispanic 930911)
+         - Dungeons & Dragons: Shadow over Mystara (Hispanic 960223)
+         - Dungeons and Dragons: Tower of Doom (Hispanic 940412)
+         - Night Warriors: Darkstalkers Revenge (Asia 950302)
+         - Darkstalkers: The Night Warriors (Hispanic 940818)
+         - Mega Man 2: The Power Fighters (Hispanic 960712)
+         - Super Puzzle Fighter II Turbo (Hispanic 960529)
+         - Hyper Street Fighter II (US 040202)
+         - Mighty! Pang (Euro 000925)
+
+         - Saulabi Spirits: Jin Saulabi Tu Hon (Korean version set 2)
+         - Pae Wang Jeon Seol - Legend of a Warrior (Korean version)
+         - Saulabi Spirits: Jin Saulabi Tu Hon (Korean version)
+         - Baseball (Stars Professional (set 2)
+         - Ironclad (Wii conversion)
+         - Metal Slug 4 (set 2)
+
+         - Street Fighter II' - Champion Edition (Double K.O. Turbo II)
+         - Street Fighter II - The World Warrior (TAB Austria bootleg)
+         - Street Fighter II - The World Warrior (Quicken Pt-I)
+         - Street Fighter II' - Champion Edition (Accelerator)
+         - Knights of the Round (World 911127, bootleg)
+         - Lost Worlds (Japan older)
+         - Forgotten Worlds (World)
+
+     * Fixed '000-lo.lo' to report its correct size when creating a DAT.
+     * Fixed freeze in Magician Lord when entering high score.
+     * updated some NeoGeo ROMs to match MAME (0.136).
+     * Renamed some clone sets to match MAME (0.136).
+
+
+1.60 * New drivers:
+
+         - Giga Wing (Brazil 990222)
+         - Armored Warriors (US 940920)
+         - Capcom Sports Club (Euro 971017)
+         - Street Fighter Alpha 2 (Euro 960229)
+         - Mighty! Pang (Euro 001010)
+         - Marvel Vs. Capcom (Euro 980123)
+
+         - Ghost Pilots (alternate set)
+         - Samurai Shodown (alternate set)
+
+         - Street Fighter II' - Champion Edition (Rainbow set 3)
+         - Dynasty Wars (US set 2)
+         - Final Fight (Japan 900112)
+         - Sangokushi II: Huo Fenghuang (Chinese bootleg)
+         - Three Wonders (World 910520 hack ?)
+
+     * Added service mode button to CPS2 games.
+     * Removed decrypted M ROMs from NeoGeo sets. 
+     * Changed SFZ2A naming and parenting to match MAME (0.129).
+     * Changed 'Muscle Bomber Duo' parenting to match MAME (0.129).
+     * Changed various CPS2, CPS1 and NeoGeo ROM names to match MAME (0.129).
+
+
+1.59 * New drivers:
+
+         - Final Fight (US)
+
+         - Eco Fighters (US 940215)
+         - Mega Man: The Power Battle (CPS2, USA 951006)
+         - Rockman: The Power Battle (CPS2, Japan 950922)
+         - Dimahoo (Euro 000121)
+         - Street Fighter Alpha 3 (Euro 980904)
+         - 19XX: The War Against Destiny (Brazil 951218)
+         - Night Warriors: Darkstalkers Revenge (Euro 950316)
+         - X-Men: Children of the Atom (Japan 941222)
+
+         - Real Bout Fatal Fury (set 2)
+         - The King of Fighters 2003 (set 2)
+         - Metal Slug 5 (set 2)
+         - Soccer Brawl (alternate set)
+
+     * Fixed currupted graphics in progeara.
+     * Changed some NeoGeo M ROM sizes in to match MAME (.122).
+     * Changed some NeoGeo ROM names to match MAME (.122).
+
+
+1.58 * New drivers:
+
+	 - Choko (Japan 010820)
+	 - Jyangokushi: Haoh no Saihai (Japan 990527)
+         - Various CPS-2 clone sets
+	 - Garou: Mark of the Wolfes (bootleg)
+
+     * Removed XOR's from all CPS-2 games.
+         (Special thanks to Andreas Naive and Nicola Salmoria)
+     * Added new V3 ROM crc to rbff2 and clones.
+     * Added new V4 ROM crc to Last Blade and clones.
+     * CLRpro and ROMcenter DAT generation should now be correct.
+     * Renamed some ROMs in SVC (MVS Cart version).
+     * SVC bootlegs now use the same 'C' and 'V' ROMs.
+     * Changed the size of the Samsho5 M ROM.
+     * Changed C ROM crc in pnyaa.
+
+
+1.57 * New drivers:
+
+         - Hyper Street Fighter II (Asia 040202)
+         - Puzz Loop 2 (Euro 010302)
+
+         - Added shift+f6 and shift+f8 for fast switching record state slots.
+         - Added Ctrl+f text to shots factory menu option.
+
+ 
+1.56 * New drivers:
+
+         - Metal Slug 5 (dedicated PCB)
+         - Metal Slug 5
+         - Metal Slug 5 (decrypted C)
+         - Metal Slug 5 Plus (hack)
+         - Metal Slug 6 (hack)
+         - Pochi and Nyaa
+         - Samurai Shodown V
+         - Samurai Shodown V (decrypted C)
+         - Samurai Shodown V (alternate set)
+         - Samurai Shodown V (bootleg)
+         - Samurai Shodown V Special
+         - Samurai Shodown V Special (decrypted C)
+         - Samurai Shodown V Special (censored alternate set)
+         - Samurai Shodown V Special (less censored alternate set)
+         - SNK Vs. CAPCOM (dedicated PCB)
+         - SNK Vs. CAPCOM (dedicated PCB set 2)
+         - SNK Vs. CAPCOM
+         - SNK Vs. CAPCOM (decrypted C)
+         - SNK Vs. CAPCOM (bootleg)
+         - SNK Vs. CAPCOM Plus (hack 1)
+         - SNK Vs. CAPCOM Plus (hack 2)
+         - SNK Vs. CAPCOM Super Plus (hack)
+         - The King of Fighters 2003 (dedicated PCB)
+         - The King of Fighters 2003
+         - The King of Fighters 2003 (decrypted C)
+         - The King of Fighters 2003 (bootleg 1)
+         - The King of Fighters 2003 (bootleg 2)
+         - The King of Fighters 2003 EX Hero (hack)
+         - The King of Fighters 2003 EX Ultra Plus (hack)
+         - Crouching Tiger Hidden Dragon 2003 Super Plus (hack)
+         - The King of Fighters 2002 Magic Plus (hack)
+
+         - Art of Fighting 3: The Path of the Warrior (Korean version) 
+         - Real Bout Fatal Fury 2: The Newcomers (Korean version)
+         - Fighters Swords (Korean version) 
+         - The Last Soldier (Korean version)
+
+         - Final Fight (US 900613)
+         - Carrier Air Wing (World 901009)
+
+     * Renamed ROM's in kog to match MAME.
+     * Renamed kf2k4spe to kof2k4se and added sound ROM's to match MAME.
+     * Renamed kof2km2 to kf2k2mp2 to match MAME.
+     * Renamed kf2k2pa to kf2k2pla to match MAME.
+     * Renamed ROM's in kf10thep to match MAME.
+
+
+1.55 * New drivers:
+
+         - Super Puzzle Fighter II Turbo (Asia 960529)
+         - X-Men Vs. Street Fighter (US 961023)
+
+         - The King of Fighters 10th Anniversary Extra Plus (hack)
+         - The King of Fighters 10th Anniversary 2005 Unique (hack)
+         - The King of Fighters 2002 Magic Plus II (hack)
+         - King of Gladiator (hack)
+         - Lansquenet 2004 (hack)
+
+         - Varth - Operation Thunderstorm (World 920714)
+
+     * Added a missing port in kof10th (0x2ffff8).
+     * Renamed sfz3a to sfz3ar1 to match MAME 0.102.
+     * Renamed ROM's in dndtod set to match MAME 0.102.
+     * Renamed mshvsf to mshvsfu to match MAME 0.102.
+     * Renamed ddsomr1 to ddsomr2 to match MAME 0.102.
+     * Renamed some set names from 'bootleg' to 'hack'. 'Bootlegs' are games
+       identical to the original apart from protection removal. 'Hacks' are
+       games changed to alter gameplay or add features not in the original.
+ 
+
+1.54 * New drivers:
+
+         - Puzz Loop 2 (Japan 010205)
+         - 19XX: The War Against Destiny (Asia 951207)
+         - Alien vs. Predator (Asia 940520)
+
+         - The King of Fighters 10th Anniversary (hack)
+         - Matrimelee (decrypted C)
+
+     * Fixed slowdowns in Rage of The Dragons (how to play drawing for example).
+     * Stopped both KOF2002 plus sets loading the encrypted M ROM from the parent.
+     * Fixed bug in KOF2002 how to play sequence (Kyo ended up off the left of screen).
+     * Renamed some decrypted M ROMs in various NeoGeo Games to match MAME 092.
+     * Renamed CPS2 graphics and sound sample ROMs to reflect names given to them
+       on real CPS-2 hardware (added a 'm' to the name).
+     * Renamed the CPS-2 simm ROMs (from xxx-sim-xxx to xxx-simm.xxx).
+     * Renamed Jockey Grandprix ROMs to match MAME 092.
+
+
+1.53 * New drivers:
+
+         - The King of Fighters 2002 (bootleg)
+         - The King of Fighters 2002 Plus (bootleg 2)
+         - The King of Fighters Special Edition 2004 (hack)
+
+     * Added a no rotate vertical games option for the vertical CPS-1 and 2 games.
+       This is very handy if you own a rotatable TFT screen.
+     * Fixed some games not showing when the 'Hide Redundant Games' option is used. 
+     * Fixed Matrimelee (bootleg) to use the original bootleg V ROMs. Also fixed
+       it to use the P roms from the parent set (data was identical in both sets).
+     * Updated the C5 ROM in Matrimelee as the old one is a bad dump. 
+     * Fixed Dynasty Wars DIP switches.
+
+
+1.52 * Updated the decrypted M ROMs in the following games;
+         - The King of Fighters 2001
+         - The King of Fighters 2002
+         - Matrimelee
+         - Metal Slug 4
+         - Rage of the Dragons
+
+     * Made Bang Bead (decrypted C) use the ROMs created from the save
+       decrypted C after loading option.
+
+
+1.51 * New drivers:
+
+         - Progear (USA 010117)
+         - Progear No Arashi (Japan 010117)
+
+         - Matrimelee
+         - Matrimelee (bootleg)
+         - Metal Slug 4
+         - Metal Slug 4 (decrypted C)
+         - Metal Slug 4 Plus (bootleg)
+         - Rage of the Dragons
+         - Rage of the Dragons (decrypted C)
+         - The King of Fighters 2002
+         - The King of Fighters 2002 (decrypted C)
+         - The King of Fighters 2002 Plus (bootleg) 
+
+         - Street Fighter II' - Champion Edition (Koryu)
+
+     * Fixed the currupted graphics in Prehistortic Isle 2.
+
+
+1.50 * New drivers:
+
+         - Dungeons and Dragons: Tower of Doom (Japan 940125)
+         - Street Fighter Zero 3 (Japan 980904)
+
+         - Street Fighter II' - Champion Edition (Hack M1) runs bad
+         - Street Fighter II' - Champion Edition (Hack M2)
+         - Street Fighter II' - Champion Edition (Hack M3)
+         - Street Fighter II' - Champion Edition (Hack M4)
+         - Street Fighter II' - Champion Edition (Hack M5)
+         - Street Fighter II' - Champion Edition (Hack M6)
+         - Street Fighter II' - Champion Edition (Hack M7)
+         - Street Fighter II' - Champion Edition (Turyu)
+         - Street Fighter II' - Hyper Fighting (World 921209)
+
+         - Ninja Combat (set 2)
+         - 2020 Super Baseball (set 2)
+         - V Liner Combat (set 2)
+         - Ghostlop (prototype)
+
+     * Renamed MSHJ to MSHJR1.
+     * Renamed DDTODJ to DDTOTJR1.
+     * Renamed VHUNTJR1 to VHUNTJR2.
+     * Changed 2020 Super Baseball C3 and C4 to match MAME 080u2.
+     * Changed Street Fighter Alpha sets to match MAME 084.
+     * Changed Cyberbots sets to match MAME 084u3.
+     * Changed Dynasty Wars World and Japan ROMs and names to match MAME 086u4.
+     * Added a kludge to stop Johns megasmasher super move in AOF2 to freeze.
+     * Fixed the graphic glitches in the game ending text with kof99 when you
+       beat the game using the team with Ryo,Robert,Yuri and Takuma in.
+
+
+1.49 * New drivers:
+         - The King of Fighters 2001 (alternate set)
+         - Samurai Shodown III (set 2)
+         - Zintrick (Neo CD conversion hack)
+
+     * Changed some 29 Neogeo game ROMs to match ROMs needed by MAME 079u4.
+     * Fixed alt-m from crashing kawaks when no game was loaded.
+     * Changed some warning massages from 'no romset loaded' to 'no game loaded'.
+
+
+1.48 * New drivers:
+         - Art of Fighting 2 (set 2)
+         - Fight Fever (alternate set)
+         - Fatal Fury Special (set 2)
+         - The King of Fighters '96 (set 2)
+         - The King of Fighters '97 Plus (bootleg)
+         - The King of Fighters '98: The Slugfest (Korean M1)
+         - Top Hunter: Roddy & Cathy (set 2)
+         - Robo Army (alternate set)
+
+     * Added the ability to change gamma settings (video menu).
+     * Updated 'Robo Army' and 'Sengoku 2' ROMs to match MAME.
+     * Renamed XMVSFU to XMVSFUR1.
+     * Renamed ARMWAR to ARMWARR1.
+
+
+1.47b* Now using the S1 from a different CTHD2003 cart, this one fixes the power bars.
+     * Set NeoGeo Z80 speed back to 6mhz as to many sound related things broke.
+
+
+1.47a* Fixed various missing sprites in several CPS1 games (SF2 and DINO for example)
+       that got broke in v1.47.
+     * Fixed Graphic errors in KOF95.
+     * Fixed sound disapeering in MSLUG 2,X,3 that got broke in v1.47 by upping z80
+       frequency to 4.4mhz.
+
+
+1.47 * New drivers:
+         - Capcom Sports Club (Euro 970722)
+         - 19XX: The War Against Destiny (Japan 951207)
+         - Dungeons and Dragons: Shadow over Mystara (Euro 960619)
+         - Dungeons and Dragons: Shadow over Mystara (Japan 960619)
+         - Dungeons and Dragons: Shadow over Mystara (Asia 960619)
+         - Street Fighter Alpha: Warriors' Dreams (Euro 950718)
+
+         - Street Fighter II - The World Warrior (US 911101)
+         - Final Fight (Japan 900305)
+
+         - Crouching Tiger Hidden Dragon 2003
+         - Puzzle Bobble (set 2)
+         - Real Bout Fatal Fury Special (set 2)
+         - The King of Fighters '95 (set 2)
+         - The King of Fighters '97 (set 2)
+         - The King of Fighters '98: The Slugfest (set 2)
+         - The King of Fighters '99: Millennium Battle (set 2)
+         - The Last Blade (set 2)
+         - World Heroes (set 2)
+
+     * Added a zoom window 150% and 250%. These look nice with scanline blitters if
+       'correct window ratio' option is set to smaller.
+     * Fixed blue squares on screen after highscore entry in sfa2 / sfz2.
+     * kof99nd decrypted C roms are now ones created from a 'save decrypted C's after loading'
+       from the parent kof99 set and not the C roms used in the kof99p prototype set.
+     * Fixed some name descriptions in the NeoGeo sets.
+     * Fixed a minor merging issue in sf2uf and sf2ui (thanks LogiqX).
+     * Correct P1 rom now used in Sengoku3 instead of the bad dumped one.
+     * Changed NeoGeo bios ROM names to match those in MAME 0.68 and above.
+     * Added a fifth Rom Path setting.
+     * Removed androdun c3 and c4 ROM's as they are filled with garbage.
+     * Renamed shocktrj to shocktra (this was never a japan only version).
+     * Changed NeoGeo z80 speed from 6mhz to 4mhz as confirmed on real hardware.
+     * Kawaks window position is now remembered.
+     * Fixed slow sound in the CPS1 Qsound games.
+
+
+1.46 * New drivers:
+
+         - Mighty! Pang (Japan 001011)
+         - 1944: The Loop Master (US 000620)
+         - Mars Matrix: Hyper Solid Shooting (US 000412)
+         - Mars Matrix: Hyper Solid Shooting (Japan 000412)
+         - Dimahoo (US 000121)
+         - Great Mahou Daisakusen (Japan 000121)
+         - Battle Circuit (Euro 970319)
+         - GigaWing (US 990222)
+         - GigaWing (Japan 990223)
+         - Cyberbots: Fullmetal Madness (US 950424)
+         - Super Street Fighter 2: The New Challengers (World 930911)
+	
+         - Cadillacs and Dinosaurs (US)
+         - Carrier Air Wing (US 901012) 
+         - Magic Sword - Heroic Fantasy (World 900623)
+         - Mercs (US 900608)
+         - Street Fighter II - The World Warrior (World 910522)
+         - Street Fighter II - The World Warrior (US 910318)
+         - Street Fighter II - The World Warrior (US 910411)
+         - Street Fighter II' - Champion Edition (US 920803)
+         - Strider (US set2)
+         - Willow (US)
+
+	 - The King of Fighters '99: Millennium Battle (earlier)
+	 - The King of Fighters '2001
+	 - The King of Fighters '2001 (decrypted C)
+	 - Jockey Grandprix
+
+     * Added CPS2 z80 reset line emulation, fixes ecofighters test mode exit (thanks Elsemi).
+     * Added developer mode support for NeoGeo games.
+     * Added revision dates to CPS1 game descriptions excluding hacks where possible.
+     * Added correct emulation for NeoGeo Game and Bios vector table swapping. 
+     * Added support for the UNIVERSE BIOS (universe bios must be unzipped and in
+       the same directory as your WinKawaks.exe).
+     * Changing NeoGeo region or mode settings during game play will force the game to
+       reset so new setting can take affect.
+     * Changed Blue's Journey ROM names to match MAME v0.62.
+     * Removed a uneeded patch to 'fatfury3' vector table.
+     * Fixed graphics decryption in the encrypted version of Bangbead.
+     * Fixed resolution saving for rotated CPS2 games via menus.
+     * Fixed tileviewer when viewing 16x16 CPS-2 tiles.
+     * Fixed a bug that could under certain circumstances cause Insert Coin to
+       stop working during NeoGeo netplay.
+     * Fixed buttons 4,5 and 6 in sf2ue.
+     * Fixed slowdowns in s1945p.
+
+
+1.45 * New drivers:
+         - Mega Man 2: The Power Fighters (US 960708)
+         - Street Fighter Zero 2 Alpha (Asia 960826)
+         - X-Men: Children of the Atom (Asia 941217)
+         - Neo No Panepon
+     * Fixed sound in Ninja Commando, Ninja Combat, Crossed Swords, Trash Rally, 
+       Blues Journey thanks to Acho A. Tang
+     * Fixed NeoGeo autoanim, thanks to Razoola and ElSemi
+       (fixes bugs in WakuWaku7, SuperDodgeBall, and probably several others)
+     * Included correct random number generation thanks to Razoola and smf
+     * Added 16 to 32bpp wrapper: Now all blitters work in 32bpp windowed mode
+       (be aware this is quite a bit slower than using 16bpp windowed mode)
+     * Added menu item to control Multitask Friendly for netplay
+     * Kawaks won't overwrite your old screenshots anymore when doing a capture
+     * Fixed Select button not working in some NeoGeo games in console mode
+     * Added debug dipswitches support for NeoGeo games
+     * Tons of rewrites and cleanups
+     * Fixed Twinkle Star Sprites hang (introduced in 1.44)
+     
+
+1.44a* Oooooops, forgot driver for Dungeons and Dragons: Shadow over Mystara (US 960619)
+       in last build. And ignore "Dungeons and Dragons: Tower of Doom (US 940125)" too :P
+     
+
+1.44 * New drivers:
+         - Dungeons and Dragons: Tower of Doom (US 940125)
+         - Marvel Super Heroes Vs. Street Fighter (US 970827)
+         - Vampire Hunter 2: Darkstalkers Revenge (Japan 970913)
+         - Sengoku 3
+         - Sengoku 3 (Decrypted Cs)
+         - Zuppapa
+         - Zuppapa (Decrypted Cs)
+         - Vliner
+         - Street Fighter II' (YYC)
+     * New blending effect: Motion blur (MMX and non MMX versions)
+     * Support for the Savage Reign V2 rom redump
+     * Changed the NeoGeo romsets according to the latest MAME conventions
+     * Added menu items to control fullscreen resolution in Video menu
+     * Added menu items to task priority level in Misc menu
+     * Fixed Quiz & Dragons (Japan) (CPS1)
+     * Fixed Use transparencies option not beeing saved in INI
+     * Set Kawaks to use High task priority level by default (used to be Normal)
+     * When Netplaying, Multitask friendly is forced OFF (reduces desync risks)
+
+
+1.43 * New drivers:
+         - Bang Bead
+         - Night Warriors: Darkstalkers Revenge (US 950406)
+         - Vampire Hunter: Darkstalkers Revenge (Japan 950316)
+         - Vampire Hunter: Darkstalkers Revenge (Japan 950302)
+         - Dungeons and Dragons: Tower of Doom (Hispanic 940125)
+     * New "KScale" blitter. This is a new edge enhancement blitter with zero blur. It's also insanely fast compared
+       to the traditionnal 2xSai/Super2xSai/SuperEagle. Comes in 4 variations: Plain, and 25%/50%/75% scanlines.
+       I personnally feel KScale+75%Scanlines is the best blitter in Kawaks, try it :)  (MMX only)
+     * Shiny new "Smart Interframe blending" mode. (MMX and non MMX versions)
+       This new blending mode replaces all flickers (Samurai Shodown 4 life bars, King of Fighters shadows, etc ...)
+       by transparencies; and the rest of the picture retains all its sharpness (no blurry scrollings)
+     * Made it so interframeblending occurs before the video processing stage (speed boost)
+     * New keyboard shortcut : Alt+B toggles between Interblending modes
+     * New sound option : Low pass filter
+     * Fixed ShumaGorath's Chaos dimension in Marvel Super Heroes
+     * Rewrote Kaillera support. Now, emu will accept to run if you don't have Kailleraclient.dll, and
+       noone should see Kaillera errors on startup anymore.
+     * Sound logging option now saves a WAV, not a RAW
+     * Ctrl Numpad + and Ctrl Numpad - now control volume
+     * Fixed Cheater support
+     * Minor changes to Batcirc & Csclub to accommodate the latest CPS2 conventions
+     * Changed driver for NeoPong to use NeoPong 1.1 roms instead
+     
+
+1.42 * New drivers:
+         - Super Gem Fighter: Mini Mix (US 970904)
+         - Pocket Fighter (Japan 970904)
+         - Super Gem Fighter: Mini Mix (Asia 970904)
+         - Super Puzzle Fighter 2 Turbo (US 960620)
+         - Super Street Fighter 2: The New Challengers (Asia 931003)
+         - Super Street Fighter 2: The New Challengers (Asia 930914)
+         - Dynasty Wars (World)
+         - Knights of the Round (Hack)
+         - Neo Pong
+     * Fixed The King of Dragons (bootleg)
+     * A _lot_ of rewrites, notably in the video system and the general Kawaks architecture, 
+       which gives a significant speedup on 2xSai, SuperEagle, SuperSai, Scanlined 2xSai,
+       will make the eventual addition of new systems easier, faster and more stable, 
+       and allows the following :
+     * Added sprite transparencies, using Nebula tables.
+       Tables should be named gamename.bld and put in the BLEND directory (ex: SFA3.BLD)
+     * Added "Monitor dot matrix" blitter. Give it a try :)
+     * Added support for ElSemi's Cheater program. Cheater must be started before Kawaks
+     * Added menu items to control sound frequency. No need to edit WinKawaks.ini anymore for that.
+     * Optimised 'Interframe blending' code. Should be significantly faster with most blitters, now
+     * Rewrote DirectInput code: Hopefully fixes most controler problems 
+       (mail me if it fixes your controler problems or not)
+     * Fixed Screenshot Factory blink and Tile viewer if Interframe Blending is enabled
+     * Fixed Scanlines 50% for some video cards (S3...)
+     * Hopefully fixed some screenshot issues
+     * Fixed flash frames in Marvel Vs Capcom
+     * Fixed ending in Marvel Vs Capcom
+     * NeoGeo isn't affected anymore by correct ration settings. Meaning it now looks better if these
+       options are enabled (espeacially with Normal blitter)
+     * Changed the way the video blitter selection works. For example, now, Shift+F3 is a toggle between
+       scanlines, 50% scanlines, and zoomX2...
+     * Added some keyboard shortcuts to the Load game, Screenshot Factory, Cheat boxes
+     * Added some keyboard shortcuts to the English menus
+     * Fixed Shot factory window size
+     * A few romset changes to match the latest conventions and dumps (affects CYBOTSJ, DDSOMU, SFAR1)
+
+
+1.41 * New drivers:
+         - Marvel Vs. Capcom: Clash of Super Heroes (US 980123)
+         - Marvel Vs. Capcom: Clash of Super Heroes (Japan 980123)
+         - Marvel Vs. Capcom: Clash of Super Heroes (Japan 980112)
+         - Marvel Vs. Capcom: Clash of Super Heroes (Asia 980112)
+         - Darkstalkers: The Night Warriors (Euro 940705)
+     * Changed kof2000, garou, kof99 and clones romsets to be MAME 57 compliant.
+       ## READ THE INCLUDED 'ROMCHANGES.TXT' FILE FOR MORE INFO. ##
+     * Big optimisations to NeoGeo rendering
+     * Added frame interpolation (replaces flickering by transparencies) 
+       I recommend you use this only if you have a powerfull PC enough, and with AutoFrameskip disabled
+     * Added starfield emulation (CPS1. Affects Strider, Forgotten Worlds and their clones)
+     * Fixed a NeoGeo calendar bug. Date is correct now
+     * Fixed Street Fighter II' - Champion Edition (Japan) (CPS1)
+     * Changed tracklists format for the better (more compact, and more flexible)
+       The format it now the same as ElSemi's excellent JukeBox program
+       Also, tracklist is handled dynamically: no need to reload the game to reload the tracklist.
+     * Added the ability to cycle thru sound codes for CPS1 and NeoGeo games. Use Numpad +/- 
+       (It was already implemented for CPS2 games)
+     * Hopefully fixed sound issues in Kof99 and clones thanks to Overlander
+     * Fixed missing button 4 for CPS1 Quiz games
+     * Hopefully fixed crashes if the Kawaks is run from a CD (or a non writeable directory)
+     * Fixed bug causing (for example) Kof2000 chars to taunt at the end of a movie replay
+     * Fixed some tick marks errors for record input slot and bg color in menus
+
+
+1.40b* Fixed movie support. Oops :)
+
+
+1.40 * New drivers:
+         - Darkstalkers: The Night Warriors (Asia 940705)
+         - Marvel Super Heroes (Asia 951024)
+         - Rockman 2: The Power Fighters (Japan 960708)
+         - Street Fighter Zero 2 (Asia 960227)
+         - Vampire Savior: The Lord of Vampire (Euro 970519)
+     	 - Metal Slug 3 (encrypted)
+     	 - Garou: Mark Of The Wolves
+     	    This is a new encrypted set
+     	    The older "Garou: Mark Of The Wolves" becomes "Garou: Mark Of The Wolves (alternate set)"
+     	 - The King of Fighters '99: Millennium Battle (nonecrypted P)
+     	    This one uses encrypted Cs and non encrypted Ps. It's just here for completeness sake
+     	 - The King of Fighters 2000 (nonecrypted P)
+     	   Same. This one uses encrypted Cs and non encrypted Ps. It's just here for completeness sake
+     * Triple buffering. Makes things as smooth as a baby's butt :)
+       Even if you don't use triple buffering, things should be smoother than before
+     * CPS2 rasters emulation. Fast and accurate :D
+     * Improved sound sync a bit in CPS2 games. Is now 100% perfect
+     * Record input aka Movie recording/replaying support. Now you can show everyone your 123Hits combo :)
+     * Optimisations to the video rendering for both NeoGeo and Capcom games
+     * Kawaks now remembers window zoom level
+     * New macro token: ~ which means "hold this for 20 frames"
+       Examples:  
+          B~~~,F3          Sonic Boom:   Back for 60 frames (1 second), then Forward + Strong punch. 
+          DB~~~,DF,DB,UF6  Charlie's SuperSommersault       
+     * Added a Freeplay setting for NeoGeo games
+     * Made it so if no cheat file is available for the current game, the cheat file for 
+       the parent is loaded instead
+     * Added a menu item to save cheat search matches to a file. 
+       Handy when you can't get under 20 matches...
+     * New features for you gfx rippers :
+         - Added option to delete emu text when making screenshots
+         - Implemented Background color change for NeoGeo games
+         - Changes in the Shot Factory:
+            + you can now select more than one sprite at once
+            + new button in Shot Factory to disable all selected sprites
+            + new button in Shot Factory to reenable all selected sprites
+            + added layer enable/disable buttons
+     * Fixed: NeoGeo game settings and hiscores aren't lost anymore when reseting the game
+     * Fixed some sound issues with Metal Slug 1/2/X
+     * Fixed cheats not applying when using Step Frame
+     * Fixed savestate bug for CPS1 & NeoGeo when using states saved at a different sound frequency
+     * Fixed Kawaks crashing when display was beeing destroyed (starting a fullscreen DOS prompt...)
+     * Fixed button 3 not working in some CPS1 games (Mega Twins...)
+     * Fixed crash on 1941's Test menu
+     * Fixed occasionnal crash on Pang 3 and Quiz Tonosama no Yabou 2 Zenkoku-ba (CPS1 games)
+     * Fixed 68000 debugger register modifications
+     * Savestate format change to accommodate the changes (rasters...)
+       Old savestates are still 100% compatible though
+     * Updated languages packs to reflect changes
+       
+       
+1.38 * New games supported :
+         - Metal Slug 3 (non encrypted P)
+         - Metal Slug 3 (non encrypted P, decrypted C)     
+     * New language packs : Hebrew, Russian, Swedish, Greek
+         
+
+1.37c* Added more Language packs, and fixed a couple. Thanks to their authors
+     * Fixed Japanese text in Garou (Grant cinematic, namely)
+     * Fixed the most debated Close C attacks in Garou (weird bug, really)
+     * As for the Select key not working (supposed to be the Insert Coin when in console mode)
+       this one is a total mystery. It works good in other games (try kof99), just not Garou...
+
+
+1.37b* Hopefully fixed bug introduced in 1.37 which caused blinking borders in fullscreen
+     * Added Japanese, Catalan, Polish, Chinese (simplified) language packs.
+       Thanks a lot to their respective authors :)
+       
+
+1.37 * New drivers:
+         - Garou: Mark of the Wolves               (this is the retail, non prototype game)
+         - Garou: Mark of the Wolves (decrypted C) (same game as above, with decrypted GFX roms)
+         - The King of Fighters 2000 (encrypted)   (this is the retail, non prototype game)
+     * The old "The King of Fighters 2000" set is now named "The King of Fighters 2000 (fully decrypted)"
+     * Direct Draw rewrite: Kawaks should run fine with DirectX 5 now (that means no more DDRAW.DLL error)
+     * Added a "Multitask friendly" switch (Misc menu) for those who think 1.35 was faster than 1.36
+     * Language pack support. Now you can have Kawaks in your mother tongue :)
+       If you do your own translation consider sending it to me
+     * Added a hack to prevent crash while loading in kof2000n for those who still have the bad M1 rom
+     * Fixed columns width in Shot Factory
+     * Added many tracklists, courtesy of DarkCloud
+
+
+1.36 * New games supported :
+         - Dungeons & Dragons: Tower of Doom (Euro 940412)
+         - Street Fighter Zero 3 (Asia 980701)
+         - Vampire Savior: The Lord of Vampire (Asia 970519)
+         - X-Men: Children of the Atom (Euro 950105)
+         - X-Men Vs. Street Fighter (Euro 960910)
+         - The King of Fighters 2000 (encrypted C)  (Thanks to Nicola Salmoria)
+       The King of Fighters 2000 (encrypted C) is the exact same game as the other KOF2000
+       The difference only lies in the romset used (Encrypted gfx roms)
+       The Encrypted C set will load significantly slower though especially for low RAM PCs
+       so I'd suggest you still use the older set...         
+     * Added trackball emulation for The Irritating Maze
+     * Fixed 257-m1.bin merge info for kof2000/kof2000n
+     * Fixed a last bug in the Romcenter DAT generation.
+     * Found a bug in the sound sync code. May fix some jerkiness for some people.
+     * Included some code to try to make Kawaks less CPU intensive and more multitask friendly
+       (meaning CPU shouldn't be 100% usage when you use Kawaks)
+     * Changed Step frame from Space to Shift+Space (caused problems if you were using Space as in
+       your game keys)
+     * Added some keyboard shortcuts to modify cheats. 
+       (allows to activate/desactivate quickly some cheats without even leaving fullscreen)
+     * Fixed the puzzle game in Three Wonders (CPS1)
+     * Fixed macros for NeoGeo games
+     * Changed Redefine keys dialog box so it shows macro text next to the macro key
+     * New Shot factory (Tools menu). Works very nicely with NeoGeo games :)
+
+       I'd like feedback about this version beeing faster/slower for you if you notice differences
+     
+
+1.35 * New games supported :
+         - The King of Fighters 2000
+         - Ganryu (decrypted C)
+         - Nightmare in the Dark (decrypted C)
+         - Strikers 1945+ (decrypted C)
+         - Prehistoric Isle 2 (decrypted C)
+         The "(decrypted C)" games load faster, require less RAM than their counter part,
+         and are gameplay wise identical.
+         See the following feature for how to obtain theyr decrypted roms :
+     * Added feature to save decrypted Cs from encrypted games.
+       Enable "Enable save decrypted Cs after loading" in the Tools menu before loading
+       an encrypted NeoGeo game.
+     * Support for the new WinJammer S1 rom
+     * Rewrote audit. It's now a lot more accurate
+       It can now detect roms with a bad name, a bad crc, or that are missing; and reports
+       correct rom sizes
+     * Rewrote Romcenter dat generator. Should be 100% perfect now :)
+     * New ClrMAMEPro dat generator.
+     * Changed it so the Load dialog box filters don't act on Audit or DAT generation anymore
+     * Changed 'Use HotRod configuration' map things more cleverly for NeoGeo games
+     * Tidied the menus a bit :)
+     
+     
+1.34 * New games supported :
+         - Ganryu
+         - Nightmare in the Dark
+         - Strikers 1945+
+         - Prehistoric Isle 2
+       Kudos to Nicola Salmoria for breaking the encryption. Impressive job.
+     * Alpha Mission 2 romset has changed to match the latest MAME
+     * Changed The King of Fighters '99: Millennium Battle so it uses the real encrypted gfx roms.
+       This is the standard MAME set, with encrypted roms, encrypted Ps, no S1, the standard Vs
+       This has the inconvenient of making load times a LOT longer for people who have 128mb of RAM 
+       or less, so I added a new subset of kof99: 
+         "The King of Fighters '99: Millennium Battle (full decrypted)" (kof99nd.zip)  
+       which is exactly the same game, but uses different roms, requires significantly less ram, and 
+       loads really faster.
+       It uses :
+          - kf99p_c*.rom from the prototype (this makes NO difference game wise compared to 
+              using the real encrypted roms)
+          - kf99_s1d.rom which was released some time ago
+          - kof99_v*.rom and kof99_m1.rom from kof99.zip
+          - kf99n_p1.rom and kf99n_p2.rom from the new kof99n.zip from MAME 0.56
+       That gives a simple standard NeoGeo set, gamewise identical to the big encrypted one, that 
+       could even run in NeoRAGE X :)
+     * Fixed a bug where tick marks in the menus where cleared by changing the video memory settings
+       from the menu or on the first launch
+     
+     
+1.33 * Driver for Vampire Savior 2: The Lord of Vampire (Japan 970913)
+     * Added region switches and automatic macro reverse in MSHVSFJ and MSHVSFJ1
+       (totally forgot about these in 1.32...)
+     * Added Paths configuration dialog box (in File menu)
+     * Changed The King of Fighters '99: Millennium Battle to support MrLee/BillyJr's new dumps.
+       No need for kf99_s1d.rom anymore.
+     * Added All/Only available/Only missing filters for Load game dialog box.
+     * Changed the save state format for the better:
+       Kawaks can still read all the old saves, but new savestates are about 7 times smaller !
+     * Command line support. You can start a game from command line, now.
+       Type  WinKawaks.exe -help   at command prompt for more info
+       Example:  WinKawaks.exe ffight -fullscreen
+     * Added some new tracklists, courtesy of DarkCloud
+     * Added video memory allocation control in the Video menu
+     * Added autodetection of the best video memory allocation on first time run
+     * Added PNG screenshot functions.
+         - Screenshot (unfiltered) saves a screenshot without edge enhangement or scanline effects
+         - Screenshot (filtered) saves exactly what you see on screen
+     
+     
+1.32 * Drivers for
+         - Armored Warriors (Euro 941011)
+         - Marvel Super Heroes Vs. Street Fighter (US 970625)
+         - Marvel Super Heroes Vs. Street Fighter (Japan 970707)
+         - Marvel Super Heroes Vs. Street Fighter (Japan 970702)
+         - Vampire Savior: The Lord of Vampire (US 970519)
+     * Fixed the driver for Street Fighter Alpha: Warriors' Dreams (US 950627) (SFAU.ZIP)
+       The correct roms for SFAU.ZIP are
+         - sfzu.03a
+         - sfzux.03a
+         - sfz.04a
+     * King of Fighter 99 now uses the MAME CPU roms:
+         - kof99_p1.rom (4mb, CRC32 006e4532)
+         - kof99_p2.rom (4mb, CRC32 90175f15)
+         - the older kf99_p1d.rom (1mb, CRC32 909b18c4) is *still needed*
+         - the older kf99_p2d.rom and kf99_p2x.rom aren't needed anymore.
+     * Various other CPS2 romset changes to accommodate the new games, and the latest
+       MAME conventions. PLEASE READ SET_CHANGES.TXT FOR MORE INFORMATION
+     * Louder (better) QSound and YM2151/OKI (CPS2 and CPS1 games)
+     * Added option to control QSound amplification in WinKawaks.ini and Sound menu
+     * NeoGeo sound interpolation (Thanks ElSemi :))
+     * Fix in NeoGeo savestates (still compatible with old ones)
+     * Corrected NeoGeo Y zoom to use the real hardware method. Needs NG-LO.ROM.
+     * Finally added an "Auto start game" option :)
+     * Added individual saving for 68000 overclocking (saves setting in the game's ini)
+     * Fixed protection for RealBout Fatal Fury 2
+     * Added protection for Fatal Fury 2
+     * New, much improved Redefine Keys dialog box
+     * Changed the Joypad code. Hopefully, this should solve the problems some people have
+       had with their pads.
+     * Added support for screenshots for Load game dialog box. Shots should be in BMP format
+       and stored in your screenshot directory (subdirectory SSHOTS by default)
+     * Somewhat Skin support :) Just put a SKIN.BMP in your Kawaks directory to change the
+       background image
+     
+     
+1.31 * Corrected the NeoGeo zoom system. Now uses the true original zoom patterns, verified
+       on the real system
+     * Support for the new kf99_s1d.rom in the KOF99 romset
+     * Many CPS1 fixes:
+       - Captain Commando set to 4 player for netplay
+       - Player 4 mapped in Captain Commando
+       - Player 3 mapped in Cadillacs and Dinosaurs and Warriors of Fate
+       - Test menu for all CPS1 games (press F11 or whatever you redefined it to access it)
+       - EEPROM no longer saved for EEPROMless games
+       - Timing fixes (fixes Mercs splash screen, Pang 3 bottom of screen...)
+       - Sprite/bg sync fix
+     * Added language switch for Dungeons & Dragons (uses Region switch)
+     * Drivers for
+       - Dungeons & Dragons: Shadow over Mystara (Euro 960209)
+       - Darkstalkers: The Night Warriors (US 940818)
+       - Darkstalkers: The Night Warriors (US 940705)
+       - Street Fighter Alpha: Warriors' Dreams (Euro 950727)
+       - Street Fighter Alpha: Warriors' Dreams (Euro 950605)
+     * Various romset changes to accommodate the above new games, and the latest MAME conventions
+       PLEASE READ NEW_SETS.TXT FOR MORE INFORMATION
+     
+     
+1.30 * NeoGeo emulation !
+         - Support for 136 games
+         - Runs the new King of Fighters 99 dump ! (see FAQ for details)
+         - Excellent compatibility: runs all games with sound
+         - Works with macros, netplay, sprite table, etc
+         - Specific settings in the INI for the fullscreen resolution
+         - Please read the FAQ for eventual troubleshooting
+     * New enhanced Load game dialog box
+     * CPS2 timing fixes
+     * defaultkeys.ini becomes
+       - defaultkeysCPS.ini for CPS1/2 games
+       - defaultkeysMVS.ini for NeoGeo games
+       So, rename your defaultkeys.ini to defaultkeysCPS.ini
+       and create a new one for NeoGeo games named defaultkeysMVS.ini
+     
+     
+1.20 * New drivers
+         - Battle Circuit (Japan 970319)
+         - Eco Fighters (World 931203)
+         - Vampire: The Night Warriors (Japan 940630)
+         - Street Fighter Alpha 3 (US 980904)
+         - Street Fighter Alpha 3 (US 980629)
+         - Street Fighter Zero 3 (Japan 980727)
+         - Saturday Night Slam Masters (World)
+         - Saturday Night Slam Masters (US)
+         - Muscle Bomber - The Body Explosion (Japan)
+         - Muscle Bomber Duo - Ultimate Team Battle (World)
+         - Muscle Bomber Duo - Heat Up Warriors (Japan)
+         - Three Wonders (US)
+         - Pang! 3 (Japan)
+     * Kaillera support ! (That's netplay)
+         - Allows D&DSOM 4 players, AVSP 3 players and BatCirc 4 players
+         - Capcom Sport Club extra chars cheat is performed automatically in netplay too
+         - Net chat macros. You can define 5 chat keys for each game. To each key corresponds
+           a sentence you define in the game's ini. Taunts at your fingertips :)
+         - Net chat key. Hit backspace in netplay to chat :)
+        Please read the FAQ for more info
+     * Better speed
+        - Changed the 68000 CPU core (now A68K. Faster and more accurate)
+        - Optimised Rowscroll
+        - Optimised sprites
+        - Optimised Z80 handling
+     * Better compatibility
+        - Fixed just every known CPS1 bug !
+        - Added P3 and P4 to CPS1 games
+        - Added P3 for Armored Warriors and its clones
+        - Fixed missing rowscroll on Vampire "VS" screen
+        - Modification in the sprite banking system. Makes Vampire and SSF2T a lot smoother.
+        - Various glitches thanks to new 68000 core. CPS2 games run at 11.8MHz
+          too, now (that's the true hardware speed)
+     * Better macros
+         New '+' token. If you use '+' in a macro, this macro will allow
+         input from the player during its execution.
+         Ex:  Macro1A=123+   Will allow you to press one direction while
+         executing the 3 punch macro. (SFA3 projections...)
+     * Better savestates.
+         Because of new core, savestate format had to be updated.
+         Most savestates from anterior versions are accepted by this version, but
+         savestates generated with this version can't be used on older Kawaks.
+         New saves are a lot smaller, because they are now RLE compressed.
+     * Dipswitches for CPS1 games. They are saved to each game's ini.
+     * New font for on screen display and added settings in the INI to control its color.
+     * Fixed the glitch in the last line in fullscreen 2xSai and spin-off engines
+     * Fixed a border blinking bug with some gfx cards in full screen
+     * New "Mono sound" option. My mono headphones likes that.
+     * Added option to log sound to HD
+         (16Bits Stereo RAW format, any sound editor can read that...)
+     * New options to disable individually the 4 OKI channels (CPS1 sound effects)
+         Handy to rip those SF2 musics :D
+     * Fixed some editing errors in the Kawaks mascots :)
+     * The stuff I eventually forgot to write down ...
+     
+     
+1.14 * New drivers & region switch for :
+        - Super Muscle Bomber: The International Blowout (Japan 940831)
+        - Super Muscle Bomber: The International Blowout (Japan 940808)
+        - Marvel Super Heroes (Japan 951024)
+     * Some ZIP change names to fit the latest MAME specifications :
+        - DDSOMJ.ZIP becomes DDSOMJR1.ZIP
+        - SLAM2E.ZIP becomes RINGDEST.ZIP
+       - sfzu.03a, sfz.04a and sfzux.03a from SFA.ZIP form a new clone: SFAU.ZIP
+     * Totally new macro system. You can now create your own complex macros.
+       You can assign a special move, or a combo to a simple key !
+       See the included FAQ for more info.
+     * Hopefully fixed CPS2 savestates bugs (still compatible with old saves)
+     * Implemented savestates for CPS1
+     * Fixed flickering issues at the bottom of the screen when in fullscreen.
+     * Fixed some CPS1 BgHi issues (Sodom stage in Final Fight...)
+     * Fixed some CPS1 sprite/background sync issues (Ghouls and Ghosts...)
+     * Fixed sound for Pang and maybe some others
+     * Fixed Dai Makai-Mura (Ghouls and Ghosts Japan)
+     * Fixed Street Fighter II - The World Warrior (Japan 910214)
+     * Fixed Carrier Air Wing's helicopters and destroyed buildings bugs
+     * Fixed MMX blitters which crashed for some people.
+     * Replaced Super2xSai blitter by ASM counterpart, which requires MMX
+       but is over twice as fast.
+     * Replaced scanlined 2xSai by an ASM 75% scanlines 2xSai which looks
+       damn good :)
+     * Super Street Fighter 2 Tournament Battle will now display Terminal Check
+       unless you enable normal play in the Test menu. This is the correct
+       behaviour.
+     * Hopefully fixed bug in the Redefine Keys dialog box that caused the
+       key redefinitions to loop sometimes.
+     * Various optimisations
+     
+     
+     
+1.13 * New frameskip code. Should perform a LOT better for slower computers.
+     * Added Nebula cheat support. 100% compatible :)
+     * Added features to search for new cheats.
+     * Replaced 2xSai and SuperEagle blitters by ASM counterparts, which require
+       MMX but are over twice as fast.
+     * Modified ADPCM so it's mono (the way it should be) and a bit softer
+       to avoid static.
+     * Added new options for correct windowed aspect ratio and full screen
+       aspect ratio.
+       Note that using the "smaller display" setting for your full screen
+       ratio will allow you to use 640x480 :). Read the INI for more info.
+     * Added option to save current key settings to defaultkeys.ini
+     * Suppressed the NoSound flag. Since 1.11, sound IS required for
+       Kawaks to run.
+     * Added driver for Pang! 3 (Euro). Has lousy sound, however...
+     * Better sound for Final Fight and Strider
+     * Fixed Carrier Air Wing palette
+     * Fixed a sprite clipping issue in CPS1 games.
+     * Fixed HotRod Player 2 keys.
+     * Fixed Capcom Sports Club button 3
+     
+     NOTE ABOUT CHEATS :
+     
+       Since I was at it, I also enhanced the DAT format in the following
+       way: You can now autoenable some cheats. For example :
+     
+             [1]
+             Name=Infinite health P1
+             0=No,0,0
+             1=Yes,FF8450,90
+     
+       Say you always want Infinite health enabled. Just put a Default=1 :
+     
+             [1]
+             Name=Infinite health P1
+             Default=1
+             0=No,0,0
+             1=Yes,FF8450,90
+     
+     The 1 in Default=1 refers to 1=Yes,FF8450,90
+     Adding Default entries should break nothing, your DAT should still
+     work in Nebula. You don't have to add Default entries everywhere,
+     they are optional. Use them just to autoenable some cheats
+     Simple and convenient isn't it :)
+     
+     
+1.12 * Sound REALLY fixed. I'm sorry for the inconvenience caused by 1.11
+     
+     
+1.11 * That bad, naughty, evil, and overall not very nice sound issue should be fixed now :))
+       (Jesus, why did GetCurrentPosition have to report bytes instead of samples ?)
+     * Modified autoframeskip code to adapt to new timing system. Should be better too, now.
+     * Added a system to autodetect for each frame wether sprite masking is needed or not.
+       Since it is not, most of the time, this speeds up things nicely in many games :)
+     * Fixed Street Fighter Zero - CPS Changer (Japan 951020) backgrounds (broken in 1.10)
+     * Macros for Player 2, Player 3 and Player 4. Have a look at updated Defaultkeys.ini
+     * New blitter: Zoom 2x software. In other words, 200% without blur effect.
+       If you like "correct ratio" and not blur, I'd suggest you give a try to this
+       blitter + stretch + eventually fullscreen.
+       Keep in mind that this blitter is however significantly slower than Normal, Alternate
+       scanlines or even regular scanlines.
+     * Fixed XMen Versus Street Fighters hanging when beginning fight against Apocalypse
+     * Faster loading for Capcom Sports Club
+     * Correct the CRCs for Capcom Sports Club XORs (didn't cause bugs, just reported XORs to
+       be bad in audit)
+     * New function to redraw the current frame without the on screen messages. Handy if you
+       want to make a screenshot.
+     * Added a few background colors in the menu
+     * Added Zoom window 100%/200%/300% in the menu
+     * Made the Reset key redefinable, since everyone seems to hate F10 :)
+     * The usual batch of cosmetic changes :)
+     
+     
+1.10 * Sound for Punisher, Cadillac & Dinosaurs, Warriors of fate works again
+       (broken in 1.09)
+     * Added BackgroundRed, BackgroundGreen, BackgroundBlue options in the INI.
+       Those control the background color (default, black: 0 0 0)
+       Added Pink and Black setting in the menu.
+     * Added option to disable individual sprite layers for CPS2 games.
+     * Added Hotrod autoconfiguration in Game menu.
+     * Added option to disable all keyboard shortcuts while playing (handy for Hotrod users)
+     * When menu is hidden after pressing TAB (windowed mode), pressing Alt won't pause the
+       game anymore (yet another handy thing for Hotrod users).
+     * Unassigned keys 0 to 9, so now, you can redefine your Insert Coins and Start keys
+       to them without having it switching save slot.
+     * New Next save slot (F6) and Preceding save slot (F8) to compensate preceding
+       modification
+     * Modified 68000 core, which allows new VRAM code. Fixes many issues introduced in
+       version 1.08, fixes additionnal gfx glitches and gives a speed boost.
+     * Added sprite priorities and masking.
+       Corrects SFA2 select char screen, SFA3 intro, VSav's intro, a Cyberbots level, etc...
+       Since it is a slight performance hit, I also added an option to disable it.
+     * Suppressed the "Show only available sets" option, since it caused so many problems.
+       I'll re-add it someday, when I'm sure it's 100% working...
+     * Fixed the overclock functionnality (broken in 1.09)
+     * New drivers :
+         - Capcom Sports Club (Japan 970722)
+         - Capcom Sports Club (Asia 970722)
+         - Capcom World 2 (Japan) (CPS1)
+         - Super Street Fighter 2: The Tournament Battle (ETC 931119)
+     * Updated the FAQ
+     
+     
+1.09 * 1.08 was a lot slower than previous releases due to the new VRAM lag code.
+       I have now optimised that code, and also optimised various other things, so
+       hopefully, 1.09 should be as fast as older Kawaks.
+       Still, since VRAM can still be a slowdown factor, I have included an option
+       to disable it. (enabling VRAM lag only fixes a few minor gfx glitches, so
+       you slower PC uses may want to let it disabled. Try and see for yourself)
+     * Optimised 2xSai, Super2xSai, SuperEagle blitters.
+     * Added a scanlined 2xSai blitter (much faster than 2xSai, slower than scanlines)
+     * 2xSai, SuperEable and Super2xSai should work on S3/S4 cards, and some other
+       exotic ones, now (I'd like feedback on that...)
+     * Added a DisableJoystick option, since joystick management is a performance hit.
+     * Fixed "Show if available" crash
+     * Fixes in the menu code (better "ticks" management)
+     * Support for a default generic key setting :
+       Put your usual key definitions in a file named defaultkeys.ini, which
+       should be located in the same directory as WinKawaks.exe (not the INI directory)
+       A defaultkeys.ini is included in this zip, just modify it to suit your needs.
+       (You can use the INI of one of your configured games to help you.)
+       Note that a game's ini has the priority to defaultkeys.ini.
+       You may want to edit your defaultkeys.ini and delete all of your game's inis
+       to make sure they all use the new settings on they next launch.
+     * Alt+A toggles Autoframeskip. Also shows a message on screen, now.
+     
+     
+1.08 * Added option to display only romsets that are available in the load game
+       dialog box.
+     * Fixed Alien vs. Predator (Euro 940520) driver (sound bugs)
+     * Fixed CPS1 sprite issues (Punisher bus wheels, Andor disappearing when he
+       jumps, etc)
+     * Fixed YM2152 (CPS1 music) tempo, but that causes new bugs: some sound codes
+       mysteriously vanish now. That means sometimes, no music will play, or some
+       sfx won't be played.
+     * Much improved Z80/68000 synchronisation, which allows the following :
+     * Fixed QSound tempo. Faster music, music synced to intro in VSav, etc etc
+     * Overclocked CPS2 games to 12.8MHz (instead of theorical 11.8MHz)
+       This fixes many glitches. It's likely the 11.8MHz errors are due to timing
+       errors in the 68000 core I use...
+     * Now lagging not only palette but entire VRAM. Fixes some layer/palette errors.
+     * Various CPS1 fixes:
+        - Mercs 'dirt on the sprites' should be fixed.
+        - Carrier Air Wing won't freeze anymore (game still buggy however, weird
+          palette issues)
+        - The King of Dragons's in game backgrounds show. Fully playable now.
+        - 1941 won't freeze anymore when game starts.
+     * Added a setting in the INI to control sound emulation frequency (44100 default)
+     * New option in the INI to control the sound playback. If sound is bad on your system
+       try playing with the SoundSegs and SoundSegLag settings. (6 and 5 are the default).
+       For example, some older versions of Kawaks used 4 and 2. You may want to use them.
+       (Note that SoundSegLag should be superior to 0 and inferior to SoundSegs)
+     * Now compiled with Turbo68K Version 0.5 (The Cpu Core Formerly Known As Genital68K)
+     * Redid the Kawaks splash screen code. Should display things correctly for vertical games
+       and it looks better in fullscreen.
+     * New Alternate scanlines blitter. If you have a slower PC and are using scanlines,
+       I recommend using those, since they should be quite faster.
+     * New image enhancement blitters : 2xSai, Super2xSai, Eagle. They are quite slow for now
+       because those versions are pure C, without MMX optimisations.
+       If you have a S3 or S4 card, I'd like to know if those blitters work for you...
+     * Changed the way the video blitters are handled (many internal changes to allow the
+       future blitters). Now a unique Engine setting in the INI  :
+            0 = Normal (default)
+            1 = Scanlines
+            2 = Scanlines 50%
+            3 = Alternate scanlines
+            4 = 2xSai
+            5 = Super2xSai
+            6 = SuperEagle
+       Modified the menu to reflect the changes.
+       In terms of speed, from fastest to slowest, the blitters are 0 3 1 2 6 4 5
+     * Added an extra set of resolutions in the INI to differenciate fullscreen resolution for
+       normal blitter which needs a lower res from enhanced blitters (which need a twice bigger
+       resolution) :
+         *     HorizontalFullScreenWidth        Resolution for horizontal games with
+             + HorizontalFullScreenHeight       non Normal blitter (scanlines, 2xSai, etc)
+     
+         *     VerticalFullScreenWidth          Resolution for vertical games with
+             + VerticalFullScreenHeight         non Normal blitter (scanlines, 2xSai, etc)
+     
+         *     HorizontalFullScreenWidthNormal  Resolution for horizontal games with
+             + HorizontalFullScreenHeightNormal Normal blitter
+     
+         *     VerticalFullScreenWidthNormal    Resolution for vertical games with
+             + VerticalFullScreenHeightNormal   Normal blitter
+     
+     
+1.07 * Region switches for Street Fighter Zero CPS Changer and Pnickies
+     * YM2151 logging. Logs to Callus style CYM file. Works better if enabled
+       from the start of the game (before pressing Enter, after loading)
+     * Changed the balance so OKI is louder compared to YM2151 (clearly, better CPS1
+       sound :P)
+     * Cleaned the startup code. May fix some crashing issues...
+     * New windowed mode features :
+         - Tab shows/hides the menu bar
+         - Ctrl+1, Ctrl+2, Ctrl+3 resize the window to 100%, 200%, 300%
+     * Added a DirectX check. DirectX is needed for Kawaks to run. If you don't have
+       DirectX, Kawaks will display an error and quit cleanly. (you can't imagine
+       all the "bug reports" I get from people who don't have DX installed...)
+     * Alien vs. Predator (Euro 940520)
+     * Street Fighter Zero 2 Alpha (Japan 960805)
+     
+     
+1.06 * Fix for Mercs' backgrounds.
+     * Added Forgotten Worlds (USA)
+     * Added Lost Worlds (Japan)
+     * Strider starts, now. Still will freeze after title screen, of after you
+       try starting a new game. Odd, that game used to work in old versions...
+     * Pixel format autodetection. No need to mess with INI anymore.
+     * Kawaks will now refuse to run if you are not using a 16bits or 32bits desktop
+       palette, since those are the only one supported at the moment.
+     * Kawaks will now refuse to switch to fullscreen if the video mode specified in
+       the ini is to small for the game screen to fit.
+     * Fixed another S3/S4, which affected Double mode, with no 50% scanlines.
+       I expect diplay to be correct for everyone now.
+     * New autoframeskip code. Should perform a lot better on slower machines
+     * CPS1 sound ! Yup, that's right. But YM2151 (that's music) requires
+       a good CPU.
+     * Options to enable/disable OKIM6295 and/or YM2151
+     * Changed many things in the menus. "Emulation" menu was getting too crowded.
+     * Added a 4th rompath (requested by someone. Don't ask a 5th one however)
+     * Changed the way the "This is a cps2 only feature" message is displayed
+       when you try to save/load state with a CPS1 game:
+       If you are playing, the message will appear in the game area instead of
+       poping up that annoying message box
+     * Enter/Enter Sound glitch should be VERY rare now.
+       If you have a very slow PC and still experience choppyness, I included
+       a setting to control the sound buffer size in the INI. You may want
+       to fiddle with it. Slower PCs may have luck increasing it.
+     
+     
+1.05 * Various emulation fixes :
+          - In the sprite system. Fix for some PGear bugs.
+          - In the layer system. Fix for Ring of Destructions backgrounds.
+            Fix for a small XvSF attract demo glitch.
+          - In the palette system. Fix for flash intros before fight in SFA2,
+            and SSF2 attract demo.
+          - General fixes in CPS1 driver. All SF2s should run like a charm now :)
+     * Added dummy driver for main parents of games that do not have their main
+       set emulated (ex, sfa3 for sfz3). Generates better RomCenter DAT.
+     * CPS1 games play with Allow Continue ON, Free Play ON and Demo Sounds ON.
+       (Does not affect CPS1 games with EEPROM, like Punisher, WoF and Dino)
+     * Sound in QSound CPS1 games (that's Warriors of Fate, Punisher and
+       Cadillac & Dinosaurs), thanks to MZ80 hack by ElSemi.
+     * Started work on "regular" CPS1 sound. CPS1 games now have their Z80
+       running (preliminary mapper). (No sound output yet, however)
+     * Upgraded to Genital68k 0.40. Fixes DDSOM's continue countdown.
+     * New drivers :
+         Armoured Warriors (US 941024)
+         Street Fighter Zero - CPS Changer (Japan 951020)
+         Tenchi wo Kurau (Japan) (Dynasty Wars Japan, CPS1)
+     * Sorted game list a tad :)
+     * Sprites Table module works with CPS1 too, now.
+     * Full support for CPS1's BgHi. This fixes all priority errors in CPS1
+       games :)
+     * Those without a sound card should be able to use Kawaks now (if NoSound
+       is set to 1 in INI, no DirectSound initialisation occurs)
+     * Hopefully fixed bugs with S3/S4 video cards, and others that don't use
+       a standard video pitch. Untested, since my own video cards act 'normally'
+       If you still have problems, please report with:
+          - If possible, a screenshot of the problem
+          - Info about your desktop resolution and color depth
+          - Info about your video card model
+          - Info about what renderer caused the problem (Double mode ? Non double mode ?
+          - Scanlines 50% activated ? Was it a vertical or horizontal game ?)
+       If your problem is fixed in this version, I'd like to hear about it too.
+     * Joypad supported in Redefine keys dialog box.
+     
+     
+1.04 * Fixed blinking issue when using a fixed frameskip of 1 3 5 7 9 in
+       fullscreen
+     * Fixed mirrored menu ?
+     * New feature: Use numpad + and - while playing. It changes the music
+       beeing played :)
+     * Corrected all remaning drivers errors.
+       Does not affect emulation and gameplay
+       but corrects some generated RomCenter DAT errors.
+       Thanks a lot to Razoola and LogiqX.
+     * Added 'cloneof' field to RomCenter DAT. Still have to add the last
+       field ('merge')...
+     * Street Fighter Zero 2 (Japan 960227) + Region switch
+     * Street Fighter II' - Champion Edition (Rainbow set 2)
+     * Street Fighter II - The World Warrior (Japan 910306)
+     * Upgraded to the latest Genital68k. This fixes the Memory Test from the
+       test menu in CPS2 games.
+     
+     
+1.03 * Rom loading by CRC. First tries to locate a file that has a good CRC32.
+       Then, if it fails it tries and load a file according to its name.
+       This should get rid of the rom loading problems for those who don't
+       want to fix their romsets...
+     * Fixed some issues about RomCenter DAT generation. Still not 100%
+       correct however.
+     * Kileed DX 8 code. Kawaks runs with regular dinput.dll now.
+       And DX7 or less maybe.
+     * You can back out from fullscreen with ESCAPE.
+     * Added OK/Cancel buttons to Load game dialog box.
+     * Fixed CPS1 Z80 ROM sizes. Actually saves a little RAM for those games
+       too.
+     * Much improved sprites/background synchronisation. Remaining glitches
+       are likely to be a CPU timing issue.
+     * Fixed CPU timing for CPS1 games. They now run smoooooth :)
+     * Joypad support ! Until I remake the Refine keys box, you'll have to
+       configure your joypad yourself in the games' ini. Flame me.
+        Here are the codes to use
+         256 = Pad 1 Up
+         257 = Pad 1 Down
+         258 = Pad 1 Left
+         259 = Pad 1 Right
+         260 = Pad 1 Button 1
+         261 = Pad 1 Button 2
+         262 = Pad 1 Button 3
+         ...
+     
+         512 = Pad 2 Up
+         513 = Pad 2 Down
+         514 = Pad 2 Left
+         515 = Pad 2 Right
+         516 = Pad 2 Button 1
+         517 = Pad 2 Button 2
+         518 = Pad 2 Button 3
+         ...
+     * Not using font from loaded game anymore for on screen display.
+       This build uses a fixed XVSF font for every game.
+       This fixes on screen display for CPS1 games, which don't
+       have a fixed font like CPS2 games do.
+       Also allowed to generate a much more readable palette.
+     * Added 1 frame of sprite lag for CPS1 games. Sprites move in sync
+     
+     
+1.02 * X-men COTA (Japan 941208 rent version)  +  Region switch
+     
+     
+1.01 * The unwanted turbo effect should be fixed on most PCs. Well, I wish :)
+     * Nothing more really :) I thought some would like that already...

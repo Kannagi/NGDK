@@ -1,0 +1,273 @@
+&Datei
+  &Lade Rom	Alt+L
+  Rom automatisch starten
+  Verzeichnis auswählen
+  Start/Pause Emulation	Enter
+  nächstes Frame	Shift+Space
+  Neustart
+  Netzspiel starten
+  Speichern in Slot ...
+    Slot 0
+    Slot 1
+    Slot 2
+    Slot 3
+    Slot 4
+    Slot 5
+    Slot 6
+    Slot 7
+    Slot 8
+    Slot 9
+  Vorhergehender Speicher-Slot	F6
+  Nächster Speicher-Slot	F8
+  Status speichern	F5
+  Status laden	F7
+  Record input slot...
+    Slot 0
+    Slot 1
+    Slot 2
+    Slot 3
+    Slot 4
+    Slot 5
+    Slot 6
+    Slot 7
+    Slot 8
+    Slot 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Record input	Shift+F5
+  Replay input	Shift+F7
+  B&eenden	Alt+F4
+&Video
+  Vollbild	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Don't rotate vertical games
+  Grafikspeicher ermitteln...
+    Systemspeicher
+    Grafikkartenspeicher
+    automatisch
+  Triple buffering
+  Frameskip...
+    keinen
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  automatischer Frameskip	Alt+A
+  Turbo-Modus	Alt+T
+  Gamma adjustment
+  Helligkeit...
+    dunkler
+    normal
+    heller
+   Deaktiviere...
+    Deaktiviere 8x8 Layer	Alt+1
+    Deaktiviere 16x16 Layer	Alt+2
+    Deaktiviere 32x32 Layer	Alt+3
+    Deaktiviere alle Sprites	Alt+4
+    Deaktiviere Sprite-Layers (CPS2) ...
+      Deaktiviere Sprite-Layer 0	Alt+Shift+0
+      Deaktiviere Sprite-Layer 1	Alt+Shift+1
+      Deaktiviere Sprite-Layer 2	Alt+Shift+2
+      Deaktiviere Sprite-Layer 3	Alt+Shift+3
+      Deaktiviere Sprite-Layer 4	Alt+Shift+4
+      Deaktiviere Sprite-Layer 5	Alt+Shift+5
+      Deaktiviere Sprite-Layer 6	Alt+Shift+6
+      Deaktiviere Sprite-Layer 7	Alt+Shift+7
+      Reaktiviere alle	Alt+Shift+8
+    Deaktiviere Zeilenscrolling	Alt+R
+    Deaktiviere BgHi (CPS1)	Alt+H
+    Deaktiviere Sprite-Masking (CPS2)	Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Setze Hintergrundfarbe...
+    Grundeinstellung
+    schwarz
+    pink
+    cyan
+    rot
+    grün
+    blau
+  Neuzeichnung des Frames ohne Mitteilung	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Auswahl Video-Blitter...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Vergrößerung des Fensters...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Korrektur der Fenstergröße...
+    keine
+    kleinerer Bildschirm (funktioniert mit allen Blitters)
+    größerer Bildschirm (Probleme mit Scanline-Blitters)
+  Korrektur der Vollbildgröße...
+    keine
+    kleinerer Bildschirm (funktioniert mit allen Blitters und ermöglicht 640x480)
+    größerer Bildschirm (Probleme mit Scanline-Blitters)
+    Vergrößere auf Vollbild
+&Audio
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Vertausche Stereokanäle
+  Mono-Sound Ausgabe
+  Soundinterpolation (nur NeoGeo)
+  &Low-pass filter
+  CPS1 Audio-Optionen...
+    Deaktiviere OKIM6295
+    Deaktiviere OKIM6295 Kanal...
+      Kanal 1
+      Kanal 2
+      Kanal 3
+      Kanal 4
+    Deaktiviere YM2151
+    Aufzeichnen YM2151
+  QSound Optionen (CPS2 & CPS1)...
+    QSound Verstärker...
+      schwach
+      normal
+      stark
+    Deaktiviere QSound Sfx
+    Deaktiviere QSound Musik
+    Deaktiviere SFA3 Kommentator
+  NeoGeo Audio-Optionen...
+    Deaktiviere YM2610
+    Deaktiviere AY-3-8910
+  Winamp Jukebox	Alt+J
+  Zeige Track-Information an
+  Zeichen Sound in Raw 16bits Stereo auf
+&Sonstiges
+  Setze 68000 Frequenz (CPU-MHz)	Alt+F
+  Immer im Vordergrund	Ctrl+Alt+A
+  Autopause	Pause
+  Aktiviere Menü-Hotkeys
+  Multitask freundlich
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Sprachauswahl (language pack)
+&Rom
+  Region code
+  Dipswitches (CPS1)
+  NeoGeo Einstellungen...
+    Arcade-Automat
+    Konsole
+    Europa
+    USA
+    Japan
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Cheats	Alt+C
+  Cheat-Auswahl...
+    zeige Cheats an	Ctrl+Shift+0
+    wähle Cheat 1	Ctrl+Shift+1
+    wähle Cheat 2	Ctrl+Shift+2
+    wähle Cheat 3	Ctrl+Shift+3
+    wähle Cheat 4	Ctrl+Shift+4
+    wähle Cheat 5	Ctrl+Shift+5
+    wähle Cheat 6	Ctrl+Shift+6
+    wähle Cheat 7	Ctrl+Shift+7
+    wähle Cheat 8	Ctrl+Shift+8
+    wähle Cheat 9	Ctrl+Shift+9
+  Lade Cheat-Datei neu
+  Suche Cheat...
+    Starte neue Suche	Numlock
+    Wert seit letzter Suche nicht geändert	Numpad /
+    Wert seit letzter Suche geändert	Numpad *
+    Wert kleiner seit letzter Suche	Shift + numpad /
+    Wert größer seit letzter Suche	Shift + numpad *
+    Dump matches to file
+  Steuerungs-Optionen...
+    Steuerung Spieler 1 ...
+    Steuerung Spieler 2 ...
+    Steuerung Spieler 3 ...
+    Steuerung Spieler 4 ...
+  Steuerung zurück auf Grundeinstellungen
+  Verwende Hotrod Einstellung
+  Lade Einstellungen aus .ini
+  Speichere aktuelle Einstellungen in .ini
+  Speichere aktuelle Steuerung als Grundeinstellung
+&Tools
+  No emu text on screenshots
+  Screenshot (ungefiltert)	Ctrl+P
+  Screenshot (gefiltert)	Ctrl+Alt+P
+  Bildbearbeitung (Shot factory)	Ctrl+F
+  Tileviewer	Ctrl+T
+  68000 Debugger	Ctrl+D
+  Audit Romsets
+  Generate Romcenter DAT
+  Generate ClrMAMEPro DAT
+  Ermögliche Speichern von decrypted Cs nach dem Laden
+&?
+  Ü&ber Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=German
+Author=Stefan Singer

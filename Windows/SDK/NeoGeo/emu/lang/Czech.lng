@@ -1,0 +1,273 @@
+&Soubor
+  &Nahrát hru	Alt+L
+  Auto start hry
+  Nastavit cesty
+  Start/pauza emulace	Enter
+  Krokovat snímky	Shift+Space
+  Reset
+  Start síové hry
+  Ukloit pozici ...
+    Pozice 0
+    Pozice 1
+    Pozice 2
+    Pozice 3
+    Pozice 4
+    Pozice 5
+    Pozice 6
+    Pozice 7
+    Pozice 8
+    Pozice 9
+  Pøedchozí pozice pro uloení	F6
+  Další pozice pro uloení	F8
+  Uloit hru	F5
+  Nahrát hru	F7
+  Record input slot...
+    Pozice 0
+    Pozice 1
+    Pozice 2
+    Pozice 3
+    Pozice 4
+    Pozice 5
+    Pozice 6
+    Pozice 7
+    Pozice 8
+    Pozice 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Record input	Shift+F5
+  Replay input	Shift+F7
+  &Konec	Alt+F4
+&Video
+  Celá obrazovka	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Don't rotate vertical games
+  Rozmístìní video pamìti...
+    Systémová pamì
+    Pamì videokarty
+    Autodetekce
+  Triple buffering
+  Pøeskakování snímkù...
+    ádné
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Automatické	Alt+A
+  Turbo mód	Alt+T
+  Gamma adjustment
+  Jas...
+    Tmavìjší
+    Normální
+    Svìtlejší
+  Vypnutí ...
+    Vypnout vrstvu 8x8	Alt+1
+    Vypnout vrstvu 16x16	Alt+2
+    Vypnout vrstvu 32x32	Alt+3
+    Vypnout všechny sprity	Alt+4
+    Vypnout vrstvy spritù (CPS2) ...
+      Vypnout vrstvu spritù 0	Alt+Shift+0
+      Vypnout vrstvu spritù 1	Alt+Shift+1
+      Vypnout vrstvu spritù 2	Alt+Shift+2
+      Vypnout vrstvu spritù 3	Alt+Shift+3
+      Vypnout vrstvu spritù 4	Alt+Shift+4
+      Vypnout vrstvu spritù 5	Alt+Shift+5
+      Vypnout vrstvu spritù 6	Alt+Shift+6
+      Vypnout vrstvu spritù 7	Alt+Shift+7
+      Znovu zapnout vše	Alt+Shift+8
+    Vypnout øadovı skroling	Alt+R
+    Vypnout BgHi (CPS1)	Alt+H
+    Vypnout maskování spritù (CPS2)	Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Nastavit barvu pozadí...
+    Standard
+    Èerná
+    Rùová
+    Cyan
+    Èervená
+    Zelená
+    Modrá
+  Pøekreslit snímek bez oznámení	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Vyber video blitter...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Velikost okna...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Upravit pomìr okna...
+    Ne
+    Menší zobrazení (funguje se všemi blittery)
+    Vìtší zobrazení (nevhodné pro prokládané blittery)
+  Upravit pomìr celé obrazovky...
+    Ne
+    Menší zobrazení (funguje se všemi blittery a dovoluje 640x480)
+    Vìtší zobrazení (nevhodné pro prokládané blittery)
+    Roztáhnout na celou obrazovku
+&Zvuk
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Obrátit stereo
+  Mono zvuk
+  Interpolovat zvuk (jen NeoGeo)
+  &Low-pass filter
+  CPS1 zvukové monosti...
+    Vypnout OKIM6295
+    Vypnutí kanálù OKIM6295...
+      Kanál 1
+      Kanál 2
+      Kanál 3
+      Kanál 4
+    Vypnout YM2151
+    Zápis YM2151
+  QSound nastavení (CPS2 & CPS1)...
+    QSound zesílení...
+      Jemné
+      Normální
+      Hlasitì
+    Vypnout QSound zvuky
+    Vypnout QSound hudbu
+    Vypnout SFA3 oznamování
+  NeoGeo zvukové monosti...
+    Vypnout YM2610
+    Vypnout AY-3-8910
+  Winamp jukebox	Alt+J
+  Zobrazit info o skladbì
+  Zapsat zvuk do souboru raw 16bitù stereo
+&Rùzné
+  Nastavení frekvence 68000	Alt+F
+  Vdy nahoøe	Ctrl+Alt+A
+  Autopauza	Pause
+  Zapnout menu hotklávesy
+  Pøívìtivı multitask
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Vıbìr jazyka
+&Hra
+  Region kód
+  Pøepínaèe (CPS1)
+  NeoGeo nastavení...
+    Arcade
+    Console
+    Europe
+    USA
+    Japan
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Cheaty	Alt+C
+  Rychlé zapnutí cheatù...
+    Zobrazit cheaty	Ctrl+Shit+0
+    Zapnout cheat 1	Ctrl+Shit+1
+    Zapnout cheat 2	Ctrl+Shit+2
+    Zapnout cheat 3	Ctrl+Shit+3
+    Zapnout cheat 4	Ctrl+Shit+4
+    Zapnout cheat 5	Ctrl+Shit+5
+    Zapnout cheat 6	Ctrl+Shit+6
+    Zapnout cheat 7	Ctrl+Shit+7
+    Zapnout cheat 8	Ctrl+Shit+8
+    Zapnout cheat 9	Ctrl+Shit+9
+  Znovunahrát cheat soubor
+  Hledat cheat...
+    Spustit nové hledání	Numlock
+    Hodnota se od minula nezmìnila	Numpad /
+    Hodnota se od minula zmìnila	Numpad *
+    Hodnota se od minula sníila	Shift + numpad /
+    Hodnota se od minula zvıšila	Shift + numpad *
+    Dump matches to file
+  Nastavit klávesy...
+    Nastavení kláves Hráè 1 ...
+    Nastavení kláves Hráè 2 ...
+    Nastavení kláves Hráè 3 ...
+    Nastavení kláves Hráè 4 ...
+  Reset na standardní nastavení
+  Pouít Hotrod konfiguraci
+  Nahrát nastavení z .ini souboru
+  Nyní uloit nastavení do .ini souboru
+  Uloit toto nastavení kláves jako standard
+&Utility
+  No emu text on screenshots
+  Screenshot (nefiltrovanı)	Ctrl+P
+  Screenshot (filtrovanı)	Ctrl+Alt+P
+  Vıroba screenstotù	Ctrl+F
+  Prohlíeè kostek	Ctrl+T
+  68000 debugger	Ctrl+D
+  Pøezkoumat romsety
+  Generovat Romcenter DAT
+  Generovat ClrMAMEPro DAT
+  Zapnout uloení zakódovaného Cs po nahrátí
+&?
+  &O programu Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Czech
+Author=Radim (Radant@seznam.cz)

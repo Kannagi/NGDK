@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NGDK" />
+		<Option pch_mode="2" />
+		<Option compiler="ngdk" />
+		<Build>
+			<Target title="bin (Linux)">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/052-p1.bin" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="ngdk" />
+				<Option parameters=" &amp; gngeo --rompath=/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/bin/ ssideki" />
+				<Option projectCompilerOptionsRelation="-1" />
+				<Option projectLinkerOptionsRelation="-1" />
+				<Option projectIncludeDirsRelation="-1" />
+				<Option projectLibDirsRelation="-1" />
+				<Linker>
+					<Add library="NGDK" />
+				</Linker>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="bin (Windows)">
+				<Option platforms="Windows;" />
+				<Option output="bin/052-p1.p1" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin/ " />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="ngdk" />
+				<Compiler>
+					<Add option="-w" />
+				</Compiler>
+				<Linker>
+					<Add library="NGDK" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="compile.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-w" />
+		</Compiler>
+		<ExtraCommands>
+			<Add after="compile.bat" />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="_start.s" />
+		<Unit filename="example1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="example2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="example3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="example4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="example5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,273 @@
+&Arkiv
+  &Ladda Spel   Alt+L
+  Starta spel automatiskt
+  Konfigurera sökvägar
+  Starta/pausa emulering   Enter
+  Step frame	Shift+Space
+  Omstart
+  Starta nätspel
+  Spara Status i Lucka...
+    Lucka 0
+    Lucka 1
+    Lucka 2
+    Lucka 3
+    Lucka 4
+    Lucka 5
+    Lucka 6
+    Lucka 7
+    Lucka 8
+    Lucka 9
+  Föregående Lucka	F6
+  Nästa Lucka	F8
+  Spara Status	F5
+  Ladda Status	F7
+  Inspelning i Lucka...
+    Lucka 0
+    Lucka 1
+    Lucka 2
+    Lucka 3
+    Lucka 4
+    Lucka 5
+    Lucka 6
+    Lucka 7
+    Lucka 8
+    Lucka 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Inspelning av händelse	Shift+F5
+  Uppspelning av händelse	Shift+F7
+  Avsluta	Alt+F4
+&Video
+  Fullskärm	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Rotera inte vertikala spel
+  Video Minnes Allokering...
+    Systemets minne
+    Videokortets minne
+    Känn av automatiskt
+  Trippel buffring
+  Frameskip...
+    Ingen
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Automatisk frameskip	Alt+A
+  Turbo läge	Alt+T
+  Gamma adjustment
+  Ljushet...
+    Mörkare
+    Normal
+    Ljusare
+  Stäng av...
+    Stäng av 8x8 lager	Alt+1
+    Stäng av 16x16 lager	Alt+2
+    Stäng av 32x32 lager	Alt+3
+    Stäng av alla sprites	Alt+4
+    Stäng av sprite lager (CPS2)...
+      Stäng av sprite lager 0	Alt+Shift+0
+      Stäng av sprite lager 1	Alt+Shift+1
+      Stäng av sprite lager 2	Alt+Shift+2
+      Stäng av sprite lager 3	Alt+Shift+3
+      Stäng av sprite lager 4	Alt+Shift+4
+      Stäng av sprite lager 5	Alt+Shift+5
+      Stäng av sprite lager 6	Alt+Shift+6
+      Stäng av sprite lager 7	Alt+Shift+7
+      Sätt på alla igen	Alt+Shift+8
+    Stäng av Radscrollning	Alt+R
+    Stäng av BgHi (CPS1)	Alt+H
+    Stäng av sprite maskering (CPS2)	Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Välj bakgrundsfärg...
+    Standard
+    Svart
+    Rosa
+    Cyan
+    Röd
+    Grön
+    Blå
+  Rita om ruta utan meddelanden	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Välj grafik effekter...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Zooma fönster till...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Korrekt fönster skalning...
+    Ingen
+    Mindre display (fungerar med alla grafikeffekter)
+    Större display (Ej passande för scanlines grafikeffekter)
+  Korrekt fönster skalning...
+    None
+    Mindre display (fungerar med alla grafikeffekter och tillåter 640x480)
+    Större display (Ej passande för scanlines grafikeffekter)
+    Sträck ut till fullskärm
+Ljud
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Omvänd stereo
+  Mono ljud
+  Interpolatera ljud (endast NeoGeo)
+  &Low-pass filter
+  CPS1 ljud inställningar...
+    Stäng av OKIM6295
+    Stäng av OKIM6295 kanal...
+      Kanal 1
+      Kanal 2
+      Kanal 3
+      Kanal 4
+    Stäng av YM2151
+    Logga YM2151
+  QSound Inställningar (CPS2 & CPS1)...
+    QSound Förstärkning...
+      Låg
+      Normal
+      Hög
+    Stäng av QSound ljudeffekter
+    Stäng av QSound musik
+    Stäng av SFA3 kommentator
+  NeoGeo ljud inställningar...
+    Stäng av YM2610
+    Stäng av AY-3-8910
+  Winamp jukebox	Alt+J
+  Visa spårets info
+  Logga ljudet till raw 16bits stereo
+&Diverse
+  Konfigurera 68000 frekvens	Alt+F
+  Alltid överst	Ctrl+Alt+A
+  Autopausa	Pause
+  Använd menyers snabbvalstangenter
+  Multitask vänlig
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Välj språk
+&Spel
+  Regions kod
+  Dipswitches (CPS1)
+  NeoGeo inställningar...
+    Arkad
+    Konsol
+    Europa
+    USA
+    Japan
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Fusk	Alt+C
+  Snabba fusk av/på...
+    Visa fusk	Ctrl+Shift+0
+    fusk 1 av/på	Ctrl+Shift+1
+    fusk 2 av/på	Ctrl+Shift+2
+    fusk 3 av/på	Ctrl+Shift+3
+    fusk 4 av/på	Ctrl+Shift+4
+    fusk 5 av/på	Ctrl+Shift+5
+    fusk 6 av/på	Ctrl+Shift+6
+    fusk 7 av/på	Ctrl+Shift+7
+    fusk 8 av/på	Ctrl+Shift+8
+    fusk 9 av/på	Ctrl+Shift+9
+  Ladda om fusk fil
+  Sök fusk...
+    Starta ny söning	Numlock
+    Värde har inte ändrats sedan förra avläsningen	Numpad /
+    Värde har ändrats sedan förra avläsningen	Numpad *
+    Värde har minskat sedan förra avläsningen	Shift + numpad /
+    Värde har ökat sedan förra avläsningen	Shift + numpad *
+    Dump matches to file
+  Ändra kontroller...
+    Ändra kontroller - Spelare 1 ...
+    Ändra kontroller - Spelare 2 ...
+    Ändra kontroller - Spelare 3 ...
+    Ändra kontroller - Spelare 4 ...
+  Ställ in standard kontroller
+  Använd Hotrod konfiguration
+  Ladda om inställningar från .ini
+  Spara inställningar till .ini nu
+  Spara kontroller inställningarna som standard
+Verktyg
+  Ingen emulationstext på skärmdumpar
+  Skärmdump (ofiltrerad)	Ctrl+P
+  Skärmdump (filtrerad)	Ctrl+Alt+P
+  Bild Fabriken	Ctrl+F
+  Tile visaren	Ctrl+T
+  68000 debuggare	Ctrl+D
+  Audit romsets
+  Generera Romcenter DAT
+  Generera ClrMAMEPro DAT
+  Använd spara dekrypterade Cs efter laddning
+&?
+  &Om Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Svenska/Swedish
+Author=Andreas "s13" Svalås

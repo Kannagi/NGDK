@@ -1,0 +1,273 @@
+&Αρχείο
+  &Φόρτωμα παιχνιδιού	Alt+L
+  Αυτόματη εκκίνηση παιχνιδιού
+  Καθορισμός καταλόγων
+  Έναρξη / παύση εξομοίωσης	Enter
+  Βήμα καρέ	Shift+Space
+  Επαναφορά
+  Έναρξη δικτυακού παιχνιδιού
+  Θέση αποθήκευσης κατάστασης...
+    θέση 0
+    θέση 1
+    θέση 2
+    θέση 3
+    θέση 4
+    θέση 5
+    θέση 6
+    θέση 7
+    θέση 8
+    θέση 9
+  Προηγούμενη θέση αποθήκευσης κατάστασης	F6
+  Επόμενη θέση αποθήκευσης κατάστασης	F8
+  Αποθήκευση κατάστασης  	F5
+  Φόρτωμα κατάστασης	F7
+  Θέση καταγραφής συσκευής εισόδου...
+    θέση 0
+    θέση 1
+    θέση 2
+    θέση 3
+    θέση 4
+    θέση 5
+    θέση 6
+    θέση 7
+    θέση 8
+    θέση 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Καταγραφή συσκευής εισόδου	Shift+F5
+  Αναπαραγωγή συσκευής εισόδου	Shift+F7
+  Έ&ξοδος Alt+F4
+&Γραφικά
+  Πλήρης οθόνη	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Don't rotate vertical games
+  Κατανομή μνήμης γραφικών...
+    Μνήμη συστήματος
+    Μνήμη κάρτας γραφικών
+    Αυτόματος εντοπισμός
+  Triple buffering
+  Παράλειψη καρέ...
+    Κανένα
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Αυτόματη παράλειψη καρέ	Alt+A
+  Γρήγορη κατάσταση	Alt+T
+  Gamma adjustment
+  Φωτεινότητα...
+    Μικρότερη
+    Κανονική
+    Μεγαλύτερη
+  Απενεργοποίηση ...
+    Απενεργοποίηση 8x8 layer	Alt+1
+    Απενεργοποίηση 16x16 layer	Alt+2
+    Απενεργοποίηση 32x32 layer	Alt+3
+    Απενεργοποίηση όλων των sprites	Alt+4
+    Απενεργοποίηση sprite layers (CPS2) ...
+      Απενεργοποίηση sprite layer 0	Alt+Shift+0
+      Απενεργοποίηση sprite layer 1	Alt+Shift+1
+      Απενεργοποίηση sprite layer 2	Alt+Shift+2
+      Απενεργοποίηση sprite layer 3	Alt+Shift+3
+      Απενεργοποίηση sprite layer 4	Alt+Shift+4
+      Απενεργοποίηση sprite layer 5	Alt+Shift+5
+      Απενεργοποίηση sprite layer 6	Alt+Shift+6
+      Απενεργοποίηση sprite layer 7	Alt+Shift+7
+      Ενεργοποίηση όλων	Alt+Shift+8
+    Απενεργοποίηση Rowscroll	Alt+R
+    Απενεργοποίηση BgHi (CPS1)	Alt+H
+    Απενεργοποίηση sprite masking (CPS2)	Alt+M
+    Απενεργοποίηση rasters (CPS2)	Alt+S
+  Επιλογή χρώματος φόντου...
+    προεπιλογή
+    Μαύρο
+    Ροζ
+    Κυανό
+    Κόκκινο
+    Πράσινο
+    Μπλε
+  Επανεμφάνιση καρέ χωρίς μηνύματα	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Επιλογή γραφικών εφέ...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Μεγέθυνση παραθύρου...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Διόρθωση αναλογίας παραθύρου...
+    Καμία
+    Μικρότερη προβολή (Δουλεύει με όλα τα εφέ)
+    Μεγαλύτερη προβολή (Δεν ενδείκνυται για εφέ με γραμμές σάρωσης)
+  Διόρθωση αναλογίας πλήρους οθόνης...
+    Καμία
+    Μικρότερη προβολή (Δουλεύει με όλα τα εφέ και επιτρέπει 640x480)
+    Μεγαλύτερη προβολή (Δεν ενδείκνυται για εφέ με γραμμές σάρωσης)
+    Επέκταση σε πλήρη οθόνη
+&Ήχος
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Αντιστροφή στερεοφωνίας
+  Μονοφωνικός ήχος
+  Interpolate ήχος (Μόνο NEO·GEO)
+  &Low-pass filter
+  Επιλογές ήχου CPS1...
+    Απενεργοποίηση OKIM6295
+    Απενεργοποίηση OKIM6295 καναλιού...
+      κανάλι 1
+      κανάλι 2
+      κανάλι 3
+      κανάλι 4
+    Απενεργοποίηση YM2151
+    Καταγραφή YM2151
+  Επιλογές QSound (CPS2 & CPS1)...
+    Ενίσχυση QSound...
+      Χαμηλή
+      Κανονική
+      Δυνατή
+    Απενεργοποίηση QSound sfx
+    Απενεργοποίηση QSound μουσικής
+    Απενεργοποίηση SFA3 εκφωνητή
+  Επιλογές ήχου NEO·GEO...
+    Απενεργοποίηση YM2610
+    Απενεργοποίηση AY-3-8910
+  Winamp jukebox	Alt+J
+  Προβολή πληροφοριών κομματιού
+  Καταγραφή ήχου σε συνεχές 16bits στερεοφωνικά
+&Διάφορα
+  Ρύθμιση συχνότητας 68000   Alt+F
+  Πάντα στο προσκήνιο	Ctrl+Alt+A
+  Αυτόματη παύση 	pause
+  Ενεργοποίηση μενού hotkeys
+  Φιλικό σε πολυεπεξεργασία
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Επιλογή γλώσσας...
+&Παιχνίδι
+  Κωδικός περιοχής
+  Διακόπτες Dip (CPS1)
+  Ρυθμίσεις NEO·GEO...
+    Κερματοδέκτης
+    Κονσόλα
+    Ευρώπη
+    ΗΠΑ
+    Ιαπωνία
+    Δωρεάν παιχνίδι
+    Developer mode
+    Debug dipswitches
+  Ζαβολιές	Alt+C
+  Γρήγορη μεταβολή ζαβολιών...
+    Προβολή ζαβολιών	Ctrl+Shift+0
+    Επιλογή ζαβολιάς 1	Ctrl+Shift+1
+    Επιλογή ζαβολιάς 2	Ctrl+Shift+2
+    Επιλογή ζαβολιάς 3	Ctrl+Shift+3
+    Επιλογή ζαβολιάς 4	Ctrl+Shift+4
+    Επιλογή ζαβολιάς 5	Ctrl+Shift+5
+    Επιλογή ζαβολιάς 6	Ctrl+Shift+6
+    Επιλογή ζαβολιάς 7	Ctrl+Shift+7
+    Επιλογή ζαβολιάς 8	Ctrl+Shift+8
+    Επιλογή ζαβολιάς 9	Ctrl+Shift+9
+  Φόρτωμα αρχείου ζαβολιάς
+  Εύρεση ζαβολιάς...
+    Έναρξη νέας έρευνας	Numlock
+    Η αξία δεν άλλαξε από την τελευταία σάρωση	Numpad /
+    Η αξία άλλαξε από την τελευταία σάρωση	Numpad *
+    Η αξία μειώθηκε από την τελευταία σάρωση	Shift + numpad /
+    Η αξία αυξήθηκε από την τελευταία σάρωση	Shift + numpad *
+    Η τιμή ταιριάζει με το αρχείο
+  Ορισμός πλήκτρων...
+    Ορισμός πλήκτρων παίκτη 1 ...
+    Ορισμός πλήκτρων παίκτη 2 ...
+    Ορισμός πλήκτρων παίκτη 3 ...
+    Ορισμός πλήκτρων παίκτη 4 ...
+  Επαναφορά στα προεπιλεγμένα πλήκτρα
+  Χρήση ρυθμίσεων Hotrod
+  Φόρτωμα ρυθμίσεων από .ini
+  Αποθήκευση ρυθμίσεων στο .ini τώρα
+  Αποθήκευση ρυθμίσεων πλήκτρων ως προεπιλογή
+&Εργαλεία
+  Στιγμιότυπα χωρίς κείμενο
+  Στιγμιότυπα (χωρίς φίλτρο)	Ctrl+P
+  Στιγμιότυπα (με φίλτρο)	Ctrl+Alt+P
+  Εργαστήριο στιγμιότυπων	Ctrl+F
+  Tileviewer	Ctrl+T
+  68000 debugger	Ctrl+D
+  Έλεγχος παιχνιδιών
+  Δημιουργία αρχείου Romcenter
+  Δημιουργία αρχείου ClrMAMEPro
+  Ενεργοποίηση αποθήκευσης αποκρυπτογραφημένων C μετά το φόρτωμα
+&;
+  &Σχετικά με το Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Greek
+Author=BraiNKilleR/Grendal74

@@ -1,0 +1,273 @@
+&Bestand
+  &Spel laden	Alt+L
+  Spel automatisch starten
+  Directories configureren
+  Starten/pauseren emulatie	Enter
+  Step frame	Shift+Space
+  Reset
+  Netplay starten
+  Savestate slot ...
+    Slot 0
+    Slot 1
+    Slot 2
+    Slot 3
+    Slot 4
+    Slot 5
+    Slot 6
+    Slot 7
+    Slot 8
+    Slot 9
+  Vorige save slot	F6
+  Volgend save slot	F8
+  State opslaan	F5
+  State laden	F7
+  Record input slot...
+    Slot 0
+    Slot 1
+    Slot 2
+    Slot 3
+    Slot 4
+    Slot 5
+    Slot 6
+    Slot 7
+    Slot 8
+    Slot 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Record input	Shift+F5
+  Replay input	Shift+F7
+  S&luiten	Alt+F4
+&Video
+  Volledig scherm	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Vertikale spellen niet roteren
+  Video geheugen allocatie...
+    Systeem geheugen
+    Video kaart geheugen
+    Automatisch detecteren
+  Triple buffering
+  Frameskip...
+    Geen
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Automatische frameskip	Alt+A
+  Turbo mode	Alt+T
+  Gamma adjustment
+  Helderheid...
+    Donkerder
+    Normaal
+    Lichter
+  Uitzetten ...
+    8x8 layer Uitzetten	Alt+1
+    16x16 layer Uitzetten	Alt+2
+    32x32 layer Uitzetten	Alt+3
+    Alle sprites Uitzetten	Alt+4
+    Sprite layers (CPS2)	Uitzetten ...
+      sprite layer 0 Uitzetten	Alt+Shift+0
+      sprite layer 1 Uitzetten	Alt+Shift+1
+      sprite layer 2 Uitzetten	Alt+Shift+2
+      sprite layer 3 Uitzetten	Alt+Shift+3
+      sprite layer 4 Uitzetten	Alt+Shift+4
+      sprite layer 5 Uitzetten	Alt+Shift+5
+      sprite layer 6 Uitzetten	Alt+Shift+6
+      sprite layer 7 Uitzetten	Alt+Shift+7
+      Alles opnieuw aanzetten	Alt+Shift+8
+    Rowscroll Uitzetten	Alt+R
+    BgHi (CPS1) Uitzetten	Alt+H
+    Sprite masking (CPS2) Uitzetten	Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Achtergrond kleur instellen...
+    Default
+    Zwart
+    Roze
+    Cyan
+    Rood
+    Groen
+    Blauw
+  Frame opnieuw tekenen zonder boodschappen	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Video blitter selecteren...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Zoom venster...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Venster ratio correctie...
+    Geen
+    Kleinere display (werkt met alle blitters)
+    Grotere display (niet geschikt voor scanlined blitters)
+  Volledige scherm ratio correctie...
+    Geen
+    Kleinere display (werkt met alle blitters en staat 640x480 toe)
+    Grotere display (niet geschikt voor scanlined blitters)
+    Uitrekken tot volledig scherm
+&Geluid
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Omgekeerde stereo
+  Mono geluid
+  Geluid interpoleren (alleen NeoGeo)
+  &Low-pass filter
+  CPS1 geluids opties...
+    OKIM6295 uitzetten
+    OKIM6295 kanaal uitzetten...
+      Kanaal 1
+      Kanaal 2
+      Kanaal 3
+      Kanaal 4
+    YM2151 uitzetten
+    Log YM2151
+  QSound opties (CPS2 & CPS1)...
+    QSound versterking...
+      Zacht
+      Normaal
+      Hard
+    QSound sfx Uitzetten
+    QSound muziek Uitzetten
+    SFA3 aankondiger Uitzetten
+  NeoGeo geluids opties...
+    YM2610 Uitzetten
+    AY-3-8910 Uitzetten
+  Winamp jukebox	Alt+J
+  Track info weergeven
+  Log geluid naar rauwe 16bits stereo 
+&Overige
+  68000 frequentie configuren 	Alt+F
+  Venster altijd bovenaan	Ctrl+Alt+A
+  Autopauseren	Pause
+  Menu hotkeys activeren
+  Multitask vriendelijk
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Kies Taal pack
+&Spel
+  Regio code
+  Dipswitches (CPS1)
+  NeoGeo instellingen...
+    Arcade
+    Console
+    Europa
+    USA
+    Japan
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Cheats	Alt+C
+  Snel aan/uit zetten cheats...
+    Cheats weergeven	Ctrl+Shift+0
+    Cheat 1 aan/uit	Ctrl+Shift+1
+    Cheat 2 aan/uit	Ctrl+Shift+2
+    Cheat 3 aan/uit	Ctrl+Shift+3
+    Cheat 4 aan/uit	Ctrl+Shift+4
+    Cheat 5 aan/uit	Ctrl+Shift+5
+    Cheat 6 aan/uit	Ctrl+Shift+6
+    Cheat 7 aan/uit	Ctrl+Shift+7
+    Cheat 8 aan/uit	Ctrl+Shift+8
+    Cheat 9 aan/uit	Ctrl+Shift+9
+  Herladen cheat file
+  Zoeken cheat...
+    Nieuwe zoektocht starten	Numlock
+    Waarde is niet veranderd sinds laatste zoektocht	Numpad /
+    Waarde is veranderd sinds laatste zoektocht	Numpad *
+    Waarde is lager geworden sinds laatste zoektocht	Shift + numpad /
+    Waarde is hoger geworden sinds laatste zoektocht	Shift + numpad *
+    Dump matches to file
+  Toetsen instellen...
+    Toetsen instellen Speler 1 ...
+    Toetsen instellen Speler 2 ...
+    Toetsen instellen Speler 3 ...
+    Toetsen instellen Speler 4 ...
+  Reset default toetsen
+  Gebruik Hotrod configuratie
+  Herlaad instellingen uit .ini
+  Bewaar instellingen nu in .ini 
+  Toets instellingen als default opslaan
+&Hulpmiddelen
+  No emu text on screenshots
+  Screenshot (niet gefilterd)	Ctrl+P
+  Screenshot (gefilterd)	Ctrl+Alt+P
+  Shot factory	Ctrl+F
+  Tileviewer	Ctrl+T
+  68000 debugger	Ctrl+D
+  Romsets onderzoeken
+  Romcenter DAT genereren
+  ClrMAMEPro DAT genereren
+  decrypted Cs opslaan na laden
+&?
+  &Over Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Dutch
+Author=Zombie11

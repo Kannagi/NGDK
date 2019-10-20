@@ -1,0 +1,273 @@
+&Dosya
+  &Oyun Yükle	Alt+L
+  Oto &oyun baþlat
+  Klasör &konumlarý
+  &Emulasyonu baþlat/durdur	Enter
+  Çerçeve &atla 	Shift+Space
+  &Sýfýrla
+  &Net oyununa baþla
+  Oyun kaydet...
+    Kayýt 0
+    Kayýt 1
+    Kayýt 2
+    Kayýt 3
+    Kayýt 4
+    Kayýt 5
+    Kayýt 6
+    Kayýt 7
+    Kayýt 8
+    Kayýt 9
+  Önceki kayýt yeri	F6
+  Sonraki kayýt yeri	F8
+  Kayýt et	F5
+  Kayýt yükle	F7
+  Giriþ kaydet...
+    Kayýt 0
+    Kayýt 1
+    Kayýt 2
+    Kayýt 3
+    Kayýt 4
+    Kayýt 5
+    Kayýt 6
+    Kayýt 7
+    Kayýt 8
+    Kayýt 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Giriþ kaydý	Shift+F5
+  Giriþ aç	Shift+F7
+  Ç&ýkýþ	Alt+F4
+&Video
+  Tam ekran	Alt+Enter
+  Tam ekran çözünürlüðü
+    CPS1 / CPS2
+      Çevirilmemiþ oyunlar
+        *: Her ekran kartýnda çalýþmayabilir
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Çevirilmiþ oyunlar
+        *: Her ekran kartýnda çalýþmayabilir
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: Her ekran kartýnda çalýþmayabilir
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Don't rotate vertical games
+  Video &hafýza ayarlamasý...
+    &Sistem hafýzasý
+    &Ekran kartý hafýzasý
+    &Otomatik
+  Üçlü Tampon
+  &Çerçeve Atlama...
+    Hiçbiri
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  &Otomatik çerçeve atlama	Alt+A
+  Turbo modu	Alt+T
+  Gama ayarý
+  Parlaklýk (Sadece CPS2)...
+    Koyu
+    Normal
+    Açýk
+  &Kapat...
+    8x8 katmanýný kapat	Alt+1
+    16x16 katmanýný kapat	Alt+2
+    32x32 katmanýný kapat	Alt+3
+    Tüm gölgeleri kapat 	Alt+4
+    Gölge katmanlarýný kapat (CPS2)...
+      Gölge katmaný 0 kapat	Alt+Shift+0
+      Gölge katmaný 1 kapat	Alt+Shift+1
+      Gölge katmaný 2 kapat	Alt+Shift+2
+      Gölge katmaný 3 kapat	Alt+Shift+3
+      Gölge katmaný 4 kapat	Alt+Shift+4
+      Gölge katmaný 5 kapat	Alt+Shift+5
+      Gölge katmaný 6 kapat	Alt+Shift+6
+      Gölge katmaný 7 kapat	Alt+Shift+7
+      Tümünü aç 	Alt+Shift+8
+    Sýra kaydýrmasýný kapat	Alt+R
+    BgHi kapat (CPS1)	Alt+H
+    Gölge maskelemeyi kapat (CPS2)	Alt+M
+    Rasterleri kapat (CPS2)	Alt+S
+  &Arkaplan rengini seç...
+    Varsayýlan
+    Siyah
+    Pembe
+    Kor
+    Kýrmýzý
+    Yeþil
+    Mavi
+  Çerçeveleri mesajsýz çiz	Alt+Space
+  &Çerçeve karýþtýrmasý
+    Hiçbiri
+    Evet
+    Evet, MMX ile (hýzlý)
+    Evet, akýllý (bulanýklýk yok)
+    Evet, MMX ile akýllý (bulanýklýk yok)
+    Evet, Bulanýk Hareket ile
+    Evet, MMX ile bulanýk hareket
+  &Saydamlýklarý aç
+  Video filtresi seçimi...
+    Normal	Shift+1
+    Alternatif çizgisel 	Shift+2
+    Yazýlýmsal büyültme x2...	Shift+3
+      Düz
+      Çizgisel
+      50% çizgisel
+    Kreed filtreleri (sadece MMX)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      75% çizgisel 2xSai
+    Monitör dizey noktasý filtresi	Shift+5
+    KScale (sadece MMX)...	Shift+6
+      Düz
+      25% Çizgisel
+      50% Çizgisel
+      75% Çizgisel
+  &Yakýnlaþtýrma penceresi...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  &Pencere oranýný düzelt...
+    Hiçbiri
+    Daha küçük görünüm (tüm modlara uygun)
+    Daha büyük görünüm (çizgisel modlarla uyumsuz)
+  Tam ekran &deðerini düzelt...
+    Hiçbiri
+    Daha küçük görünüm (tüm modlarla ve 640x480 ile uuymlu)
+    Daha büyük görünüm (çizgisel modlarla uyumsuz)
+    Tam ekrana uzat
+&Ses
+  Ses &frekansý...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  &Ters stereo
+  &Mono ses
+  &Kutupsal ses (Sadece NeoGeo)
+  &Düþük filtre
+  CPS1 ses ayarlarý...
+    OKIM6295 kapat
+    OKIM6295 kanalýný kapat...
+      Kanal 1
+      Kanal 2
+      Kanal 3
+      Kanal 4
+    YM2151 kapat
+    YM2151 kaydet
+  QSound ayarlarý (CPS2 ve CPS1)...
+    QSound amflikasyonu...
+      Alçak
+      Normal
+      Yüksek
+    QSound sfx kapat
+    QSound müzik kapat
+    SFA3 bildirisini kapat
+  NeoGeo ses ayarlarý...
+    YM2610 kapat
+    AY-3-8910 kapat
+  &Winamp müzik kutusu	Alt+J
+  &Parça bilgisi göster
+  &Sesi wav olarak kaydet
+&Diðer
+  68000 &frekansýný ayarla	Alt+F
+  &Her zaman üstte	Ctrl+Alt+A
+  Oto&durdur	Pause
+  &Kýsayollarý aç
+  &Çoklu uygulama
+  N&et oyununda çoklu uygulama desteði
+  &Öncelik
+    &Düþük
+    &Normal
+    &Yüksek
+    &Gerçek zamanlý (!Dikkat!)
+  Dil &seçimi
+&Oyun
+  &Bölge kodu
+  &Dip anahtarlar (CPS1)
+ &NeoGeo ayarlarý...
+    Atari
+    Konsol
+    Avrupa
+    Amerika
+    Japonya
+    Serbest
+    Geliþtirici modu
+    Ayýrýcý dip anahtarlarý
+  &Hileler	Alt+C
+  Hileleri hýzlý aç...
+    Hileleri göster	Ctrl+Shift+0
+    Hile 1	Ctrl+Shift+1
+    Hile 2	Ctrl+Shift+2
+    Hile 3	Ctrl+Shift+3
+    Hile 4	Ctrl+Shift+4
+    Hile 5	Ctrl+Shift+5
+    Hile 6	Ctrl+Shift+6
+    Hile 7	Ctrl+Shift+7
+    Hile 8	Ctrl+Shift+8
+    Hile 9	Ctrl+Shift+9
+  Hile dosyasýný yenile
+  Hile arama...
+    Yeni aramaya baþla	Numlock
+    Deðer son çevrim ile ayný	Numpad /
+    Deðer son çevrimden farklý	Numpad *
+    Deðer son çevrimden azalmýþ 	Shift + numpad /
+    Deðer son çevrimden artmýþ  	Shift + numpad *
+    Sonuçlarý dosyaya ver
+  &Tuþlarý ayarla...
+    Oyuncu 1 için...
+    Oyuncu 2 için...
+    Oyuncu 3 için...
+    Oyuncu 4 için...
+  Varsayýlan tuþlara dön
+  Hotrod konfigurasyonunu kullan
+  Ayarlarý .ini dosyasýndan al
+  Ayarlarý .ini olarak kaydet
+  Tuþ ayarlarýný varsayýlan olarak kaydet
+&Araçlar
+  Ekran görüntülerinde yazýlarý gösterme
+  Ekran görüntüsü (&Filtrelenmemiþ)	Ctrl+P
+  Ekran görüntüsü (&Filtrelenmiþ)	Ctrl+Alt+P
+  &Ekran görüntüsü	Ctrl+F
+  &Zemin Göstericisi	Ctrl+T
+  68000 &ayýrýcý	Ctrl+D
+  &Romlarý kontrol et
+  &Romcenter DAT oluþtur
+  &ClrMAMEPro DAT oluþtur
+  Yüklemeden sonra çözülmüþ Cs kaydet
+&?
+  &Hakkýnda...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Türkçe
+Author=bosluk

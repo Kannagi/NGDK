@@ -1,0 +1,273 @@
+&Ficheiro
+  &Carregar Jogo	Alt+L
+  Começar automaticamente
+  Configurar directórios
+  Começar/Parar emulação	Enter
+  Próxima frame	Shift+Space
+  Reset
+  Jogar em rede
+  Posição do estado...
+    Posição 0
+    Posição 1
+    Posição 2
+    Posição 3
+    Posição 4
+    Posição 5
+    Posição 6
+    Posição 7
+    Posição 8
+    Posição 9
+  Posição anterior	F6
+  Posição seguinte	F8
+  Guardar estado	F5
+  Carregar estado	F7
+  Record input slot...
+    Posição 0
+    Posição 1
+    Posição 2
+    Posição 3
+    Posição 4
+    Posição 5
+    Posição 6
+    Posição 7
+    Posição 8
+    Posição 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Record input	Shift+F5
+  Replay input	Shift+F7
+  S&air	Alt+F4
+&Video
+  Ecrãn todo	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Não rodar os jogos com orientação vertical
+  Alocação de memória de video...
+    Memória do sistema
+    Memória da placa gráfica
+    Autodetectar
+  Triple buffering
+  Frameskip...
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Frameskip automático	Alt+A
+  Turbo	Alt+T
+  Gamma adjustment
+  Brilho...
+    Escuro
+    Normal
+    Claro
+  Desactivar...
+    Desactivar camada 8x8	Alt+1
+    Desactivar camada 16x16	Alt+2
+    Desactivar camada 32x32	Alt+3
+    Desactivar todos os sprites	Alt+4
+    Desactivar camadas do sprite (CPS2)...
+      Desactivar camada do sprite 0	Alt+Shift+0
+      Desactivar camada do sprite 1	Alt+Shift+1
+      Desactivar camada do sprite 2	Alt+Shift+2
+      Desactivar camada do sprite 3	Alt+Shift+3
+      Desactivar camada do sprite 4	Alt+Shift+4
+      Desactivar camada do sprite 5	Alt+Shift+5
+      Desactivar camada do sprite 6	Alt+Shift+6
+      Desactivar camada do sprite 7	Alt+Shift+7
+      Reactivar todos	Alt+Shift+8
+    Desactivar Rowscroll	Alt+R
+    Desactivar BgHi (CPS1)	Alt+H
+    Desactivar máscara do sprite (CPS2)	Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Cor de fundo...
+    Padrão
+    Preto
+    Rosa
+    Azul claro
+    Vermelho
+    Verde
+    Azul
+  Redesenhar quadro sem mensagens	Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Modo de video...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Aumentar janela...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Corrigir proporção da janela...
+    Nenhuma
+    Tela menor (funciona com todos os modos de video)
+    Tela maior (não recomendado para modos com scanlines)
+  Corrigir proporção do ecrãn todo...
+    Nenhuma
+    Tela menor (funciona com todos os modos de video e permite 640x480)
+    Tela maior (não recomendado para modos com scanlines)
+    Esticar para todo ecrãn
+&Som
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Inverter stereo
+  Som mono
+  Som interpolado (NeoGeo)
+  &Low-pass filter
+  CPS1...
+    Desactivar OKIM6295
+    Desactivar canal OKIM6295...
+      Canal 1
+      Canal 2
+      Canal 3
+      Canal 4
+    Desactivar YM2151
+    Guardar registo - YM2151
+  QSound (CPS1 & CPS2)...
+    Amplificação QSound...
+      Baixa
+      Normal
+      Alta
+    Desactivar efeitos QSound
+    Desactivar música QSound
+    Desactivar anunciador SFA3
+  NeoGeo...
+    Desactivar YM2610
+    Desactivar AY-3-8910
+  Jukebox do Winamp	Alt+J
+  Título da música
+  Gravar som em 16bits stereo
+&Misc
+  Configurar frequência 68000	Alt+F
+  Sempre por cima	Ctrl+Alt+A
+  Parar automaticamente	Pause
+  Activar menu hotkeys
+  Multi-tarefa
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Seleccionar Linguagem
+&Jogo
+  Código da região
+  Dipswitches (CPS1)
+  NeoGeo definições...
+    Arcade
+    Consola
+    Europa
+    EUA
+    Japão
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Batota	Alt+C
+  Trocar de batota...
+    Mostrar batotas	Ctrl+Shift+0
+    Batota 1	Ctrl+Shift+1
+    Batota 2	Ctrl+Shift+2
+    Batota 3	Ctrl+Shift+3
+    Batota 4	Ctrl+Shift+4
+    Batota 5	Ctrl+Shift+5
+    Batota 6	Ctrl+Shift+6
+    Batota 7	Ctrl+Shift+7
+    Batota 8	Ctrl+Shift+8
+    Batota 9	Ctrl+Shift+9
+  Recarregar ficheiro de batota
+  Procurar valor...
+    Começar nova procura	Numlock
+    Valor não mudou desde a última procura	Numpad /
+    Valor mudou desde a última procura	Numpad *
+    Valor diminuiu desde a última procura	Shift + numpad /
+    Valor aumentou desde a última procura	Shift + numpad *
+    Dump matches to file
+  Redefinir teclas...
+    Jogador 1...
+    Jogador 2...
+    Jogador 3...
+    Jogador 4...
+  Repôr teclas padrão
+  Usar configuração Hotrod
+  Recarregar definições do .ini
+  Guardar definições para .ini agora
+  Guardar teclas como teclas padrão
+&Ferramentas
+  No emu text on screenshots
+  Imagem capturada (não filtrada)	Ctrl+P
+  Imagem capturada (filtrada)	Ctrl+Alt+P
+  Ferramenta de imagens	Ctrl+F
+  Visualizador de telas	Ctrl+T
+  Debugger do 68000	Ctrl+D
+  Verificar romsets
+  Gerar DAT para o Romcenter
+  Gerar DAT para o ClrMAMEPro
+  Guardar Cs desencriptados depois de carregar
+&Ajuda
+  &Sobre o Kawaks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Portuguese
+Author=hobbit (filipemac@hotmail.com)

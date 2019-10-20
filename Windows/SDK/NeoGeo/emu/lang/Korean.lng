@@ -1,0 +1,275 @@
+파일
+  게임읽기	Alt+L
+  자동게임시작
+  경로설정
+  일시정지	Enter
+  스텝 프레임	Shift+Space
+  재시동
+  넷플레이
+  데이타 저장할 번호...
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  이전 저장번호	F6
+  다음 저장번호	F8
+  데이타 저장	F5
+  데이타 읽기	F7
+  리플레이 저장할 번호...
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  리플레이 녹화	Shift+F5
+  리플레이 재생	Shift+F7
+  종료 Alt+F4
+비디오
+  전체화면	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Don't rotate vertical games
+  비디오 메모리 할당...
+    시스템 메모리
+    비디오카드 메모리
+    자동감지
+  삼중버퍼링
+  프레임생략...
+    생략안함
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  자동 프레임생략	Alt+A
+  터보 모드	Alt+T
+  Gamma adjustment
+  밝기...
+    어둡게
+    보통
+    밝게
+  사용하지 않을 항목 ...
+    8x8 레이어 제거	Alt+1
+    16x16 레이어 제거	Alt+2
+    32x32 레이어 제거	Alt+3
+    모든 스프라이트 제거	Alt+4
+    스프라이트 레이어 제거 (CPS2) ...
+      스프라이트 레이어 0 제거	Alt+Shift+0
+      스프라이트 레이어 1 제거	Alt+Shift+1
+      스프라이트 레이어 2 제거	Alt+Shift+2
+      스프라이트 레이어 3 제거	Alt+Shift+3
+      스프라이트 레이어 4 제거	Alt+Shift+4
+      스프라이트 레이어 5 제거	Alt+Shift+5
+      스프라이트 레이어 6 제거	Alt+Shift+6
+      스프라이트 레이어 7 제거	Alt+Shift+7
+      제거된 레이어 모두 복원	Alt+Shift+8
+    Rowscroll 끄기	Alt+R
+    BgHi (CPS1) 끄기	Alt+H
+    스프라이트 마스킹 끄기 (CPS2)	Alt+M
+    래스터효과 끄기 (CPS2)	Alt+S
+  배경색 설정...
+    기본설정
+    검정
+    분홍
+    남색
+    빨강
+    초록
+    파랑
+  메시지 없이 프레임 재실행	Alt+Space
+  인터프레임 블렌딩
+    하지않음
+    실행
+    실행, MMX 사용 (더빠름)
+    실행, 선명하게 (흐림효과 제거)
+    실행, 선명하게, MMX 사용 (흐림효과 제거)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  투명효과 적용
+  비디오 효과설정...
+    보통	Shift+1
+    격스캔라인	Shift+2
+    2배 확대 (소프트웨어)...	Shift+3
+      보통
+      스캔라인
+      50% 스캔라인
+    화면효과 (MMX 16비트 색상에만 적용)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai + 75% 스캔라인
+    모니터 도트 매트릭스 효과	Shift+5
+    KScale 화면효과 (MMX 16비트 색상에만 적용,흐림효과 제거)...	Shift+6
+      보통
+      25% 스캔라인
+      50% 스캔라인
+      75% 스캔라인
+  창 확대...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  창비율 선택...
+    없음
+    작게 표시 (모든 비디오 효과에서 적용가능)
+    크게 표시 (스캔라인 효과에서는 부적합)
+  전체화면 비율 선택...
+    없음
+    작게 표시 (모든 비디오 효과,640x480 해상도에서 적용가능)
+    크게 표시 (스캔라인 효과에서는 부적합)
+    전체화면 늘리기
+사운드
+  음질...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  리버스 스테레오
+  모노 사운드
+  사운드 보정 (네오지오 게임만 적용)
+  저음 강화
+  CPS1 사운드 선택...
+    OKIM6295 끄기
+    OKIM6295 채널 끄기...
+      채널 1
+      채널 2
+      채널 3
+      채널 4
+    YM2151 끄기
+    YM2151 기록
+  Q사운드 선택 (CPS2 & CPS1)...
+    Q사운드 증폭...
+      부드럽게
+      보통
+      강하게
+    Q사운드 효과음 끄기
+    Q사운드 배경음악 끄기
+    스파알파3 아나운서 음성 끄기
+  네오지오 사운드 선택...
+    YM2610 끄기
+    AY-3-8910 끄기
+  윈앰프 쥬크박스	Alt+J
+  트랙 정보표시
+  Wave 파일로 사운드 녹음
+기타
+  68000 주파수 설정	Alt+F
+  항상 맨위	Ctrl+Alt+A
+  자동정지	Pause
+  메뉴 단축키 사용
+  원활한 다중작업
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  언어팩 선택
+게임
+  지역 코드
+  딥스위치 (CPS1)
+  네오지오 설정...
+    아케이드(업소용)
+    게임기(가정용)
+    유럽버전
+    미국버전
+    일본버전
+    프리플레이
+    Developer mode
+    Debug dipswitches
+  치트	Alt+C
+  빠른 치트 스위치...
+    치트 화면표시	Ctrl+Shift+0
+    치트 켜고끄기 1	Ctrl+Shift+1
+    치트 켜고끄기 2	Ctrl+Shift+2
+    치트 켜고끄기 3	Ctrl+Shift+3
+    치트 켜고끄기 4	Ctrl+Shift+4
+    치트 켜고끄기 5	Ctrl+Shift+5
+    치트 켜고끄기 6	Ctrl+Shift+6
+    치트 켜고끄기 7	Ctrl+Shift+7
+    치트 켜고끄기 8	Ctrl+Shift+8
+    치트 켜고끄기 9	Ctrl+Shift+9
+  치트 파일 다시읽기
+  치트 검색...
+    검색시작	Numlock
+    검색시작후, 고정값 찾기	Numpad /
+    검색시작후, 변경된값 찾기	Numpad *
+    검색시작후, 값 증가	Shift + numpad /
+    검색시작후, 값 감소	Shift + numpad *
+    검색결과를 텍스트 파일로 출력
+  키 재설정...
+    플레이어1 키설정 ...
+    플레이어2 키설정 ...
+    플레이어3 키설정 ...
+    플레이어4 키설정 ...
+  기본 키설정으로 복원
+  Hotrod 설정사용
+  환경설정파일 다시읽기
+  현재 설정을 ini 파일로 저장
+  현재 키설정을 기본 키설정으로 저장
+도구
+  스크린샷 (에뮬 자체메세지 제거)
+  스크린샷 (비디오효과 적용안함)	Ctrl+P
+  스크린샷 (비디오효과 적용)	Ctrl+Alt+P
+  게임스샷 편집기	Ctrl+F
+  타일뷰어	Ctrl+T
+  68000 오류수정기	Ctrl+D
+  롬셋 검사
+  Romcenter DAT 롬정보 파일 생성
+  ClrMAMEPro DAT 롬정보 파일 생성
+  게임로딩후 해독된 C파일 저장
+&?
+  &Kawaks 정보...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=Korean
+Author=CPS2Mania
+url1=http://cps2mania.wo.to
+url2=http://come.to/cps2

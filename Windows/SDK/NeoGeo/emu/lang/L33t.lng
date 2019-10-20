@@ -1,0 +1,273 @@
+&Fil3
+  &L04d g4m3	Alt+L
+  4ut0 st4rt g4m3
+  C0nfigur3 p4ths
+  St4rt/p4us3 3mul4ti0n	Enter
+  St3p fr4m3	Shift+Space
+  R3s3t
+  St4rt n3tpl4y
+  S4v3st4t3 sl0t ...
+    Sl0t 0
+    Sl0t 1
+    Sl0t 2
+    Sl0t 3
+    Sl0t 4
+    Sl0t 5
+    Sl0t 6
+    Sl0t 7
+    Sl0t 8
+    Sl0t 9
+  Pr3c3ding s4v3 sl0t	F6
+  N3xt s4v3 sl0t	F8
+  S4v3 st4t3	F5
+  L04d st4t3	F7
+  R3c0rd input slot...
+    Sl0t 0
+    Sl0t 1
+    Sl0t 2
+    Sl0t 3
+    Sl0t 4
+    Sl0t 5
+    Sl0t 6
+    Sl0t 7
+    Sl0t 8
+    Sl0t 9
+  Pr3c3ding R3c0rd sl0t	Shift+F6
+  N3xt R3c0rd sl0t	Shift+F8
+  R3c0rd input	Shift+F5
+  R3pl4y input	Shift+F7
+  3&xit	Alt+F4
+&Vid30
+  Full scr33n	Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  D0n't r0t4t3 v3rtic4l g4m3s
+  Vid30 m3m0ry 4ll0c4ti0n...
+    Syst3m m3m0ry
+    Vid30 c4rd m3m0ry
+    4ut0d3t3ct
+  Tripl3 buff3ring
+  Fr4m3skip...
+    N0n3
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  4ut0 fr4m3skip	Alt+A
+  Turb0 m0d3	Alt+T
+  G4mm4 4djustm3nt
+  Brightn3ss...
+    D4rk3r
+    N0rm4l
+    Bright3r
+  Dis4bl3 ...
+    Dis4bl3 8x8 l4y3r	Alt+1
+    Dis4bl3 16x16 l4y3r	Alt+2
+    Dis4bl3 32x32 l4y3r	Alt+3
+    Dis4bl3 4ll sprit3s	Alt+4
+    Dis4bl3 sprit3 l4y3rs (CPS2) ...
+      Dis4bl3 sprit3 l4y3r 0	Alt+Shift+0
+      Dis4bl3 sprit3 l4y3r 1	Alt+Shift+1
+      Dis4bl3 sprit3 l4y3r 2	Alt+Shift+2
+      Dis4bl3 sprit3 l4y3r 3	Alt+Shift+3
+      Dis4bl3 sprit3 l4y3r 4	Alt+Shift+4
+      Dis4bl3 sprit3 l4y3r 5	Alt+Shift+5
+      Dis4bl3 sprit3 l4y3r 6	Alt+Shift+6
+      Dis4bl3 sprit3 l4y3r 7	Alt+Shift+7
+      R33n4bl3 4ll	Alt+Shift+8
+    Dis4bl3 R0wscr0ll	Alt+R
+    Dis4bl3 BgHi (CPS1)	Alt+H
+    Dis4bl3 sprit3 m4sking (CPS2)	Alt+M
+    Dis4bl3 rast3rs (CPS2)	Alt+S
+  S3t b4ckgr0und c0l0r...
+    D3f4ult
+    Bl4ck
+    Pink
+    Cy4n
+    R3d
+    Gr33n
+    Blu3
+  R3dr4w fr4m3 with0ut m3ss4g3s	Alt+Space
+  Int3rfr4me bl3nding
+    N0n3
+    Y3s
+    Y3s, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  S3l3ct vid30 blitt3r...
+    N0rmal	Shift+1
+    Alternate scanlines	Shift+2
+    S0ftware z00m x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    M0nit0r d0t matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Z00m wind0w...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  C0rr3ct wind0w r4ti0...
+    N0n3
+    Sm4ll3r displ4y (w0rks with 4ll blitt3rs)
+    Bigg3r displ4y (n0t suit3d f0r sc4nlin3d blitt3rs)
+  C0rr3ct full scr33n r4ti0...
+    N0n3
+    Sm4ll3r displ4y (w0rks with 4ll blitt3rs 4nd 4ll0ws 640x480)
+    Bigg3r displ4y (n0t suit3d f0r sc4nlin3d blitt3rs)
+    Str3tch t0 full scr33n
+&S0und
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  R3v3rs3 st3r30
+  M0n0 s0und
+  Int3rp0l4t3 s0und (N30G30 0nly)
+  &Low-pass filter
+  CPS1 s0und 0pti0ns...
+    Dis4bl3 0KIM6295
+    Dis4bl3 0KIM6295 ch4nn3l...
+      Ch4nn3l 1
+      Ch4nn3l 2
+      Ch4nn3l 3
+      Ch4nn3l 4
+    Dis4bl3 YM2151
+    L0g YM2151
+  QS0und 0pti0ns (CPS2 & CPS1)...
+    QS0und 4mplific4ti0n...
+      S0ft
+      N0rm4l
+      L0ud
+    Dis4bl3 QS0und sfx
+    Dis4bl3 QS0und music
+    Dis4bl3 SF43 4nn0unc3r
+  N30G30 s0und 0pti0ns...
+    Dis4bl3 YM2610
+    Dis4bl3 4Y-3-8910
+  Win4mp juk3b0x	Alt+J
+  Displ4y tr4ck inf0
+  L0g s0und t0 r4w 16bits st3r30
+&Misc
+  C0nfigur3 68000 fr3qu3ncy	Alt+F
+  4lw4ys 0n t0p	Ctrl+Alt+4
+  4ut0p4us3	P4us3
+  3n4bl3 m3nu h0tk3ys
+  Multit4sk fri3ndly
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Ch00s3 l4ngu4g3 p4ck
+&G4m3
+  R3gi0n c0d3
+  Dipswitch3s (CPS1)
+  N30G30 s3ttings...
+    4rc4d3
+    C0ns0l3
+    3ur0p3
+    US4
+    J4p4n
+    Fr33pl4y
+    Developer mode
+    Debug dipswitches
+  Ch34ts	Alt+C
+  Quick t0ggl3 ch34ts...
+    Displ4y Ch34ts	Ctrl+Shift+0
+    T0ggl3 ch34t 1	Ctrl+Shift+1
+    T0ggl3 ch34t 2	Ctrl+Shift+2
+    T0ggl3 ch34t 3	Ctrl+Shift+3
+    T0ggl3 ch34t 4	Ctrl+Shift+4
+    T0ggl3 ch34t 5	Ctrl+Shift+5
+    T0ggl3 ch34t 6	Ctrl+Shift+6
+    T0ggl3 ch34t 7	Ctrl+Shift+7
+    T0ggl3 ch34t 8	Ctrl+Shift+8
+    T0ggl3 ch34t 9	Ctrl+Shift+9
+  R3l04d ch34t fil3
+  S34rch ch34t...
+    St4rt n3w s34rch	Numlock
+    V4lu3 did n0t ch4ng3 sinc3 l4st sw33p	Numpad /
+    V4lu3 ch4ng3d sinc3 l4st sw33p	Numpad *
+    V4lu3 d3cr34s3d sinc3 l4st sw33p	Shift + Numpad /
+    V4lu3 incr34s3d sinc3 l4st sw33p	Shift + Numpad *
+    Dump m4tch3s t0 fil3
+  R3d3fin3 k3ys...
+    R3d3fin3 k3ys Pl4y3r 1 ...
+    R3d3fin3 k3ys Pl4y3r 2 ...
+    R3d3fin3 k3ys Pl4y3r 3 ...
+    R3d3fin3 k3ys Pl4y3r 4 ...
+  R3s3t d3f4ult k3ys
+  Us3 H0tr0d c0nfigur4ti0n
+  R3l04d s3ttings fr0m .ini
+  S4v3 s3ttings t0 .ini n0w
+  S4v3 k3y s3ttings 4s d3f4ult
+&T00ls
+  N0 3mu t3xt 0n scr33nsh0ts
+  Scr33nsh0t (unfilt3r3d)	Ctrl+P
+  Scr33nsh0t (filt3r3d)	Ctrl+Alt+P
+  Sh0t f4ct0ry	Ctrl+F
+  Til3vi3w3r	Ctrl+T
+  68000 d3bugg3r	Ctrl+D
+  4udit r0ms3ts
+  G3n3r4t3 R0mc3nt3r D4T
+  G3n3r4t3 ClrM4M3Pr0 D4T
+  3n4bl3 s4v3 d3crypt3d Cs 4ft3r l04ding
+&?
+  &4b0ut K4w4ks...
+
+; This section mustn't be translated
+[Info]
+Version=12
+Language=L33t
+Author=Mr K

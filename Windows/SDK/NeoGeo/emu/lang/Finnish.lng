@@ -1,0 +1,273 @@
+&Tiedosto
+  &Lataa peli  Alt+L
+  Automaattinen k„ynnistys
+  M„„rit„ hakemistot
+  Aloita/keskeyt„ emulaatio  Enter
+  P„ivit„ ruutu kerran  Shift+Space
+  K„ynnist„ uudelleen
+  Aloita verkkopeli
+  Tallennustila...
+    Tila 0
+    Tila 1
+    Tila 2
+    Tila 3
+    Tila 4
+    Tila 5
+    Tila 6
+    Tila 7
+    Tila 8
+    Tila 9
+  Edelt„v„ tallennustila  F6
+  Seuraava tallennustila  F8
+  Tallenna tila  F5
+  Lataa tila  F7
+  Record input slot...
+    Tila 0
+    Tila 1
+    Tila 2
+    Tila 3
+    Tila 4
+    Tila 5
+    Tila 6
+    Tila 7
+    Tila 8
+    Tila 9
+  Preceding Record slot	Shift+F6
+  Next Record slot	Shift+F8
+  Record input	Shift+F5
+  Replay input	Shift+F7
+  Lo&peta  Alt+F4
+&N„ytt”
+  Koko ruutu  Alt+Enter
+  Full screen resolution
+    CPS1 / CPS2
+      Non rotated games
+        *: May not work for every video card
+        320x240
+        384x224 *
+        400x300 *
+        512x384 *
+        640x400
+        640x480
+        768x448 *
+        800x600
+      Rotated games
+        *: May not work for every video card
+        400x384 *
+        512x384 *
+        640x400
+        640x480
+        800x600
+        800x768 *
+        1024x768
+    NeoGeo
+        *: May not work for every video card
+        304x224 *
+        320x240
+        400x300 *
+        512x384 *
+        608x448 *
+        640x400
+        640x480
+        800x600
+  Äl„ k„„nn„ vertikaalisia pelej„
+  N„ytt”muistin m„„ritys...
+    Keskusmuisti
+    N„yt”nohjaimen muisti
+    Automaattinen tunnistus
+  Triple buffering
+  Ruudun p„ivitystiheys...
+    Kaikki
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+  Automaattinen ruudunp„ivitys  Alt+A
+  Turbomoodi  Alt+T
+  Gamma adjustment
+  Kirkkaus...
+    Tumma
+    Normaali
+    Kirkas
+  Poista k„yt”st„...
+    Poista 8x8 kerros  Alt+1
+    Poista 16x16 kerros  Alt+2
+    Poista 32x32 kerros  Alt+3
+    Poista kaikki spritet  Alt+4
+    Poista sprite kerrokset (CPS2) ...
+      Poista sprite kerros 0  Alt+Shift+0
+      Poista sprite kerros 1  Alt+Shift+1
+      Poista sprite kerros 2  Alt+Shift+2
+      Poista sprite kerros 3  Alt+Shift+3
+      Poista sprite kerros 4  Alt+Shift+4
+      Poista sprite kerros 5  Alt+Shift+5
+      Poista sprite kerros 6  Alt+Shift+6
+      Poista sprite kerros 7  Alt+Shift+7
+      Ota k„ytt””n kaikki  Alt+Shift+8
+    Poista rivinvieritys  Alt+R
+    Poista BgHi-tausta (CPS1)  Alt+H
+    Poista sprite peitto (CPS2)  Alt+M
+    Disable rasters (CPS2)	Alt+S
+  Aseta taustav„ri...
+    Oletus
+    Musta
+    Vaaleanpunainen
+    Sinivihre„
+    Punainen
+    Vihre„
+    Sininen
+  Piirr„ ruutu uudelleen ilman viestej„ Alt+Space
+  Interframe blending
+    None
+    Yes
+    Yes, with MMX (faster)
+    Yes, smart (no blur)
+    Yes, smart with MMX (no blur)
+    Yes, Motion Blur
+    Yes, Motion blur with MMX
+  Enable &transparencies
+  Valitse kuvansuodin...
+    Normal	Shift+1
+    Alternate scanlines	Shift+2
+    Software zoom x2...	Shift+3
+      Plain
+      With scanlines
+      With 50% scanlines
+    Kreed blitters (MMX only)...	Shift+4
+      2xSai
+      Super2xSai
+      SuperEagle
+      2xSai with 75% scanlines
+    Monitor dot matrix blitter	Shift+5
+    KScale (MMX only)...	Shift+6
+      Plain
+      With 25% Scanlines
+      With 50% Scanlines
+      With 75% Scanlines
+  Suurenna ikkuna...
+    100%	Ctrl+1
+    150%	Ctrl+2
+    200%	Ctrl+3
+    250%	Ctrl+4
+    300%	Ctrl+5
+  Oikea ikkunoidun kuvan suhde...
+    Ei
+    Pienempi kuva-ala (toimii kaikilla suotimilla)
+    Suurempi kuva-ala (ei sopiva lomitetuille suotimille)
+  Oikea kokoruutuisen kuvan suhde...
+    Ei
+    Pienempi kuva-ala (toimii kaikilla suotimilla ja sallii 640x480)
+    Suurempi kuva-ala (ei sopiva lomitetuille suotimille)
+    Venyt„ kokoruutuiseksi
+&Ž„ni
+  Sound &frequency...
+    1&1 KHz
+    2&2 KHz
+    4&4 KHz
+    4&8 KHz
+  Vastakkainen stereo
+  Monotoninen „„ni
+  Interpoloitu „„ni (Vain NeoGeo)
+  &Low-pass filter
+  CPS1 „„ni asetukset...
+    Poista OKIM6295
+    Poista OKIM6295 kanava...
+      Kanava 1
+      Kanava 2
+      Kanava 3
+      Kanava 4
+    Poista YM2151
+    Kirjaa YM2151
+  QSound asetukset (CPS2 & CPS1)...
+    QSound vahvistus...
+      Pehme„
+      Normaali
+      Kova
+    Poista QSound „„niefektit
+    Poista QSound musiikki
+    Poista SFA3 kuuluttaja
+  NeoGeo „„ni asetukset
+    Poista YM2610
+    Poista AY-3-8910
+  Winamp jukebox  Alt+J
+  N„yt„ kappaleen tiedot
+  Kirjaa „„net sellaisenaan 16-bit stereona
+&Sekalaista
+  M„„rit„ 68000 taajuus  Alt+F
+  Aina p„„llimm„isen„  Ctrl+Alt+A
+  Automaattinen keskeytys  Pause
+  Ota k„ytt””n valikon pikan„pp„imet
+  Moniajoyst„v„llinen
+  M&ultitask friendly during netplay
+  &Task priority
+    &Low
+    &Normal
+    &High
+    &Realtime (use with caution)
+  Valitse kielipaketti
+&Peli
+  Aluekoodi
+  Dip-kytkimet (CPS1)
+  NeoGeo asetukset...
+    Peliautomaatti
+    Konsoli
+    Eurooppa
+    USA
+    Japani
+    Freeplay
+    Developer mode
+    Debug dipswitches
+  Huijaukset   Alt+C
+  Huijausten pikakytkent„...
+    N„yt„ huijaukset  Ctrl+Shift+0
+    Kytke huijaus 1  Ctrl+Shift+1
+    Kytke huijaus 2  Ctrl+Shift+2
+    Kytke huijaus 3  Ctrl+Shift+3
+    Kytke huijaus 4  Ctrl+Shift+4
+    Kytke huijaus 5  Ctrl+Shift+5
+    Kytke huijaus 6  Ctrl+Shift+6
+    Kytke huijaus 7  Ctrl+Shift+7
+    Kytke huijaus 8  Ctrl+Shift+8
+    Kytke huijaus 9  Ctrl+Shift+9
+  Laataa huijaustiedosto
+  Etsi huijaus...
+    Aloita uusi haku  Numlock
+    Arvo ei muuttunut viime haun j„lkeen  Numpad /
+    Arvo muuttui viime haun j„lkeen  Numpad *
+    Arvo v„heni viime haun j„lkeen  Shift + numpad /
+    Arvo nousi viime haun j„lkeen  Shift + numpad *
+    Dump matches to file
+  Aseta n„pp„imet...
+    Aseta n„pp„imet Pelaaja 1 ...
+    Aseta n„pp„imet Pelaaja 2 ...
+    Aseta n„pp„imet Pelaaja 3 ...
+    Aseta n„pp„imet Pelaaja 4 ...
+  K„yt„ oletusn„pp„imi„
+  K„yt„ Hotrod asetuksia
+  Lataa asetukset .ini-tiedostosta
+  Tallenna asetukset .ini-tiedostoon
+  Tallenna n„pp„inasetukset oletusarvoiksi
+&Ty”kalut
+  No emu text on screenshots
+  Ruudunkaappaus (suodattamaton)  Ctrl+P
+  Ruudunkaappaus (suodatettu)  Ctrl+Alt+P
+  Kuvatehdas	Ctrl+F
+  Katso tiili„  Ctrl+T
+  68000 debug-tila   Ctrl+D
+  Tarkista ROM-setit
+  Luo Romcenter DAT
+  Luo ClrMAMEPro DAT
+  Tallenna puretut C-tiedostot ladatessa
+&?
+  &Kawaksista...
+
+; Perkele ruotsalaiset kerkeskin jo k„„nt„m„„n t„n!!!
+[Info]
+Version=12
+Language=Finnish
+Author=Leo Lindgren

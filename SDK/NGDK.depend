@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1571390005 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/_start.s
+
+1571516960 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/main.c
+	"NGDK/NGDK.h"
+	"data/data.h"
+
+1571499640 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NGDK.h
+
+1571436915 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arg.h"
+
+1571127015 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/asm.h
+
+1571384323 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_arg.h
+
+1571414754 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_Print.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1571384689 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_arge.h
+
+1571480130 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_Sprite.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1571348366 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/example1.c
+	"NGDK/NGDK.h"
+	"data/map_tile_bg_ext.c"
+
+1571047306 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/example2.c
+
+1571047322 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/example3.c
+
+1571047335 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/example4.c
+
+1571401997 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_Print16.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1571117088 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_Print32.c
+
+1571117053 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_Print8.c
+
+1571349148 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/stage1.c
+
+1571415465 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/NGDK/NG_BG.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1571348097 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/map_tile_bg.c
+	"tile1.c"
+	"tile2.c"
+	"tile3.c"
+	"tile4.c"
+	"tile5.c"
+	"tile6A.c"
+	"tile6B.c"
+	"tile6C.c"
+	"tile6D.c"
+	"tile6E.c"
+	"tile6F.c"
+	"tile6G.c"
+	"tile6H.c"
+	"tile6I.c"
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile1.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile2.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile3.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile4.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile5.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6A.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6B.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6C.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6D.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6E.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6F.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6G.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6H.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile6I.c
+
+1571347858 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/map_tile_bg_ext.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/data.h
+	"tile1.c"
+	"tile2.c"
+	"tile3.c"
+	"tile4.c"
+	"tile5.c"
+	"tile6A.c"
+	"tile6B.c"
+	"tile6C.c"
+	"tile6D.c"
+	"tile6E.c"
+	"tile6F.c"
+	"tile6G.c"
+	"tile6H.c"
+	"tile6I.c"
+	"tile7.c"
+	"tile8.c"
+	"tile9.c"
+	"tile10.c"
+	"tile11.c"
+	"MarcoH1.c"
+	"MarcoL1.c"
+	"MarcoL2.c"
+	"MarcoLPal.c"
+	"stage1_A.c"
+	"stage1_B.c"
+
+1571434047 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/stage1_0.c
+
+1571434047 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/stage1_1.c
+
+1571527431 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile7.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile8.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile9.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile10.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/tile11.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/MarcoL1.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/MarcoL2.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/MarcoH1.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/MarcoLPal.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/stage1_A.c
+
+1571527432 /home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/data/stage1_B.c
+
