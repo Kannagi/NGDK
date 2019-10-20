@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="NGDK" />
 		<Option pch_mode="2" />
-		<Option compiler="ngdk" />
+		<Option compiler="m68000_gcc_compiler" />
 		<Build>
 			<Target title="bin (Linux)">
 				<Option platforms="Unix;Mac;" />
@@ -13,22 +13,14 @@
 				<Option object_output="obj/" />
 				<Option type="1" />
 				<Option compiler="ngdk" />
-				<Option parameters=" &amp; gngeo --rompath=/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/bin/ ssideki" />
-				<Option projectCompilerOptionsRelation="-1" />
-				<Option projectLinkerOptionsRelation="-1" />
-				<Option projectIncludeDirsRelation="-1" />
-				<Option projectLibDirsRelation="-1" />
+				<Option parameters=" &amp; gngeo --rompath=/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/bin/ ssideki" />
 				<Linker>
 					<Add library="NGDK" />
 				</Linker>
-				<MakeCommands>
-					<Build command="" />
-					<CompileFile command="" />
-					<Clean command="" />
-					<DistClean command="" />
-					<AskRebuildNeeded command="" />
-					<SilentBuild command=" &gt; $(CMD_NULL)" />
-				</MakeCommands>
+				<ExtraCommands>
+					<Add after="bash compile.sh" />
+					<Mode after="always" />
+				</ExtraCommands>
 			</Target>
 			<Target title="bin (Windows)">
 				<Option platforms="Windows;" />
@@ -49,13 +41,6 @@
 				</ExtraCommands>
 			</Target>
 		</Build>
-		<Compiler>
-			<Add option="-w" />
-		</Compiler>
-		<ExtraCommands>
-			<Add after="compile.bat" />
-			<Mode after="always" />
-		</ExtraCommands>
 		<Unit filename="_start.s" />
 		<Unit filename="example1.c">
 			<Option compilerVar="CC" />
