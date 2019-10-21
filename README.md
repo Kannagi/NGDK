@@ -1,5 +1,5 @@
 # NGDK
-SDK for Neo Geo
+SDK for Neo Geo (Beta version)
 
 ## Install:
 ### Windows
