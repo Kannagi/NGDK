@@ -1,5 +1,6 @@
 # NGDK
 SDK for Neo Geo (Beta version)
+
 Discord : https://discord.gg/2VCJN5c
 
 ## Install:
