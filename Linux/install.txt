@@ -1,0 +1,21 @@
+Settings -> Compiler -> copy "NGDK"
+In Neo Geo GCC Compiler ->Toolchain executable "C:\SDK\NeoGeo\m68k"
+C Compiler : m68k-linux-gnu-gcc
+C++ Compiler : m68k-linux-gnu-g++
+Linker for dynamic lib : m68k-linux-gnu-ld
+Linker for static lib : m68k-linux-gnu-ar
+
+
+Search Directory :
+Compiler : /usr/local/SDK/NeoGeo/include
+Linker   : /usr/local/SDK/NeoGeo/lib
+
+Other settings -> Advanced options... "Yes"
+Compile single file to object file :
+$compiler -O1 -m68000 $options $includes -c $file -o $object
+
+Link object files to executable:
+$linker --oformat binary -Ttext -0x00 -Tbss 0x100020 $libdirs -o $exe_output $link_objects $link_resobjects $link_options $libs
+
+Link object files to console executable:
+$linker --oformat binary -Ttext -0x00 -Tbss 0x100020 $libdirs -o $exe_output $link_objects $link_resobjects $link_options $libs
