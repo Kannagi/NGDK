@@ -15,6 +15,6 @@ void game3(void);
 
 int  __attribute__((optimize("-O0"),noinline)) main()
 {
-	game3();
+	game2();
 	return 0;
 }

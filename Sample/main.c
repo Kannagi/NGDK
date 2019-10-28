@@ -22,7 +22,7 @@ void select_example(void)
 {
 	//Load Palette (FIX 0-15)
 	NG_LoadPal(palette_ng,0); //Load palette , PAL : 0
-	u16 example = 7;
+	u16 example = 5;
 
 	if(example == 0)
 	{

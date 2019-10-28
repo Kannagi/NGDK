@@ -321,7 +321,7 @@ void __attribute__((noinline)) NG_SpriteClearVRAM()
 		"move.w  #0xFFF,%d3\n	"
 		"move.w  #0xA000,%d4\n	"
 
-		"move.w  #380,%d0\n	"
+		"move.w  #379,%d0\n	"
 		"NG_Sprite_Clear_VRAM_loopB:\n	"
 
 			"move.w  %d2,(%a0)\n	"
@@ -340,7 +340,7 @@ void __attribute__((noinline)) NG_SpriteClearVRAM()
 		"move.w  #0,%d2\n	"
 		"move.w  #SCB1+0x40,(%a0)\n	"
 
-		"move.w  #379*64,%d0\n	"
+		"move.w  #380*32,%d0\n	"
 		"clr.w   %d2\n	"
 		NG_NOP
 		NG_NOP

@@ -4,7 +4,7 @@
 
 #include "NG_arge.h"
 
-void __attribute__((noinline)) NG_Map_Decompress(const void *src,void *dst,u16 n)
+void __attribute__((noinline)) NG_Map_Decompress(void *src,void *dst,u16 n)
 {
 	NG_arg1_u32 = (u32)src;
 	NG_arg2_u32 = (u32)dst;
@@ -65,7 +65,7 @@ void __attribute__((noinline)) NG_Map_Decompress(const void *src,void *dst,u16 n
 		);
 }
 
-void NG_BGScrollx(const void *data,u16 w,u16 i)
+void NG_BGScrollx(void *data,u16 w,u16 i)
 {
 
 	u16 itmp = NG_Sprite[i].x>>4;
@@ -75,9 +75,8 @@ void NG_BGScrollx(const void *data,u16 w,u16 i)
 	u16 xtmp = itmp<<2;
 
 	itmp = itmp&0x1F;
-	const u8 *scroll = data;
+	u8 *scroll = data;
 	NG_SpriteUpdateMapVertical(&scroll[xtmp],i,itmp);
-
 }
 
 

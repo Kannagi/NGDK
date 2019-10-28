@@ -1,0 +1,139 @@
+# depslib dependency file v1.0
+1571775457 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/_start.s
+
+1572174134 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/example1.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/data_ext.h
+
+1572174134 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/example2.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572174134 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/example3.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572174516 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/example4.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572271811 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/game1.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572271895 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/game2.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572175618 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/game3.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1572271963 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/main.c
+	<NGDK.h>
+	"data/data.h"
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/data.h
+	"tile1.c"
+	"tile2.c"
+	"tile3.c"
+	"tile4.c"
+	"tile5.c"
+	"tile6A.c"
+	"tile6B.c"
+	"tile6C.c"
+	"tile6D.c"
+	"tile6E.c"
+	"tile6F.c"
+	"tile6G.c"
+	"tile6H.c"
+	"tile6I.c"
+	"tile7.c"
+	"tile8.c"
+	"tile9.c"
+	"tile10.c"
+	"tile11.c"
+	"MarcoH1.c"
+	"MarcoL1.c"
+	"MarcoL2.c"
+	"test3.c"
+	"ship.c"
+	"booster.c"
+	"bullet.c"
+	"bullet2.c"
+	"Boss.c"
+	"BGD.c"
+	"MarcoLPal.c"
+	"stage1_A.c"
+	"stage1_B.c"
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile1.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile2.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile3.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile4.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile5.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6A.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6B.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6C.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6D.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6E.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6F.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6G.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6H.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile6I.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile7.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile8.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile9.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile10.c
+
+1572271646 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/tile11.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/MarcoH1.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/MarcoL1.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/MarcoL2.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/test3.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/ship.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/booster.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/bullet.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/bullet2.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/Boss.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/BGD.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/MarcoLPal.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/stage1_A.c
+
+1572271647 /home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/data/stage1_B.c
+
+1572271978 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/Sample/example5.c
+	<NGDK.h>
+	"data/data_ext.h"
+

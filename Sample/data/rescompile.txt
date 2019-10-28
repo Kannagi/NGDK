@@ -9,5 +9,5 @@ SPR "-loadpalette MarcoLPal.png"=MarcoL1,MarcoL2
 SPR=test3
 SPR=ship,booster,bullet,bullet2,Boss,BGD,
 PAL =MarcoLPal
-TMX"-z"=stage1
+TMX =stage1
 //BIN=stage1_1,

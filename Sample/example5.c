@@ -61,13 +61,10 @@ void example5(void )
 	NG_Printu16(NG_SpriteGetID(),0,2);
 	int i;
 	NG_BGWidthSet(128);
-	u16 sizemap = (128*14);
 
-	NG_Map_Decompress(stage1_A_data,buffer_map_A,sizemap);
-	NG_Map_Decompress(stage1_B_data,buffer_map_B,sizemap);
 
-	u32 *map1 = (u32*)buffer_map_A;
-	u32 *map2 = (u32*)buffer_map_B;
+	u32 *map1 = (u32*)stage1_A_data;
+	u32 *map2 = (u32*)stage1_B_data;
 
 	for(i = 0;i < 20;i++)
 		NG_SpriteUpdateMapVertical(&map1[i],0,i);

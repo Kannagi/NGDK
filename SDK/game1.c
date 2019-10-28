@@ -27,7 +27,6 @@ void game1(void )
 	NG_LoadPal(palette_ng,0); //Load palette , PAL : 0
 
 	//MAP
-
 	NG_LoadPal(tile1_pal_data,16); //Load palette , PAL : 16
 	NG_LoadPal(tile2_pal_data,17);
 	NG_LoadPal(tile3_pal_data,18);
@@ -94,6 +93,9 @@ void game1(void )
 	for(i = 0;i < 20;i++)
 		NG_SpriteUpdateMapVertical(&map2[i],1,i);
 
+
+
+
 	NG_Anim anim1;
 	NG_Anim_Init(&anim1);
 
@@ -107,6 +109,7 @@ void game1(void )
 	u16 absx = x;
 	u16 ianim = 0;
 	NG_WaitVBlank(); //Wait VBlank
+
 	while(1)
 	{
 		NG_Joypad1(&joypad1);

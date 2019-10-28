@@ -1,21 +1,9 @@
 #ifndef __NGDK__
 #define __NGDK__
 
-//10/10/2019 - 20/10/2019
+//10/10/2019 - 28/10/2019
 #define NGDK_VERSION 70
-/*
-Function Bullter
 
-initBuller20
-40
-100
-
-UpdateTile20
-UpdateTile40
-UpdateTile100
-
-
-*/
 /*
 	To do list :
 	-collision/hitbox 0.8
@@ -25,8 +13,8 @@ UpdateTile100
 */
 #define NG_NOP "nop\n	"
 #define NG_NOP3 "nop\n	nop\n	nop\n	"
-//#define NG_NOP "\n	"
-//#define NG_NOP3 "\n	"
+//#define NG_NOP " "
+//#define NG_NOP3 " "
 #define RW_REGISTER_U8(REG) 	*((volatile unsigned char  *)(REG))
 #define RW_REGISTER_U16(REG) 	*((volatile unsigned short *)(REG))
 #define RW_REGISTER_U32(REG) 	*((volatile unsigned int   *)(REG))
@@ -151,7 +139,7 @@ void NG_SpriteUpdateMapVertical(const void *tile,u16 i,u16 offset);
 
 void NG_BGWidthSet(u16 w);
 u16 NG_BGWidthGet();
-void NG_BGScrollx(const void *data,u16 w,u16 i);
+void NG_BGScrollx(void *data,u16 w,u16 i);
 
 extern NG_Sprites NG_Sprite[NG_MAX_SPR];
 extern NG_Bullets NG_Bullet[NG_MAX_BULLET];
@@ -167,7 +155,7 @@ void NG_Anim_Play_Fast(NG_Anim *anim,u16 cadence,u16 n);
 u16 NG_Anim_Play(NG_Anim *anim,u16 cadence,u16 n);
 void NG_Anim_Init(NG_Anim *anim);
 
-void NG_Map_Decompress(const void *src,void *dst,u16 n);
+void NG_Map_Decompress(void *src,void *dst,u16 n);
 
 void NG_BulletUpdate(u16 id,u16 n);
 void NG_BulletUpdateTile(u16 id,u16 n);

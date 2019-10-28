@@ -11,9 +11,10 @@ void offset3(void)
 
 void __attribute__((optimize("-O3"),noinline)) game3(void )
 {
+	NG_ClearFix(); //Clear Fix
 	NG_Joypads joypad1 = NG_JOYPAD_INIT; //Init Joypad
 	NG_SpriteClearVRAM(); //Clear VRAM Sprite
-	NG_ClearFix(); //Clear Fix
+
 
 	NG_BGColor(NG_COLOR(7,7,7)); //Color BG R,G,B 0-15
 
@@ -39,6 +40,10 @@ void __attribute__((optimize("-O3"),noinline)) game3(void )
 	//NG_Printu16(NG_MAX_SPR,0,1);
 
 	//NG_PrintFreeMem(0,5);
+
+	NG_Printu8(255,0,5);
+	NG_Prints8(128,0,6);
+	NG_Printh8(100,0,7);
 
 	//-----------init sprite--------------
 	NG_SpriteInit(0,0,0,20,32,BGD_index,0x1000);  //BG1
@@ -96,8 +101,11 @@ void __attribute__((optimize("-O3"),noinline)) game3(void )
 	u16 cadence = 0;
 	u16 cadence2 = 0;
 
+	s8 var = 0;
 	while(1)
 	{
+		var++;
+
 		NG_Sprite[0].y++;
 
 		NG_Joypad1(&joypad1);
