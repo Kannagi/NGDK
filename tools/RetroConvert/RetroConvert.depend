@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1571320569 source:/home/kannagi/Documents/Projet/tools/RetroConvert/main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1570460544 source:/home/kannagi/Documents/Projet/tools/RetroConvert/md.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1570571491 source:/home/kannagi/Documents/Projet/tools/RetroConvert/nes.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+	"fceux.c"
+	"mesen.c"
+
+1571672472 source:/home/kannagi/Documents/Projet/tools/RetroConvert/ng.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1570455650 source:/home/kannagi/Documents/Projet/tools/RetroConvert/pce.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1570913011 source:/home/kannagi/Documents/Projet/tools/RetroConvert/sms.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1571511733 source:/home/kannagi/Documents/Projet/tools/RetroConvert/snes.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1570980814 source:/home/kannagi/Documents/Projet/tools/RetroConvert/palette.c
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+
+1570386627 /home/kannagi/Documents/Projet/tools/RetroConvert/palette.h
+
+1571003120 /home/kannagi/Documents/Projet/tools/RetroConvert/retro.h
+
+1570546608 /home/kannagi/Documents/Projet/tools/RetroConvert/fceux.c
+
+1570552063 /home/kannagi/Documents/Projet/tools/RetroConvert/mesen.c
+
+1571218531 source:/home/kannagi/Documents/Projet/tools/RetroConvert/tilemap.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"retro.h"
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1571327845 source:/home/kannagi/Documents/Projet/tools/RetroRes/aura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aura.h"
+
+1571327858 /home/kannagi/Documents/Projet/tools/RetroRes/aura.h
+
+1572158732 source:/home/kannagi/Documents/Projet/tools/RetroRes/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aura.h"
+

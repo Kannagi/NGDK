@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NEOGEO extract" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="console">
+				<Option output="bin/neogeoextract" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters=" 065-c1.c1" />
+				<Compiler>
+					<Add option="-O3 -s" />
+				</Compiler>
+			</Target>
+			<Target title="console (Windows)">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/neogeoextract" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="mingw__compiler" />
+				<Option parameters=" 065-c1.c1" />
+				<Compiler>
+					<Add option="-O3 -s" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="-O3 -s" />
+			<Add library="SDL" />
+		</Linker>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<debugger />
+			<code_completion />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

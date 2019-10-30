@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1571509139 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tmx.h"
+
+1571243725 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/aura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aura.h"
+
+1571242018 /home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/aura.h
+
+1571266212 /home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/tmx.h
+
+1571509199 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/tmx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aura.h"
+	"tmx.h"
+
+1570467075 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/lz4.c
+	"lz4.h"
+	<intrin.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<stdint.h>
+	<limits.h>
+
+1570467075 /home/kannagi/Documents/RetroProg/Console/NeoGeo/MS/lz4.h
+	<stddef.h>
+	<stdint.h>
+
+1571243725 source:/home/kannagi/Documents/Projet/tools/RetroTMX/aura.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aura.h"
+
+1571242018 /home/kannagi/Documents/Projet/tools/RetroTMX/aura.h
+
+1572168811 source:/home/kannagi/Documents/Projet/tools/RetroTMX/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tmx.h"
+
+1572167803 /home/kannagi/Documents/Projet/tools/RetroTMX/tmx.h
+
+1571509199 source:/home/kannagi/Documents/Projet/tools/RetroTMX/tmx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"aura.h"
+	"tmx.h"
+
