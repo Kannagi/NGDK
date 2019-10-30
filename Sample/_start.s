@@ -19,6 +19,8 @@
 
 .equ REG_P1CNT,0x300000
 .equ REG_P2CNT,0x340000
+.equ BIOSF_CLEARFIX,0xC004C2
+.equ BIOSF_CLEARSPR,0xC004C8
 
 .org 0
 .int 0x0010F300
@@ -26,39 +28,62 @@
 .int 0x00C00408
 .int 0x00C0040E
 
-.int 0x00C0040E
-.int 0x00C0034C
-.int 0x00C0034E
-.int 0x00C0034E
+.int 0x00c00414
+.int 0x00c00426
+.int 0x00c00426
+.int 0x00c00426
 
 .int 0x00C0041A
 .int 0x00C00420
-.int 0x00C0034E
-.int 0x00C0034E
+.int 0x00c00426
+.int 0x00c00426
 
 .int 0x00C00426
 .int 0x00C00426
 .int 0x00C00426
 .int 0x00C0042C
 
+.int 0x00C00426
+.int 0x00C00426
+.int 0x00C00426
+.int 0x00C00426
+
+.int 0x00C00426
+.int 0x00C00426
+.int 0x00C00426
+.int 0x00C00426
+
+.int 0x00C00432
+
 .org 0x0064
 .int _VBLANK
 .int _IRQ
+.int _IRQ2
+.int 0x00C00426
+.int 0x00C00426
+.int 0x00C00426
+.int 0x00C00426
+
 .org 0x0100
 .string "NEO-GEO"
-
-.org 0x0108
 .short ROM_ID
 .int ROM_SIZE
-
-.org 0x0114
+.int 0x10001E
+.short 1
 .short 0x0200
 
-.org 0x0122
+.int _JPConfig
+.int _USConfig
+.int _EUConfig
+
     jmp _start
+    jmp _player
+    jmp _demo
+    jmp _coin
 
 .org 0x0182
 .int _CodeSNK
+
 _CodeSNK:
 .int 0x76004A6D,0x0A146600,0x003C206D,0x0A043E2D
 .int 0x0A0813C0,0x00300001,0x32100C01,0x00FF671A
@@ -69,28 +94,80 @@ _CodeSNK:
 .int 0x0002E048,0xB02D0ACF,0x6606B22D,0x0AD06708
 .int 0x588851CF,0xFFD83607
 .short 0x4e75
+_JPConfig:
+.ascii "0123456789ABCDEF"
+.byte 0xFF,0xFF,0xFF,0xFF,0xFF,0xFF
+.byte 0x24,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+.ascii "LIVES       "
+.ascii "1           "
+.ascii "2           "
+.ascii "3           "
+.ascii "4           "
+.ascii "HOW TO PLAY "
+.ascii "WITH        "
+.ascii "WITHOUT     "
 
+_USConfig:
+.ascii "0123456789ABCDEF"
+.byte 0xFF,0xFF,0xFF,0xFF,0xFF,0xFF
+.byte 0x24,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+.ascii "LIVES       "
+.ascii "1           "
+.ascii "2           "
+.ascii "3           "
+.ascii "4           "
+.ascii "HOW TO PLAY "
+.ascii "WITH        "
+.ascii "WITHOUT     "
+
+_EUConfig:
+.ascii "0123456789ABCDEF"
+.byte 0xFF,0xFF,0xFF,0xFF,0xFF,0xFF
+.byte 0x24,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+.ascii "LIVES       "
+.ascii "1           "
+.ascii "2           "
+.ascii "3           "
+.ascii "4           "
+.ascii "HOW TO PLAY "
+.ascii "WITH        "
+.ascii "WITHOUT     "
+
+.org 0x0380
+_player:
+_demo:
+_coin:
+
+    rts
+
+_IRQ2:
+	nop
+	rte
 _IRQ:
 	nop
 	rte
 
 _VBLANK:
 
-	btst    #7,BIOS_SYSSTAT
+    btst    #7,BIOS_SYSSTAT
     bne label_BIOS_SYSSTAT
 		jmp     BIOSF_BOOTSCR
+		rte
 label_BIOS_SYSSTAT:
 
-	movem.l %d0,-(%a7)
 
+    move.w  #4,REG_IRQACK
     move.b  #0,REG_DIPSW
+
+    movem.l %d0,-(%a7)
+
     addq.b #1,RAMSTART
 
-	move.b  REG_P1CNT,%d0
-	move.b  %d0,RAMSTART+4
+    move.b  REG_P1CNT,%d0
+    move.b  %d0,RAMSTART+4
 
-	move.b  REG_P2CNT,%d0
-	move.b  %d0,RAMSTART+5
+    move.b  REG_P2CNT,%d0
+    move.b  %d0,RAMSTART+5
 
     movem.l (%a7)+,%d0
 _VBLANK_END:
@@ -106,8 +183,10 @@ _start:
     move.w  #4,REG_IRQACK
     move.w  #0x2000,%sr
 
-    move.w  #1,VRAM_MOD
     clr.l RAMSTART
+
+    jsr BIOSF_CLEARFIX
+    jsr BIOSF_CLEARSPR
 
     jsr main
 
@@ -116,9 +195,6 @@ _start_end:
     bra _start
 
 	.size	_start, .-_start
-
-
-
 
 
 	.align	2
@@ -133,7 +209,6 @@ NG_WaitVBlank:
 	subi.w #0xF8,%d0
 	mulu.w #97,%d0
 	asr.w #8,%d0
-
 	move.w %d0,RAMSTART+10
 
 

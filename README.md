@@ -5,10 +5,14 @@ Discord : https://discord.gg/2VCJN5c
 
 ## Install:
 ### Windows
-- copy the SDK folder (in Windows/SDK) into C:\
+- go Windows folder
+- uncompress SDK.zip and emu.zip
+- copy the SDK folder into C:\
+- copy the emu folder into C:\SDK\NeoGeo
 
 ### Linux:
 - cd Linux
+- unzip SDK.zip
 - bash install.sh
 
 ### 1)
