@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RetroConvert" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="bin">
+				<Option output="bin/RetroConvert" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters=" -ng tile1.png" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-fexceptions" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="bin (Windows)">
+				<Option platforms="Unix;Mac;" />
+				<Option output="bin/RetroConvert" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="mingw__compiler" />
+				<Option parameters="-nes mario.png" />
+				<Compiler>
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+					<Add option="-fexceptions" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Linker>
+			<Add option="-s" />
+			<Add library="SDL" />
+			<Add library="SDL_image" />
+		</Linker>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="md.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="palette.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pce.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="retro.h" />
+		<Unit filename="sms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="snes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tilemap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

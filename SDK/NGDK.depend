@@ -1,0 +1,162 @@
+# depslib dependency file v1.0
+1613609525 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/examples/src/_start.s
+
+1613737533 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/main.c
+	"inc/NGDK.h"
+	"data/data.h"
+
+1613738835 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/inc/NGDK.h
+	"defines.h"
+
+1613609525 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/inc/defines.h
+
+1613497006 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/data.h
+	"tile1.c"
+	"tile2.c"
+	"tile3.c"
+	"tile4.c"
+	"tile5.c"
+	"tile6A.c"
+	"tile6B.c"
+	"tile6C.c"
+	"tile6D.c"
+	"tile6E.c"
+	"tile6F.c"
+	"tile6G.c"
+	"tile6H.c"
+	"tile6I.c"
+	"tile7.c"
+	"tile8.c"
+	"tile9.c"
+	"tile10.c"
+	"tile11.c"
+	"MarcoH1.c"
+	"MarcoL1.c"
+	"MarcoL2.c"
+	"test3.c"
+	"ship.c"
+	"booster.c"
+	"bullet.c"
+	"bullet2.c"
+	"Boss.c"
+	"BGD.c"
+	"MarcoLPal.c"
+	"stage1_A.c"
+	"stage1_B.c"
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile1.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile2.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile3.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile4.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile5.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6A.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6B.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6C.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6D.c
+
+1613497004 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6E.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6F.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6G.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6H.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile6I.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile7.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile8.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile9.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile10.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/tile11.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/MarcoH1.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/MarcoL1.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/MarcoL2.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/test3.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/ship.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/booster.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/bullet.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/bullet2.c
+
+1613497005 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/Boss.c
+
+1613497006 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/BGD.c
+
+1613497006 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/MarcoLPal.c
+
+1613497006 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/stage1_A.c
+
+1613497006 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/stage1_B.c
+
+1613737769 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arg.h"
+
+1613609525 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/inc/asm.h
+
+1613609525 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/inc/NG_arg.h
+
+1613609525 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_BG.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1613609525 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/inc/NG_arge.h
+
+1613609525 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_Print.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1613738652 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_Print16.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1613609525 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_Print8.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1613609525 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_Sprite.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1613609525 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_SpriteHicolor.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
+1613738701 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/test.c
+	<NGDK.h>
+	"data/data_ext.h"
+
+1613497006 /home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/data/data_ext.h
+
+1613738651 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/src/NG_PrintBCD.c
+	"NGDK.h"
+	"asm.h"
+	"NG_arge.h"
+
