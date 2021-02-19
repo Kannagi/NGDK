@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1436795392 source:/home/kannagi/Documents/SDK/NeoDev/Tools/convert/main.c
-	<stdlib.h>
-	<stdio.h>
-	<string.h>
-	<time.h>
-	<SDL/SDL.h>
-	<SDL/SDL_image.h>
-

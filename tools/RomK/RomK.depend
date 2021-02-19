@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1571335191 source:/home/kannagi/Documents/Projet/tools/RomK/main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
