@@ -1,0 +1,20 @@
+
+FM_KEYX:
+	inc hl
+	ld c,(hl)
+	
+	YM_PORT0 FM_KEYON,c
+	ret
+
+FM_LFOC:
+	inc hl
+	ld c,(hl)
+	
+	YM_PORT0 FM_LFO,c
+	ret
+	
+FM_KEY:
+
+
+	ret
+	

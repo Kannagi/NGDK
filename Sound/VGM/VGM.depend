@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1613033405 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/main.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613597762 /home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm.h
+
+1613597564 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613597771 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_read.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613351033 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_cmd.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613036808 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_data.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613481182 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_fm.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613597753 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_ssg.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613034204 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_ym2608.c
+
+1613415925 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_delay.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613481234 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_adpcma.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613435977 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_adpcmb.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+
+1613388410 source:/home/kannagi/Documents/RetroProg/Console/NeoGeo/VGM/VGM/vgm_pcm.c
+	<stdio.h>
+	<stdlib.h>
+	"vgm.h"
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="VGM" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="bin">
+				<Option output="bin/VGM" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-w" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm.h" />
+		<Unit filename="vgm_adpcma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_adpcmb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_delay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_fm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_pcm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vgm_ssg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

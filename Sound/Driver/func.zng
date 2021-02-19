@@ -1,0 +1,58 @@
+
+
+Timer2:
+	;YM_PORT0 TIMERB_CNT,$FC
+	YM_PORT0 TIMERB_CNT,$FC
+	YM_PORT0 TIMER_CONTROL,$38+2
+	
+	ret
+
+Timer:
+	YM_PORT0 TIMER_CONTROL,$35
+	YM_PORT0 TIMERA_CNTL,$F2 ;$8F
+	YM_PORT0 TIMERA_CNTH,$03
+	
+	
+	ret
+	
+	
+	;----------------------
+	SetPort0:
+	
+	do
+		ld a,(YM2610A)
+		and $80
+		cp 0
+	while_eq
+	ld a,b
+	out (YM2610A),a
+	
+	do
+		ld a,(YM2610A)
+		and $80
+		cp 0
+	while_eq
+	ld a,c
+	out (YM2610B),a
+	
+	ret
+	
+	SetPort1:
+	
+	do
+		ld a,(YM2610A)
+		and $80
+		cp 0
+	while_eq
+	ld a,b
+	out (YM2610C),a
+	
+	do
+		ld a,(YM2610A)
+		and $80
+		cp 0
+	while_eq
+	ld a,c
+	out (YM2610D),a
+	
+	ret

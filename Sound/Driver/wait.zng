@@ -1,0 +1,44 @@
+
+	
+	;Wait 16,7 ms
+	Waitf:
+		ei
+		call Timer
+		
+		xor a
+		ld (ZNDK_CNT),a
+		ld (ZNDK_CNT+1),a
+		
+		ld ix,17
+	ret
+	
+	
+	Waitf2:
+		ei
+		call Timer
+		
+		xor a
+		ld (ZNDK_CNT),a
+		ld (ZNDK_CNT+1),a
+		do
+			ld a,(ZNDK_CNT)
+			cp 17
+		while_eq
+	ret
+	
+	;Wait XX ms
+	Wait:
+		;ei
+		;call Timer
+		
+		inc hl
+		ld a,(hl)
+		ld ixl,a
+		
+		ld a,$7
+		and b
+		ld ixh,a
+		
+
+		
+	ret

@@ -1,0 +1,48 @@
+if_eq	macro		
+	jr nz,L1\@!
+endm
+
+if_ne	macro		
+	jr z,L1\@!
+endm
+
+if_nc	macro		
+	jr nc,L1\@!
+endm
+
+if_c	macro		
+	jr c,L1\@!
+endm
+
+if_le	macro		
+	ble	L1\@!
+endm
+
+if_ge	macro		
+	bge	L1\@!
+endm
+	
+endi	macro		
+	L1\@@:
+endm
+
+endie	macro		
+	L1\@@:
+endm
+
+
+do	macro		
+	L1\@!:
+endm
+
+while	macro		
+	jp	L1\@@
+endm
+
+while_eq	macro		
+	jr nz,L1\@@
+endm
+
+while_ne	macro		
+	jr z,L1\@@
+endm

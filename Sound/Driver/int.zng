@@ -1,0 +1,84 @@
+	
+	;IRQ
+	org $38
+	IRQ:
+		;di
+		push af
+		push bc
+		
+		xor a
+		ld a,(ZNDK_CNT)
+		adc a,1
+		ld (ZNDK_CNT),a
+		ld a,(ZNDK_CNT+1)
+		adc a,0
+		ld (ZNDK_CNT+1),a
+		
+		ld a,$01
+		ld (ZNDK_RI),a
+		
+		call Timer
+		ei
+		
+		pop bc
+		pop af
+		
+	reti
+;-------------------------------------------------
+	;NMI
+	org $66
+	NMI:
+	
+	push	af
+	
+	in a,(PORTIN)
+	
+	;0 nop
+	;4 init driver
+	;5 cmd ( volume SFX ,Music other)
+	;6 data
+	;7 stop music
+	;8 - 63 select track (56)
+	;64-255 SFX (192)
+	
+	;command1
+	cp $01
+	jr z,Command1
+	
+	;command3
+	cp $02
+	jr z,Command2
+	
+	;command3
+	cp $03
+	jr z,Command3
+	
+	;command driver
+	ld (ZNDK_CMD),a
+	
+	
+	pop		af
+	
+	
+	retn
+	
+	dc.b "NGDK Driver"
+	dc.w 2501
+	
+	Command1:
+	di
+	ld sp,$0xFFFC
+	out (PORTOUT),a
+	retn	
+	
+	Command2:
+	di
+	ld sp,$0xFFFC
+	retn
+	
+	Command3:
+	di
+	ld sp,$0xFFFC
+	ld hl,$0000
+	push hl
+	retn

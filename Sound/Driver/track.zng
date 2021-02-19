@@ -1,0 +1,172 @@
+
+
+	Track:
+		ld a,0
+		cp ixh
+		if_ne
+			ret
+		endie
+		
+		cp ixl
+		if_ne
+			ret
+		endie
+		
+		ld a,(hl)
+		
+		ld c,a
+		srl a
+		srl a
+		srl a
+		srl a
+		ld b,a
+		srl a
+		srl a
+		;FM KEY ON/OFF
+		cp 3
+		if_eq
+			call FM_KEY
+			inc hl
+			ret
+		endie
+		;---------------------
+		ld a,c
+		
+		
+		;Wait 16,7 ms
+		cp $0F
+		if_eq
+			call Waitf
+			inc hl
+			ret
+		endie
+		
+		;End
+		cp $1E
+		if_eq
+			ld hl,(ZNDK_TRACK)
+			call Init_FM
+			call Init_ADPCMA
+			call Init_SSG
+			ret
+		endie
+		
+		;FM LFO
+		cp $3E
+		if_eq
+			call FM_LFOC
+			inc hl
+			ret
+		endie
+		
+		;FM KEYX ON/OFF
+		cp $3F
+		if_eq
+			call FM_KEYX
+			inc hl
+			ret
+		endie
+		
+		;---------------------
+		
+		ld a,$F
+		and c
+		ld c,a
+		
+		
+		;Wait
+		ld a,b
+		cp 0
+		if_eq
+			call Wait
+			inc hl
+			ret
+		endie
+		
+		;SSG
+		cp 1
+		if_eq
+			call SSG
+			inc hl
+			ret
+		endie
+		
+		;ADPCM-A KEY
+		cp 2
+		if_eq
+			;---------
+			ret
+		endie
+		
+		cp 3 ;ADPCM 
+		if_eq
+			call ADPCM
+			inc hl
+			ret
+		endie
+		
+		cp 4 ;FM CH1 A
+		if_eq
+			call FMCH1A
+			call SetPort0
+			inc hl
+			ret
+		endie
+		
+		cp 5 ;FM CH1 B
+		if_eq
+			call FMCH1B
+			call SetPort0
+			inc hl
+			ret
+		endie
+		
+		cp 6 ;FM CH2 A
+		if_eq
+			call FMCH2A
+			call SetPort0
+			inc hl
+			ret
+		endie
+		
+		cp 7 ;FM CH2 B
+		if_eq
+			call FMCH2B
+			call SetPort0
+			inc hl
+			ret
+		endie
+		
+		cp 8 ;FM CH3 A
+		if_eq
+			call FMCH3A
+			call SetPort1
+			inc hl
+			ret
+		endie
+		
+		cp 9 ;FM CH3 B
+		if_eq
+			call FMCH3B
+			call SetPort1
+			inc hl
+			ret
+		endie
+		
+		cp 10 ;FM CH4 A
+		if_eq
+			call FMCH4A
+			call SetPort1
+			inc hl
+			ret
+		endie
+		
+		cp 11 ;FM CH4 B
+		if_eq
+			call FMCH4B
+			call SetPort1
+			inc hl
+			ret
+		endie
+		
+	ret

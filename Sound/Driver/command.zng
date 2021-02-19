@@ -1,0 +1,39 @@
+
+Command:
+	;SFX
+	ld a,(ZNDK_CMD)
+	cp 64
+	if_c
+		;call test
+		ret
+	endi
+	
+	;Track
+	cp 8
+	if_c
+		;call test
+		ret
+	endi
+	
+	;Stop music
+	cp 7
+	if_eq
+
+		ret
+	endie
+	
+
+	;data
+	cp 6
+	if_eq
+
+		ret
+	endie
+	
+	;cmd
+	cp 5
+	if_eq
+
+	endie
+	
+	ret

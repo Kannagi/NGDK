@@ -1,0 +1,91 @@
+
+ADPCM:
+	ld a,c
+	inc hl
+	ld c,(hl)
+	
+	cp 0
+	if_eq
+		ld b,ADPCMA_ENABLE
+		call SetPort1
+		ret
+	endie
+	
+	cp 1
+	if_eq
+		ret
+	endie
+	
+	;--------------------
+	cp 2
+	if_eq
+		ld b,ADPCMB_CTRL
+		call SetPort0
+		ret
+	endie
+	
+	cp 3
+	if_eq
+		ld b,ADPCMB_LR
+		call SetPort0
+		ret
+	endie
+	
+	cp 4
+	if_eq
+		ret
+	endie
+	
+	cp 5
+	if_eq
+		ld b,ADPCMB_DELTAL 
+		call SetPort0
+		ret
+	endie
+	
+	cp 6
+	if_eq
+		ld b,ADPCMB_DELTAH
+		call SetPort0
+		ret
+	endie
+	
+	cp 7
+	if_eq
+		ld b,ADPCMB_VOLUME
+		call SetPort0
+		ret
+	endie
+	;--------------------
+	cp 8
+	if_eq
+		ld b,ADPCMA_CH1_VOL
+	endie
+	
+	cp 9
+	if_eq
+		ld b,ADPCMA_CH2_VOL
+	endie
+	
+	cp $A
+	if_eq
+		ld b,ADPCMA_CH3_VOL
+	endie
+	
+	cp $B
+	if_eq
+		ld b,ADPCMA_CH4_VOL
+	endie
+	;---
+	cp $C
+	if_eq
+		ld b,ADPCMA_CH5_VOL
+	endie
+	
+	cp $D
+	if_eq
+		ld b,ADPCMA_CH6_VOL
+	endie
+
+	call SetPort1
+	ret

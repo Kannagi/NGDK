@@ -1,0 +1,707 @@
+	
+	FMCH1A:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH1_OP1_DTMUL
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH1_OP2_DTMUL
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH1_OP3_DTMUL
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH1_OP4_DTMUL
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH1_OP1_TLEVEL
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH1_OP2_TLEVEL 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH1_OP3_TLEVEL
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH1_OP4_TLEVEL
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH1_OP1_KSAR
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH1_OP2_KSAR
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH1_OP3_KSAR
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH1_OP4_KSAR
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH1_OP1_AMDR
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH1_OP2_AMDR
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH1_OP3_AMDR
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH1_OP4_AMDR
+		endie
+		;---
+
+	ret
+	
+	FMCH1B:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		
+		cp 0
+		if_eq
+			ld b,FM_CH1_OP1_SR
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH1_OP2_SR
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH1_OP3_SR
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH1_OP4_SR
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH1_OP1_SLRR 
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH1_OP2_SLRR 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH1_OP3_SLRR 
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH1_OP4_SLRR 
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH1_OP1_SSGEG
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH1_OP2_SSGEG
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH1_OP3_SSGEG
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH1_OP4_SSGEG
+		endie
+		;---
+		cp $C
+		if_eq
+			
+			ld b,FM_CH1_OP4_FNUM1
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH1_OP4_FNUM2
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH1_FBALGO
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH1_LRMS
+		endie
+		;---		
+		
+
+	ret
+	
+	;------------------------------------------------------
+	
+	FMCH2A:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH2_OP1_DTMUL
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH2_OP2_DTMUL
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH2_OP3_DTMUL
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH2_OP4_DTMUL
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH2_OP1_TLEVEL
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH2_OP2_TLEVEL 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH2_OP3_TLEVEL
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH2_OP4_TLEVEL
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH2_OP1_KSAR
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH2_OP2_KSAR
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH2_OP3_KSAR
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH2_OP4_KSAR
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH2_OP1_AMDR
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH2_OP2_AMDR
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH2_OP3_AMDR
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH2_OP4_AMDR
+		endie
+		;---
+	ret
+	
+	FMCH2B:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH2_OP1_SR
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH2_OP2_SR
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH2_OP3_SR
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH2_OP4_SR
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH2_OP1_SLRR 
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH2_OP2_SLRR 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH2_OP3_SLRR 
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH2_OP4_SLRR 
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH2_OP1_SSGEG
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH2_OP2_SSGEG
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH2_OP3_SSGEG
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH2_OP4_SSGEG
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH2_OP4_FNUM1
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH2_OP4_FNUM2
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH2_FBALGO
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH2_LRMS
+		endie
+		;---
+	ret
+	
+	;------------------------------------------------------
+	
+	FMCH3A:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH3_OP1_DTMUL
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH3_OP2_DTMUL
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH3_OP3_DTMUL
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH3_OP4_DTMUL
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH3_OP1_TLEVEL
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH3_OP2_TLEVEL 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH3_OP3_TLEVEL
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH3_OP4_TLEVEL
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH3_OP1_KSAR
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH3_OP2_KSAR
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH3_OP3_KSAR
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH3_OP4_KSAR
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH3_OP1_AMDR
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH3_OP2_AMDR
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH3_OP3_AMDR
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH3_OP4_AMDR
+		endie
+		;---
+	ret
+	
+	FMCH3B:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH3_OP1_SR
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH3_OP2_SR
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH3_OP3_SR
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH3_OP4_SR
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH3_OP1_SLRR 
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH3_OP2_SLRR 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH3_OP3_SLRR 
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH3_OP4_SLRR 
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH3_OP1_SSGEG
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH3_OP2_SSGEG
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH3_OP3_SSGEG
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH3_OP4_SSGEG
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH3_OP4_FNUM1
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH3_OP4_FNUM2
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH3_FBALGO
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH3_LRMS
+		endie
+		;---
+	ret
+	
+	;------------------------------------------------------
+	FMCH4A:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH4_OP1_DTMUL
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH4_OP2_DTMUL
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH4_OP3_DTMUL
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH4_OP4_DTMUL
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH4_OP1_TLEVEL
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH4_OP2_TLEVEL 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH4_OP3_TLEVEL
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH4_OP4_TLEVEL
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH4_OP1_KSAR
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH4_OP2_KSAR
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH4_OP3_KSAR
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH4_OP4_KSAR
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH4_OP1_AMDR
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH4_OP2_AMDR
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH4_OP3_AMDR
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH4_OP4_AMDR
+		endie
+		;---
+	ret
+	
+	FMCH4B:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,FM_CH4_OP1_SR
+		endie
+		
+		cp 1
+		if_eq
+			ld b,FM_CH4_OP2_SR
+		endie
+		
+		cp 2
+		if_eq
+			ld b,FM_CH4_OP3_SR
+		endie
+		
+		cp 3
+		if_eq
+			ld b,FM_CH4_OP4_SR
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,FM_CH4_OP1_SLRR 
+		endie
+		
+		cp 5
+		if_eq
+			ld b,FM_CH4_OP2_SLRR 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,FM_CH4_OP3_SLRR 
+		endie
+		
+		cp 7
+		if_eq
+			ld b,FM_CH4_OP4_SLRR 
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,FM_CH4_OP1_SSGEG
+		endie
+		
+		cp 9
+		if_eq
+			ld b,FM_CH4_OP2_SSGEG
+		endie
+		
+		cp $A
+		if_eq
+			ld b,FM_CH4_OP3_SSGEG
+		endie
+		
+		cp $B
+		if_eq
+			ld b,FM_CH4_OP4_SSGEG
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,FM_CH4_OP4_FNUM1
+		endie
+		
+		cp $D
+		if_eq
+			ld b,FM_CH4_OP4_FNUM2
+		endie
+		
+		cp $E
+		if_eq
+			ld b,FM_CH4_FBALGO
+		endie
+		
+		cp $F
+		if_eq
+			ld b,FM_CH4_LRMS
+		endie
+		;---
+	ret
+	

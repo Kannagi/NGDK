@@ -1,0 +1,139 @@
+;0x0000 - 0x061F code/data
+;0x0620 - 0x0FFF vector track/ADPCMA (SFX)
+;0x1000 - 0xF800 track
+;(3000 bytes max code driver)
+
+	include "Driver/ym2610.zng"
+	include "Driver/RAM.zng"
+	include "Driver/macro.zng"
+	
+;-------------------------------------------------
+	Start:
+		
+		ld sp,$ffff
+		im 1
+				
+		;Clear RAM
+		ld b,0
+		ld hl,RAM
+		do
+			ld (hl),b
+			inc hl
+			
+			ld a,h
+			cp $FF
+		while_eq
+
+		
+		do
+			ld a,(ZNDK_CMD)
+			cp 4
+		while_eq
+
+		xor a
+		ld (ZNDK_CMD),a
+		
+	jp	Main
+	
+	;Interruption
+	include "Driver/int.zng"
+	
+;-------------------------------------------------
+
+Main:
+	
+	ld hl,data_track
+	ld (ZNDK_TRACK),hl
+	ld hl,(ZNDK_TRACK)
+	
+	call Init_FM
+	call Init_ADPCMA
+	call Init_SSG
+
+	
+	ld ix,0
+	
+	;-------
+	do
+		;YM_PORT1 ADPCMA_ENABLE,$01
+	
+		ld a,(ZNDK_CNT)
+		out (PORTOUT),a
+		
+		;call Track
+		call Command
+		
+		ld a,(ZNDK_CNT+1)
+		cp ixh
+		if_eq
+			ld a,(ZNDK_CNT)
+			cp ixl
+			if_eq
+				ld ix,0
+			endie
+		endie
+	while
+	
+
+	;------------------------------------
+	include "Driver/track.zng"
+	
+	include "Driver/fmc.zng"
+	include "Driver/fm.zng"
+	
+	include "Driver/ssg.zng"
+	include "Driver/adpcm.zng"
+	include "Driver/adpcmak.zng"
+	
+	include "Driver/func.zng"
+	include "Driver/wait.zng"
+	include "Driver/init.zng"
+	
+	include "Driver/command.zng"
+	;------------------------------------
+	
+	test:
+
+	YM_PORT0 SSG_CHA_VOL,$10
+	YM_PORT0 SSG_CHA_FT,$40
+	YM_PORT0 SSG_CHA_CT,$00
+	YM_PORT0 SSG_FT_EVOL,$F
+	YM_PORT0 SSG_CT_EVOL,$05
+	YM_PORT0 SSG_SH_EVOL,$09
+	
+	ret
+	
+	;-------------------------
+	;track table
+	org $0C00
+	vector_track:
+	dc.b $10,00  ;begin*256 , bank 
+	dc.w $1000 ;loop
+	
+	
+	;Sample 8 Max
+	org $0CE0
+	Rhytme:
+	dc.w $0000,$0001  ;0
+	dc.w $0002,$0003 ;4
+	dc.w $0005,$001C ;10
+	dc.w $001D,$001E ;58
+	dc.w $001F,$0023 ;62
+	dc.w $0024,$0025
+	
+	
+	;SFX table
+	org $0D00
+	SFX:
+	dc.b 'A'
+
+	
+	org $1000
+	data_track:
+	incbin "Driver/test.ngm"
+	
+	
+	org $FFFF
+	rorg $10001
+	
+	

@@ -1,0 +1,71 @@
+
+	Repeat:
+
+		ld a,(ZNDK_CMD)
+		cp 20
+		if_eq
+			
+			;call test
+			xor a 
+			ld (ZNDK_CMD),a
+		endie
+		
+		
+		call test
+		
+
+		
+		
+		
+	
+	ret
+	
+	
+	-fno-web -fno-gcse -fno-unit-at-a-time -fomit-frame-pointer
+	
+	
+	ch1_fm:
+	
+	;ld hl,table_fm
+	;YM_PORT0 FM_CH_OP1_FNUM1,(hl+22)
+	;YM_PORT0 FM_CH_OP1_FNUM2,(hl+23)
+	
+	YM_PORT0 FM_CH1_OP1_DTMUL,(hl+0)
+	YM_PORT0 FM_CH1_OP1_TLEVEL,(hl+1)
+	YM_PORT0 FM_CH1_OP1_KSAR,(hl+2)
+	YM_PORT0 FM_CH1_OP1_AMDR,(hl+3)
+	YM_PORT0 FM_CH1_OP1_SR,(hl+4)
+	YM_PORT0 FM_CH1_OP1_SLRR,(hl+5)
+	YM_PORT0 FM_CH1_OP1_SSGEG,(hl+6)
+	
+	YM_PORT0 FM_CH1_OP2_DTMUL,(hl+7)
+	YM_PORT0 FM_CH1_OP2_TLEVEL,(hl+8)
+	YM_PORT0 FM_CH1_OP2_KSAR,(hl+9)
+	YM_PORT0 FM_CH1_OP2_AMDR,(hl+10)
+	YM_PORT0 FM_CH1_OP2_SR,(hl+11)
+	YM_PORT0 FM_CH1_OP2_SLRR,(hl+12)
+	YM_PORT0 FM_CH1_OP2_SSGEG,(hl+13)
+	
+	YM_PORT0 FM_CH1_OP3_DTMUL,(hl+14)
+	YM_PORT0 FM_CH1_OP3_TLEVEL,(hl+15)
+	YM_PORT0 FM_CH1_OP3_KSAR,(hl+16)
+	YM_PORT0 FM_CH1_OP3_AMDR,(hl+17)
+	YM_PORT0 FM_CH1_OP3_SR,(hl+18)
+	YM_PORT0 FM_CH1_OP3_SLRR,(hl+19)
+	YM_PORT0 FM_CH1_OP3_SSGEG,(hl+20)
+	
+	YM_PORT0 FM_CH1_OP3_DTMUL,(hl+21)
+	YM_PORT0 FM_CH1_OP3_TLEVEL,(hl+22)
+	YM_PORT0 FM_CH1_OP3_KSAR,(hl+23)
+	YM_PORT0 FM_CH1_OP3_AMDR,(hl+24)
+	YM_PORT0 FM_CH1_OP3_SR,(hl+25)
+	YM_PORT0 FM_CH1_OP3_SLRR,(hl+26)
+	YM_PORT0 FM_CH1_OP3_SSGEG,(hl+27)
+	
+	YM_PORT0 FM_CH1_FBALGO,(hl+28)
+	YM_PORT0 FM_CH1_LRMS,(hl+29)
+	
+	YM_PORT0 FM_CH1_OP4_FNUM1,(hl+30)
+	YM_PORT0 FM_CH1_OP4_FNUM2,(hl+31)
+	
+	ret

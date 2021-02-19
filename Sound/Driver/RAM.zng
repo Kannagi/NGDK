@@ -1,0 +1,6 @@
+
+ZNDK_CMD equ 	$F800
+ZNDK_RI equ 		$F801
+ZNDK_CNT equ 		$F802
+ZNDK_WCNT equ 	$F804
+ZNDK_TRACK 	equ 	$F900

@@ -1,0 +1,79 @@
+
+	SSG:
+		ld a,c
+		inc hl
+		ld c,(hl)
+		
+		cp 0
+		if_eq
+			ld b,SSG_CHA_FT
+		endie
+		
+		cp 1
+		if_eq
+			ld b,SSG_CHA_CT
+		endie
+		
+		cp 2
+		if_eq
+			ld b,SSG_CHB_FT
+		endie
+		
+		cp 3
+		if_eq
+			ld b,SSG_CHB_CT
+		endie
+		;---
+		cp 4
+		if_eq
+			ld b,SSG_CHC_FT
+		endie
+		
+		cp 5
+		if_eq
+			ld b,SSG_CHC_CT 
+		endie
+		
+		cp 6
+		if_eq
+			ld b,SSG_NOISE
+		endie
+		
+		cp 7
+		if_eq
+			ld b,SSG_ENOISE
+		endie
+		;---
+		cp 8
+		if_eq
+			ld b,SSG_CHA_VOL
+		endie
+		
+		cp 9
+		if_eq
+			ld b,SSG_CHB_VOL
+		endie
+		
+		cp $A
+		if_eq
+			ld b,SSG_CHC_VOL
+		endie
+		
+		cp $B
+		if_eq
+			ld b,SSG_FT_EVOL
+		endie
+		;---
+		cp $C
+		if_eq
+			ld b,SSG_CT_EVOL
+		endie
+		
+		cp $D
+		if_eq
+			ld b,SSG_SH_EVOL
+		endie
+		
+		;---
+
+	ret
