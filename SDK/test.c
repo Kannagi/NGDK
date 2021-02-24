@@ -2,6 +2,8 @@
 #include "data/data_ext.h"
 
 extern const u16 palette_ng[32];
+void NG_BCD_Add(u32 *val,u32 add);
+void NG_BCD_Sub(u32 *val,u32 add);
 
 void example1(void)
 {
@@ -20,8 +22,13 @@ void example1(void)
 
 	NG_PrintFreeMem(0,5);
 
-	NG_Fix_Print_h32(0xABC8F123,1,10);
 
+	u32 score = 0x00;
+
+	NG_BCD_Add(&score,0x10);
+	NG_BCD_Add(&score,0x80);
+
+	NG_Fix_Print_h32(score,1,10);
 
 	u8 var = 0;
 

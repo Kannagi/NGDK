@@ -156,10 +156,14 @@ _VBLANK:
 label_BIOS_SYSSTAT:
 
 
+
+    movem.l %d0,-(%a7)
+
+
     move.w  #4,REG_IRQACK
     move.b  #0,REG_DIPSW
 
-    movem.l %d0,-(%a7)
+
 
     addq.b #1,RAMSTART
 

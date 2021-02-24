@@ -87,7 +87,7 @@ void __attribute__((noinline)) NG_Background_Vertical_Update(u16 id, u16 col, vo
 
 		//height
 		"move.w  6(%a0),%d1\n	"		//d1 = height (a0+6)
-		"subi.w  #1,%d1\n	"			//d1 = d1 - 1
+		"subq.w  #1,%d1\n	"			//d1 = d1 - 1
 
 		"move.w  NG_BG_W,%d0\n	"		//d0 = map width
 		"move.l  NG_arg1_u32,%a0\n	"	//a0 = map tile pointer (NG_arg1_u32)

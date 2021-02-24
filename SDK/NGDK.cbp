@@ -59,7 +59,10 @@
 				</Compiler>
 			</Target>
 		</Build>
-		<Unit filename="examples/src/_start.s" />
+		<Unit filename="examples/src/_start.s">
+			<Option target="bin (Linux)" />
+			<Option target="bin (Windows)" />
+		</Unit>
 		<Unit filename="inc/NGDK.h" />
 		<Unit filename="inc/NG_arg.h" />
 		<Unit filename="inc/NG_arge.h" />
