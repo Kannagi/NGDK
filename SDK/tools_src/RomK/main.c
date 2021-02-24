@@ -19,8 +19,20 @@ void insertbloc(int argc, char** argv);
 
 int main(int argc, char** argv)
 {
+	if(argc <= 1)
+	{
+		printf("option:\n");
+		printf("-extract,-insert,-insertbloc,-rom8k,-rom\n");
+		printf("-fillrom,-add,-compare\n");
+		printf("-invert,-invertng,\n");
+		printf("-div,-divrom,-divrom2,-divf3\n");
+		printf("-compare\n");
+		return 0;
+	}
 	if(strcmp(argv[1],"-v") == 0)
 		printf("version 1.00\n");
+
+
 	createrom8k(argc,argv);
 	createrom(argc,argv);
 
