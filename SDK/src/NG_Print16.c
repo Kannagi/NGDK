@@ -4,7 +4,7 @@
 #include "NG_arge.h"
 
 
-void __attribute__((noinline)) NG_Fix_Print_s16(s16 val,u16 x,u16 y)
+void NG_Fix_Print_s16(s16 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;
@@ -59,7 +59,7 @@ void __attribute__((noinline)) NG_Fix_Print_s16(s16 val,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Fix_Print_u16(u16 val,u16 x,u16 y)
+void NG_Fix_Print_u16(u16 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;
@@ -110,7 +110,7 @@ void __attribute__((noinline)) NG_Fix_Print_u16(u16 val,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Fix_Print_h16(u16 val,u16 x,u16 y)
+void NG_Fix_Print_h16(u16 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;
@@ -157,7 +157,7 @@ void __attribute__((noinline)) NG_Fix_Print_h16(u16 val,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Fix_Print_h32(u32 val,u16 x,u16 y)
+void NG_Fix_Print_h32(u32 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;

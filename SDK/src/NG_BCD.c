@@ -4,7 +4,7 @@
 #include "NG_arge.h"
 
 
-void __attribute__((optimize("-O0"),noinline)) NG_BCD_Add(u32 *val,u32 add)
+void __attribute__((optimize("-O0"))) NG_BCD_Add(u32 *val,u32 add)
 {
 	NG_arg1_u32 = (u32)*val;
 	NG_arg2_u32 = add;
@@ -27,7 +27,7 @@ void __attribute__((optimize("-O0"),noinline)) NG_BCD_Add(u32 *val,u32 add)
 		(*val) = NG_arg1_u32;
 }
 
-void __attribute__((optimize("-O0"),noinline)) NG_BCD_Sub(u32 *val,u32 sub)
+void __attribute__((optimize("-O0"))) NG_BCD_Sub(u32 *val,u32 sub)
 {
 	NG_arg1_u32 = (u32)*val;
 	NG_arg2_u32 = sub;

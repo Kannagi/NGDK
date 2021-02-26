@@ -552,7 +552,7 @@ void invertng(int argc, char** argv)
 	byte = 0;
 	fseek(file , 0 , SEEK_END);
 	n = ftell(file);
-	data = malloc(sizeof(char) * n)+1;
+	data = malloc(sizeof(char) * n);
 	if(data == NULL) return;
 	fseek ( file , 0 , SEEK_SET );
 

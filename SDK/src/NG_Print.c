@@ -9,13 +9,84 @@ void NG_Fix_Palette(u16 pal)
 	NG_PAL_ID = pal;
 }
 
-void __attribute__((noinline)) NG_Fix_Print_Tile(u16 id,u16 x,u16 y)
+void NG_Fix_Print_TileN_PalS(const u16 *id,u16 x,u16 y,u16 n)
+{
+	NG_arg1_u16 = x;
+	NG_arg2_u16 = y;
+	NG_arg3_u16 = n;
+	NG_arg3_u32 = (u32)id;
+
+	asm (
+		"movem.l %d2,-(%a7)\n	"
+		"move.w  #0x20,VRAM_MOD\n	"
+
+
+		"move.w	NG_arg1_u16,%d0\n	"
+		"asl.w	#5,%d0\n	"
+		"add.w  #FIXMAP+0x22,%d0\n	"
+		"add.w	NG_arg2_u16,%d0\n	"
+		"move.w %d0,VRAM_ADDR\n	"
+
+		"move.l NG_arg3_u32,%a0\n	"
+		"lea VRAM_RW,%a1\n	"
+		"move.w NG_arg3_u16,%d0\n	"
+		"subq.w #1,%d0\n	"
+
+		"move.w	NG_PAL_ID,%d2\n	"
+
+		"NG_Fix_Print_TileN_loop2:\n	"
+
+			"move.w (%a0)+,%d1\n	"
+			"add.w %d2,%d1\n	"
+			"move.w %d1,(%a1)\n	"
+
+		"dbra %d0,NG_Fix_Print_TileN_loop2\n	"
+
+		"movem.l (%a7)+,%d2\n	"
+
+		);
+}
+
+void NG_Fix_Print_TileN(const u16 *id,u16 x,u16 y,u16 n)
+{
+	NG_arg1_u16 = x;
+	NG_arg2_u16 = y;
+	NG_arg3_u16 = n;
+	NG_arg3_u32 = (u32)id;
+
+	asm (
+		"move.w  #0x20,VRAM_MOD\n	"
+
+		"move.w	NG_arg1_u16,%d0\n	"
+		"asl.w	#5,%d0\n	"
+		"add.w  #FIXMAP+0x22,%d0\n	"
+		"add.w	NG_arg2_u16,%d0\n	"
+		"move.w %d0,VRAM_ADDR\n	"
+
+		"move.l NG_arg3_u32,%a0\n	"
+		"lea VRAM_RW,%a1\n	"
+		"move.w NG_arg3_u16,%d0\n	"
+		"subq.w #1,%d0\n	"
+
+		"NG_Fix_Print_TileN_loop:\n	"
+
+			"move.w (%a0)+,(%a1)\n	"
+			NG_NOP
+
+		"dbra %d0,NG_Fix_Print_TileN_loop\n	"
+
+		);
+}
+
+void NG_Fix_Print_Tile(u16 id,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;
 	NG_arg3_u16 = id;
 
 	asm (
+		"move.w  #0x20,VRAM_MOD\n	"
+
 		"move.w	NG_arg1_u16,%d0\n	"
 		"asl.w	#5,%d0\n	"
 		"add.w  #FIXMAP+0x22,%d0\n	"
@@ -28,7 +99,7 @@ void __attribute__((noinline)) NG_Fix_Print_Tile(u16 id,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Fix_Print_String(const void *str,u16 x,u16 y)
+void NG_Fix_Print_String(const void *str,u16 x,u16 y)
 {
 	NG_arg1_u32 = (u32)str;
 	NG_arg1_u16 = x;
@@ -65,7 +136,7 @@ void __attribute__((noinline)) NG_Fix_Print_String(const void *str,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Fix_Print_CPU(u16 x,u16 y)
+void NG_Fix_Print_CPU(u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;

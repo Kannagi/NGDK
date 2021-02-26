@@ -3,7 +3,7 @@
  * @brief Neo Geo Development Kit (NGDK)
  * @author Kannagi
  * @author Antoine Gohin
- * @version 0.71
+ * @version 0.72
  * @date 10/2019 - 02/2021
  *
  * TODO LIST
@@ -17,7 +17,7 @@
 #ifndef __NGDK__
 #define __NGDK__
 
-#define NGDK_VERSION 71
+#define NGDK_VERSION 72
 
 // Legacy functions names support
 #include "defines.h"
@@ -136,7 +136,7 @@
 #define itoi16(it16) ((it16) >> 16)
 
 #define NG_MAX_SPR 380
-#define NG_JOYPAD_INIT {0, 0, 0, 0, 0, 0, 0, 0}
+#define NG_JOYPAD_INIT {0, 0, 0, 0, 0, 0, 0, 0, 0}
 
 /**
  * @brief Generates shifted index for fix palette.
@@ -622,3 +622,4 @@ void NG_Set_YM2610(u8 command);
 u8 NG_Get_YM2610();
 
 #endif
+

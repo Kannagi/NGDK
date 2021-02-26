@@ -23,7 +23,7 @@
 			</Target>
 		</Build>
 		<Compiler>
-			<Add option="-Wall -O3 -s" />
+			<Add option="-Wall -Wextra -O3 -s" />
 		</Compiler>
 		<Linker>
 			<Add option="-s" />
@@ -31,10 +31,6 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<envvars />
-			<code_completion />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

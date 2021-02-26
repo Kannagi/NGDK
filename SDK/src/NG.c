@@ -220,7 +220,7 @@ void NG_Backdrop_Color_Set(u16 color)
 }
 
 
-void __attribute__((noinline)) NG_Sprite_Clear_VRAM()
+void NG_Sprite_Clear_VRAM()
 {
 	asm (
 		"jsr BIOSF_CLEARSPR\n	"

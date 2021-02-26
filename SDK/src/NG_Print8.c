@@ -4,7 +4,7 @@
 #include "NG_arge.h"
 
 
-void __attribute__((noinline)) NG_Prints8(s8 val,u16 x,u16 y)
+void NG_Prints8(s8 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;
@@ -58,7 +58,7 @@ void __attribute__((noinline)) NG_Prints8(s8 val,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Printu8(u8 val,u16 x,u16 y)
+void NG_Printu8(u8 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;
@@ -99,7 +99,7 @@ void __attribute__((noinline)) NG_Printu8(u8 val,u16 x,u16 y)
 		);
 }
 
-void __attribute__((noinline)) NG_Printh8(u8 val,u16 x,u16 y)
+void NG_Printh8(u8 val,u16 x,u16 y)
 {
 	NG_arg1_u16 = x;
 	NG_arg2_u16 = y;

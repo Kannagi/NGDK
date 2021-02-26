@@ -16,17 +16,12 @@
 		<Build>
 			<Target title="bin (Linux)">
 				<Option platforms="Unix;Mac;" />
-				<Option output="bin/052-p1.bin" prefix_auto="0" extension_auto="0" />
+				<Option output="bin/bin.elf" prefix_auto="0" extension_auto="0" />
 				<Option working_dir="bin/" />
 				<Option object_output="obj/" />
 				<Option type="1" />
 				<Option compiler="ngdk" />
-				<Option parameters=" &amp; gngeo --rompath=/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/NGDK/bin/ ssideki" />
-				<Compiler>
-					<Add option="-Wall" />
-					<Add option="-fno-web -fno-gcse -fno-unit-at-a-time -fomit-frame-pointer" />
-					<Add directory="inc" />
-				</Compiler>
+				<Option parameters=" &amp; gngeo --rompath=/home/kannagi/Documents/RetroProg/Console/NeoGeo/github/NGDK/SDK/bin/ ssideki" />
 				<ExtraCommands>
 					<Add after="bash compile.sh" />
 					<Mode after="always" />
@@ -54,11 +49,16 @@
 				<Option type="2" />
 				<Option compiler="ngdk" />
 				<Option parameters=" &amp; gngeo --rompath=/home/kannagi/Documents/RetroProg/Console/NeoGeo/SDK/bin/ ssideki" />
-				<Compiler>
-					<Add option="-fuse-linker-plugin -fno-web -fno-gcse -fno-unit-at-a-time -fomit-frame-pointer -flto" />
-				</Compiler>
 			</Target>
 		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-Wall -Wextra" />
+			<Add option="-Wno-shift-negative-value -Wno-main -Wno-unused-parameter" />
+			<Add option="-fno-builtin -fno-web -fno-gcse -fno-unit-at-a-time -fomit-frame-pointer" />
+			<Add option="-fno-inline-functions" />
+			<Add directory="inc" />
+		</Compiler>
 		<Unit filename="examples/src/_start.s">
 			<Option target="bin (Linux)" />
 			<Option target="bin (Windows)" />
@@ -76,6 +76,9 @@
 		<Unit filename="src/NG.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="src/NG_BCD.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="src/NG_BG.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -86,9 +89,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/NG_Print8.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="src/NG_PrintBCD.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/NG_Sprite.c">

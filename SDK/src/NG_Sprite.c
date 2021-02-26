@@ -12,8 +12,8 @@ void NG_Sprite_Init(u16 id, u16 x, u16 y, u16 width, u16 height, u16 tile, u16 f
 	NG_Sprites[id].tile = tile;
 	NG_Sprites[id].flags = flags;
 
-	NG_Sprites[id].x = 8 + x;
-	NG_Sprites[id].y = 15 + y;
+	NG_Sprites[id].x = x;
+	NG_Sprites[id].y = y;
 }
 
 void NG_Sprite_VRAM_ID_Set(u16 id)
@@ -26,7 +26,7 @@ u16 NG_Sprite_VRAM_ID_Get()
 	return NG_VRAM_sprite_id-1;
 }
 
-void __attribute__((noinline)) NG_Sprite_VRAM_Init(u16 id)
+void NG_Sprite_VRAM_Init(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -101,7 +101,7 @@ void __attribute__((noinline)) NG_Sprite_VRAM_Init(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_Tiles_Update(u16 id)
+void NG_Sprite_Tiles_Update(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -258,7 +258,7 @@ void __attribute__((noinline)) NG_Sprite_Tiles_Update(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_Zoom_Update(u16 id)
+void NG_Sprite_Zoom_Update(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -268,7 +268,6 @@ void __attribute__((noinline)) NG_Sprite_Zoom_Update(u16 id)
 		"lea     VRAM_RW,%a1\n	"
 
 		"move.w  NG_arg1_u16,%d0\n	"
-		"andi.w  #0x7F,%d0\n	"
 		"asl.w   #4,%d0\n	"
 		"add.w   %d0,%a0\n	"
 
@@ -290,7 +289,7 @@ void __attribute__((noinline)) NG_Sprite_Zoom_Update(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_Update(u16 id)
+void NG_Sprite_Update(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -303,7 +302,6 @@ void __attribute__((noinline)) NG_Sprite_Update(u16 id)
 		"lea     VRAM_RW,%a2\n	"
 
 		"move.w  NG_arg1_u16,%d0\n	"
-		"andi.w  #0x7F,%d0\n	"
 		"asl.w   #4,%d0\n	"
 		"add.w   %d0,%a0\n	"
 
@@ -317,6 +315,7 @@ void __attribute__((noinline)) NG_Sprite_Update(u16 id)
 
 		//Y position, sprite size
 		"move.w 4(%a0),%d0\n	"
+		"addi.w #15,%d0\n	"
 		"eor.w  #0xFFFF,%d0\n	"
 		"asl.w  #7,%d0\n	"
 		"or.w   6(%a0),%d0\n	"
@@ -324,6 +323,7 @@ void __attribute__((noinline)) NG_Sprite_Update(u16 id)
 
 		//X Position
 		"move.w  8(%a0),%d0\n	"
+		"addq.w  #7,%d0\n	"
 		"asl.w   #7,%d0\n	"
 		"move.w  %d0,(%a2)\n	"
 
@@ -331,7 +331,7 @@ void __attribute__((noinline)) NG_Sprite_Update(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_Update_N(u16 n)
+void NG_Sprite_Update_N(u16 n)
 {
 	NG_arg1_u16 = n;
 	asm (
@@ -347,7 +347,6 @@ void __attribute__((noinline)) NG_Sprite_Update_N(u16 n)
 		"move.w  #0x10,%d3\n	" 			//12c / d3 = 16 (NG_Sprite struct size, 16 bytes)
 
 		"move.w  NG_arg1_u16,%d0\n	" 		//12c / d0 = n (NG_arg1_u16)
-		"and.w   #0x7F,%d0\n	"			//8c / Cap d0 to x07f
 
 		//160*n+136c
 		"NG_Sprite_update_loop:\n	"
@@ -363,6 +362,7 @@ void __attribute__((noinline)) NG_Sprite_Update_N(u16 n)
 
 			//Y position , sprite size
 			"move.w 4(%a0),%d1\n	"		//12c / d1 = Y position (a0 + 4)
+			"addi.w #15,%d1\n	"			//8c
 			"eor.w  #0xFFFF,%d1\n	"		//8c / d1 = d1 ^ 0xffff
 			"asl.w  #7,%d1\n	"			//2*n+6c=20c / d1 = d1 << 7
 			"or.w   6(%a0),%d1\n	"		//12c / d1 = d1 | height (a0 + 6)
@@ -371,10 +371,10 @@ void __attribute__((noinline)) NG_Sprite_Update_N(u16 n)
 
 			//X Position
 			"move.w  8(%a0),%d1\n	" 		//12c / d1 = X position (a0 + 8)
+			"addq.w  #7,%d1\n	"			//4c
 			"asl.w   #7,%d1\n	"			//2*n+6c=20c / d1 = d1 << 7
 			"move.w  %d1,(%a2)\n	"		//8c / Write X position (d1) to VRAM_RW (a2)
 											//VRAM address is automatically incremented by 0x200
-
 			"add.w  %d3,%a0\n	"			//12c / a0 = a0 + 16 (NG_Sprite struct size, 16 bytes)
 
 		"dbra.w %d0,NG_Sprite_update_loop\n	"	//12c / loop if needed

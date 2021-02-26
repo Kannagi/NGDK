@@ -149,21 +149,18 @@ _IRQ:
 
 _VBLANK:
 
+	move %sr,RAMSTART+6
     btst    #7,BIOS_SYSSTAT
     bne label_BIOS_SYSSTAT
+		move RAMSTART+6,%sr
 		jmp     BIOSF_BOOTSCR
 		rte
 label_BIOS_SYSSTAT:
 
-
-
     movem.l %d0,-(%a7)
-
 
     move.w  #4,REG_IRQACK
     move.b  #0,REG_DIPSW
-
-
 
     addq.b #1,RAMSTART
 
@@ -174,6 +171,7 @@ label_BIOS_SYSSTAT:
     move.b  %d0,RAMSTART+5
 
     movem.l (%a7)+,%d0
+    move RAMSTART+6,%sr
 _VBLANK_END:
     rte
 
@@ -191,6 +189,7 @@ _start:
 
     jsr BIOSF_CLEARFIX
     jsr BIOSF_CLEARSPR
+
 
     jsr main
 

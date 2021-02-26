@@ -11,7 +11,7 @@ void game1(void);
 void game2(void);
 void game3(void);
 
-int  __attribute__((optimize("-O0"),noinline)) main()
+int  __attribute__((optimize("-O0"))) main(void)
 {
 	//game3();
 	example1();

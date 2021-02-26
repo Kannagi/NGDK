@@ -26,7 +26,7 @@ void NG_Sprite_HiColor_Init(u16 id, u16 x, u16 y, u16 width, u16 height, u16 til
 	NG_Sprites[id].y = 15 + y;
 }
 
-void __attribute__((noinline)) NG_Sprite_HiColor_VRAM_Init(u16 id)
+void NG_Sprite_HiColor_VRAM_Init(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -139,7 +139,7 @@ void __attribute__((noinline)) NG_Sprite_HiColor_VRAM_Init(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_HiColor_Tiles_Update(u16 id)
+void NG_Sprite_HiColor_Tiles_Update(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -400,7 +400,7 @@ void __attribute__((noinline)) NG_Sprite_HiColor_Tiles_Update(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_HiColor_Zoom_Update(u16 id)
+void NG_Sprite_HiColor_Zoom_Update(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -411,7 +411,6 @@ void __attribute__((noinline)) NG_Sprite_HiColor_Zoom_Update(u16 id)
 		"lea     VRAM_RW,%a1\n	"
 
 		"move.w  NG_arg1_u16,%d0\n	"
-		"andi.w  #0x7F,%d0\n	"
 		"asl.w   #4,%d0\n	"
 		"add.w   %d0,%a0\n	"
 
@@ -434,7 +433,7 @@ void __attribute__((noinline)) NG_Sprite_HiColor_Zoom_Update(u16 id)
 		);
 }
 
-void __attribute__((noinline)) NG_Sprite_HiColor_Update(u16 id)
+void NG_Sprite_HiColor_Update(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -447,7 +446,6 @@ void __attribute__((noinline)) NG_Sprite_HiColor_Update(u16 id)
 		"lea     VRAM_RW,%a2\n	"
 
 		"move.w  NG_arg1_u16,%d0\n	"
-		"andi.w  #0x7F,%d0\n	"
 		"asl.w   #4,%d0\n	"
 		"add.w   %d0,%a0\n	"
 

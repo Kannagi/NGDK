@@ -14,7 +14,7 @@ u16 NG_Background_Width_Get()
 	return NG_BG_W >> 2;
 }
 
-void __attribute__((noinline)) NG_Background_Horizontal_Update(u16 id, u16 row, void *data)
+void NG_Background_Horizontal_Update(u16 id, u16 row, void *data)
 {
 	NG_arg1_u16 = id;
 	NG_arg1_u32 = (u32)data;
@@ -61,7 +61,7 @@ void __attribute__((noinline)) NG_Background_Horizontal_Update(u16 id, u16 row, 
 		);
 }
 
-void __attribute__((noinline)) NG_Background_Vertical_Update(u16 id, u16 col, void *data)
+void NG_Background_Vertical_Update(u16 id, u16 col, void *data)
 {
 	NG_arg1_u16 = id;
 	NG_arg2_u16 = col;
