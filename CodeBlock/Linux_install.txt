@@ -2,7 +2,7 @@ debian/ubuntu : install gcc-8-m68k-linux-gnu package
 fedora : install m68k-linux-gnu package
 
 Settings -> Compiler -> copy "NGDK"
-In Neo Geo GCC Compiler ->Toolchain executable "C:\SDK\NeoGeo\m68k"
+In Neo Geo GCC Compiler ->Toolchain executable "/usr"
 C Compiler : m68k-linux-gnu-gcc
 C++ Compiler : m68k-linux-gnu-g++
 Linker for dynamic lib : m68k-linux-gnu-ld
