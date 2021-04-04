@@ -1,0 +1,31 @@
+.TH BIN2C 1 "Mar 2017" "Version 1.0"
+.SH NAME
+bin2c \- Convert a binary file into a C integer array
+.SH SYNOPSIS
+.B bin2c
+.IR from
+.IR to
+[
+.IR prefix
+]
+
+.SH DESCRIPTION
+.B bin2c
+is used to convert binary files into C integer arrays.
+The generated code can be passed to the compiler to embed files
+directly into an executable without using file operations.
+
+Generates variables int \fIprefix\fR_size and unsigned char \fIprefix\fR_data.
+
+.SH EXAMPLES
+
+.EX
+.B
+   bin2c sonic.3ds mesh_sonic.c sonic
+.EE
+
+.SH AUTHOR
+This manual page was initially written by Stefan Galowicz <bogglez@protonmail.ch>,
+for the KOS project.
+.TP
+The program has been initially written by Dan Potter in 2000.

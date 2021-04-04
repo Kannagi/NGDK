@@ -1,5 +1,5 @@
-#include <NGDK.h>
-#include <data_ext.h>
+#include "NGDK.h"
+#include "data_ext.h"
 
 void example1(void)
 {

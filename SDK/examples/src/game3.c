@@ -1,4 +1,4 @@
-#include <NGDK.h>
+#include "NGDK.h"
 #include "asm.h"
 
 #define NG_MAX_BULLET 256

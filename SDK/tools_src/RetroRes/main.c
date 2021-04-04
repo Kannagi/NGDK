@@ -3,24 +3,24 @@
 #include <string.h>
 
 #include "aura.h"
-
+#define ARR_SIZE 1000
 
 typedef struct
 {
-	char str_C1[20];
-	char str_C2[20];
-	char pathRomK[200];
-	char pathRetroConvert[200];
-	char pathBin2c[200];
-	char pathNGextract[200];
-	char pathRetroTMX[200];
-	char dir[250];
+	char str_C1[ARR_SIZE];
+	char str_C2[ARR_SIZE];
+	char pathRomK[ARR_SIZE];
+	char pathRetroConvert[ARR_SIZE];
+	char pathBin2c[ARR_SIZE];
+	char pathNGextract[ARR_SIZE];
+	char pathRetroTMX[ARR_SIZE];
+	char dir[ARR_SIZE];
 }COMMAND;
 
 
 int file_test(char *strin1,char *strin2)
 {
-	char str[400];
+	char str[ARR_SIZE] = {0};
 	FILE *file;
 	sprintf(str,"%s.%s",strin1,strin2);
 	file = fopen(str,"r");
@@ -35,7 +35,7 @@ int file_test(char *strin1,char *strin2)
 
 int file_size_spr(char *strin)
 {
-	char str[400];
+	char str[ARR_SIZE] = {0};
 	FILE *file;
 	sprintf(str,"%s.spr",strin);
 	file = fopen(str,"r");
@@ -49,7 +49,7 @@ int file_size_spr(char *strin)
 }
 void init(COMMAND *command,char *path, int os)
 {
-    char ext[5];
+    char ext[5] = {0};
 	if(os == 0)
     {
 	    strcpy(ext, "");
@@ -71,11 +71,11 @@ int main(int argc, char** argv)
 	int i,n,l;
 	int log = 1;
 
-	char str[1000];
-	char str2[210];
-	char copystr[200];
-	char option[200];
-	char path[256];
+	char str[ARR_SIZE] = {0};
+	char str2[ARR_SIZE] = {0};
+	char copystr[ARR_SIZE] = {0};
+	char option[ARR_SIZE] = {0};
+	char path[ARR_SIZE] = {0};
 
 	if(argc < 1) return 0;
 	sprintf(path,"%s",argv[1]);
@@ -121,7 +121,7 @@ int main(int argc, char** argv)
 	AURA aura;
 	AURA_Init(&aura);
 
-	COMMAND command;
+	COMMAND command = {0};
 	float version = 0.8;
 #ifdef LINUX
 	printf("linux version : %.2f\n",version);
