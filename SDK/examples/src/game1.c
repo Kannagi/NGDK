@@ -1,4 +1,4 @@
-#include "NGDK.h"
+#include <NGDK.h>
 #include "data_ext.h"
 
 #define MAP_WIDTH 128
