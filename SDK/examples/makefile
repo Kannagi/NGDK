@@ -51,17 +51,15 @@ LD = m68k-elf-ld
 SFLAGS = -O0 -m68000 -I"$(INC)" -I"data"
 CFLAGS = -O1 -m68000 -I"$(INC)" -I"data"
 
-LFLAGS = --oformat binary -Ttext  -0x00 -Tbss 0x100020 -allow-multiple-definition -L"$(LIB)"
+LFLAGS = --oformat binary -Ttext -0x00 -Tbss 0x100020 -allow-multiple-definition -L"$(LIB)"
 
 OBJ_S = $(patsubst $(SRC)/%.s,$(OBJ)/%.o,$(wildcard $(SRC)/*.s))
 OBJ_C = $(patsubst $(SRC)/%.c,$(OBJ)/%.o,$(wildcard $(SRC)/*.c))
 
-all: ressources build
+all: $(OUT)/$(ROMNAME).zip
 
-build: $(OUT) $(OBJ) _build make_rom
-
-_build: $(OBJ_S) $(OBJ_C)
-	$(LD) $(LFLAGS) -o $(OUT)/$(ROMNUM)-p1.bin $^ -lNGDK
+$(OUT)/$(ROMNUM)-p1.bin: $(DATA)/*.c $(OBJ_S) $(OBJ_C)
+	$(LD) $(LFLAGS) -o $@ $(OBJ_S) $(OBJ_C) -lNGDK
 
 $(OUT):
 	$(MKDIR) $(OUT)
@@ -69,17 +67,19 @@ $(OUT):
 $(OBJ):
 	$(MKDIR) $(OBJ)
 
-$(OBJ)/%.o : $(SRC)/%.c
+$(OBJ)/%.o: $(SRC)/%.c $(DATA)/*.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-$(OBJ)/%.o : $(SRC)/%.s
+$(OBJ)/%.o: $(SRC)/%.s $(DATA)/*.c
 	$(CC) $(SFLAGS) -c $< -o $@
 
-ressources:
+$(DATA)/*.c $(DATA)/$(ROMNUM)-c1.bin $(DATA)/$(ROMNUM)-c2.bin: $(DATA)/*.png
+	rm -rf $(DATA)/$(ROMNUM)-c1.bin
+	rm -rf $(DATA)/$(ROMNUM)-c2.bin
 	cd $(DATA); \
 	$(TOOLS)/RetroRes $(TOOLS)
 
-make_rom:
+$(OUT)/$(ROMNAME).zip: $(OUT) $(OUT)/$(ROMNUM)-p1.bin $(DATA)/$(ROMNUM)-c1.bin $(DATA)/$(ROMNUM)-c2.bin
 	$(CP) samples/$(ROMNUM)-v1.bin $(OUT)/$(ROMNUM)-v1.v1
 	$(CP) data/$(ROMNUM)-c1.bin $(OUT)/$(ROMNUM)-c1.c1
 	$(CP) data/$(ROMNUM)-c2.bin $(OUT)/$(ROMNUM)-c2.c2
@@ -98,3 +98,5 @@ clean:
 	$(RM) -f $(DATA)/*.h
 	$(RM) -f $(DATA)/*.ktm
 	$(RM) -f $(OUT)/*
+
+.PHONY: clean all
