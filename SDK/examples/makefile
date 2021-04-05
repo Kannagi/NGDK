@@ -67,10 +67,10 @@ $(OUT):
 $(OBJ):
 	$(MKDIR) $(OBJ)
 
-$(OBJ)/%.o: $(SRC)/%.c $(DATA)/*.c
+$(OBJ)/%.o: $(SRC)/%.c $(DATA)/*.c $(OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
-$(OBJ)/%.o: $(SRC)/%.s $(DATA)/*.c
+$(OBJ)/%.o: $(SRC)/%.s $(DATA)/*.c $(OBJ)
 	$(CC) $(SFLAGS) -c $< -o $@
 
 $(DATA)/*.c $(DATA)/$(ROMNUM)-c1.bin $(DATA)/$(ROMNUM)-c2.bin: $(DATA)/*.png
