@@ -56,7 +56,7 @@ LFLAGS = --oformat binary -Ttext -0x00 -Tbss 0x100020 -allow-multiple-definition
 OBJ_S = $(patsubst $(SRC)/%.s,$(OBJ)/%.o,$(wildcard $(SRC)/*.s))
 OBJ_C = $(patsubst $(SRC)/%.c,$(OBJ)/%.o,$(wildcard $(SRC)/*.c))
 
-all: $(OUT)/$(ROMNAME).zip
+all: $(OBJ) $(OUT) $(OUT)/$(ROMNAME).zip
 
 $(OUT)/$(ROMNUM)-p1.bin: $(DATA)/*.c $(OBJ_S) $(OBJ_C)
 	$(LD) $(LFLAGS) -o $@ $(OBJ_S) $(OBJ_C) -lNGDK
@@ -67,10 +67,10 @@ $(OUT):
 $(OBJ):
 	$(MKDIR) $(OBJ)
 
-$(OBJ)/%.o: $(SRC)/%.c $(DATA)/*.c $(OBJ)
+$(OBJ)/%.o: $(SRC)/%.c $(DATA)/*.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-$(OBJ)/%.o: $(SRC)/%.s $(DATA)/*.c $(OBJ)
+$(OBJ)/%.o: $(SRC)/%.s $(DATA)/*.c
 	$(CC) $(SFLAGS) -c $< -o $@
 
 $(DATA)/*.c $(DATA)/$(ROMNUM)-c1.bin $(DATA)/$(ROMNUM)-c2.bin: $(DATA)/*.png
