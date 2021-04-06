@@ -1,0 +1,7 @@
+Converts a binary file into a C integer array (for inclusion in a source file)
+
+bin2c is part of KallistiOS
+
+KOS is an unofficial development environment for the SEGA Dreamcast game console.
+
+It was developed from scratch over the internet by a group of free software developers, and has no relation to the old Katana or WinCE development kits for the DC.
