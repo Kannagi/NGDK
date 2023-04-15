@@ -4,6 +4,29 @@
 
 #include "NG_arge.h"
 
+void (*NG_Sprite_VRAM_Init_ptr)(u16);
+void (*NG_Sprite_Tiles_Update_ptr)(u16);
+
+void NG_Sprite_VRAM_Init_SimpleIndex(u16 id);
+void NG_Sprite_VRAM_Init_ArrayIndex(u16 id);
+
+void NG_Sprite_Tiles_Update_SimpleIndex(u16 id);
+void NG_Sprite_Tiles_Update_ArrayIndex(u16 id);
+
+void NG_Set_Tile_Mode(char mode)
+{
+	if(mode == NG_TILE_MODE_SIMPLE)
+	{
+		NG_Sprite_VRAM_Init_ptr = &NG_Sprite_VRAM_Init_SimpleIndex;
+		NG_Sprite_Tiles_Update_ptr = &NG_Sprite_Tiles_Update_SimpleIndex;
+	}
+	else
+	{
+		NG_Sprite_VRAM_Init_ptr = &NG_Sprite_VRAM_Init_ArrayIndex;
+		NG_Sprite_Tiles_Update_ptr = &NG_Sprite_Tiles_Update_ArrayIndex;
+	}
+}
+
 void NG_Sprite_Init(u16 id, u16 x, u16 y, u16 width, u16 height, u16 tile, u16 flags)
 {
 	NG_Sprites[id].width = width;
@@ -26,7 +49,7 @@ u16 NG_Sprite_VRAM_ID_Get()
 	return NG_VRAM_sprite_id-1;
 }
 
-void NG_Sprite_VRAM_Init(u16 id)
+void NG_Sprite_VRAM_Init_SimpleIndex(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -101,7 +124,83 @@ void NG_Sprite_VRAM_Init(u16 id)
 		);
 }
 
-void NG_Sprite_Tiles_Update(u16 id)
+void NG_Sprite_VRAM_Init_ArrayIndex(u16 id)
+{
+	NG_arg1_u16 = id;
+	asm (
+		"movem.l %d2-%d5/%a2/%a3,-(%a7)\n	"
+
+		"move.w  #0x01,VRAM_MOD\n	"
+
+		"move.w  NG_arg1_u16,%d0\n	"
+		"asl.w   #4,%d0\n	"
+
+		"lea     NG_Sprites,%a0\n	"
+		"add.w   %d0,%a0\n	"
+
+		"lea     VRAM_ADDR,%a1\n	"
+		"lea     VRAM_RW,%a2\n	"
+
+		"move.w  6(%a0),%d4\n	" //h
+		"move.w  10(%a0),%d3\n	" //w
+		"move.l  NG_tile_array_ptr,%a3\n	" //tile
+
+		"move.w  NG_VRAM_sprite_id,%d5\n	"
+		"move.w  %d5,(%a0)\n	" //VRAM sprite id
+		"move.w  %d5,%d2\n	"
+		"add.w   %d3,%d2\n	"
+		"move.w  %d2,NG_VRAM_sprite_id\n	"
+
+		//SCB3 Y position, sticky bit, sprite size
+		"move.w  #SCB3,%d0\n	"
+		"add.w   %d5,%d0\n	"
+		"move.w  %d0,(%a1)\n	"
+
+		"move.w  4(%a0),%d0\n	"
+		"eor.w   #0xFFFF,%d0\n	"
+		"asl.w   #7,%d0\n	"
+		"or.w    %d4,%d0\n	"
+		"ori.w   #0x40,%d0 \n	"
+
+		"subi.w  #1,%d3\n	"
+		"subi.w  #1,%d4\n	"
+		"move.w  %d3,%d2\n	"
+
+		"NG_Sprite_Init_loop_A_ArrayIndex:\n	"
+			"move.w  %d0,(%a2)\n	"
+		"dbra.w %d2,NG_Sprite_Init_loop_A_ArrayIndex\n	"
+
+		//SCB1
+		"asl.w   #6,%d5\n	"
+		"move.w  %d5,%d0\n	"
+
+		//"move.w  14(%a0),%d5\n	" //palette/tile/flip/auto
+
+		"move.w %d0,(%a1)\n	"
+		"addi.w  #0x40,%d0\n	"
+		NG_NOP
+		"NG_Sprite_Init_loop1_ArrayIndex:\n	"
+
+			"move.w %d4,%d2\n	"
+
+			"NG_Sprite_Init_loop2_ArrayIndex:\n	"
+				"move.w  (%a3),(%a2)\n	"
+				NG_NOP3
+				"addq.w  #2,%a3\n	"
+				"move.w  (%a3),(%a2) \n	"
+				"addq.w  #2,%a3\n	"
+			"dbra.w %d2,NG_Sprite_Init_loop2_ArrayIndex\n	"
+
+			"move.w %d0,(%a1)\n	"
+			"addi.w  #0x40,%d0\n	"
+
+		"dbra.w %d3,NG_Sprite_Init_loop1_ArrayIndex\n	"
+
+		"movem.l (%a7)+,%d2-%d5/%a2/%a3\n	"
+		);
+}
+
+void NG_Sprite_Tiles_Update_SimpleIndex(u16 id)
 {
 	NG_arg1_u16 = id;
 	asm (
@@ -255,6 +354,60 @@ void NG_Sprite_Tiles_Update(u16 id)
 
 		"NG_Sprite_Tiles_Update_end:\n	"
 		"movem.l (%a7)+,%d2-%d6/%a2\n	"
+		);
+}
+
+void NG_Sprite_Tiles_Update_ArrayIndex(u16 id)
+{
+	NG_arg1_u16 = id;
+	asm (
+		"movem.l %d2-%d6/%a2/%a3,-(%a7)\n	"
+
+		"move.w  #0x01,VRAM_MOD\n	"
+
+		"move.w  NG_arg1_u16,%d0\n	"
+		"asl.w   #4,%d0\n	"
+
+		"lea     NG_Sprites,%a0\n	"
+		"add.w   %d0,%a0\n	"
+
+		"lea     VRAM_ADDR,%a1\n	"
+		"lea     VRAM_RW,%a2\n	"
+
+		"move.w  (%a0),%d6\n	"//id
+		"move.w  6(%a0),%d4\n	" //h
+		"move.w  10(%a0),%d3\n	" //w
+		"move.l  NG_tile_array_ptr,%a3\n	" //tile
+		//"move.w  14(%a0),%d5\n	" //palette/tile/flip/auto
+
+		"subi.w  #1,%d3\n	"
+		"subi.w  #1,%d4\n	"
+
+		"move.w  %d6,%d0\n	"
+		"asl.w   #6,%d0\n	"
+
+		"move.w %d0,(%a1)\n	"
+		"addi.w  #0x40,%d0\n	"
+		NG_NOP
+
+		"NG_Sprite_Tiles_Update_loop1_ArrayIndex:\n	"
+
+			"move.w %d4,%d2\n	"
+
+			"NG_Sprite_Tiles_Update_loop2_ArrayIndex:\n	"
+				"move.w  (%a3),(%a2)\n	"
+				NG_NOP3
+				"addq.w  #2,%a3\n	"
+				"move.w  (%a3),(%a2) \n	"
+				"addq.w  #2,%a3\n	"
+			"dbra.w %d2,NG_Sprite_Tiles_Update_loop2_ArrayIndex\n	"
+
+			"move.w %d0,(%a1)\n	"
+			"addi.w  #0x40,%d0\n	"
+
+		"dbra.w %d3,NG_Sprite_Tiles_Update_loop1_ArrayIndex\n	"
+
+		"movem.l (%a7)+,%d2-%d6/%a2/%a3\n	"
 		);
 }
 

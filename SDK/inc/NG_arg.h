@@ -17,6 +17,7 @@ volatile u32 NG_arg3_u32;
 volatile u32 NG_arg4_u32;
 
 NG_Sprite NG_Sprites[NG_MAX_SPR];
+u16* NG_tile_array_ptr;
 u16 NG_VRAM_sprite_id;
 u16 NG_PAL_ID;
 

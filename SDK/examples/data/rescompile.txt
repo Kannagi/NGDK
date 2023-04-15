@@ -10,5 +10,6 @@ SPR=test3
 SPR=ship,booster,bullet,bullet2,Boss,BGD,
 PAL =MarcoLPal
 TMX =stage1
+SPR=colors
 
 //BIN=stage1_1,

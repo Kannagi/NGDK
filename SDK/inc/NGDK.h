@@ -235,6 +235,7 @@ typedef struct
 }NG_Animation;
 
 extern NG_Sprite NG_Sprites[NG_MAX_SPR];
+extern u16* NG_tile_array_ptr;
 
 /**
  * @brief Waits for next VBLANK to begin.
@@ -420,6 +421,10 @@ void NG_Fix_Print_h16(u16 val, u16 x, u16 y);
  */
 void NG_Fix_Print_h32(u32 val, u16 x, u16 y);
 
+#define NG_TILE_MODE_SIMPLE 0
+#define NG_TILE_MODE_ARRAY 1
+#define NG_TILE_NULL 0
+
 /**
  * @brief Calls BIOSF_CLEARSPR:
  *        All shrinking values are set to max (all SCB2 is set to $0FFF).
@@ -458,13 +463,24 @@ void NG_Sprite_VRAM_ID_Set(u16 id);
 u16 NG_Sprite_VRAM_ID_Get(void);
 
 /**
+ * @brief Select Tile mode.
+ *        Use NG_TILE_MODE_SIMPLE or NG_TILE_MODE_ARRAY defines.
+ *
+ * @param mode Tile Mode
+ */
+void NG_Set_Tile_Mode(char mode);
+
+/**
  * @brief Registers sprite in VRAM.
  *        VRAM id will be set in NG_Sprites[id] properties.
  *        Creates tilemap and update sprite in VRAM.
- *
+ *        void NG_Sprite_VRAM_Init(u16 id)
+ * 
  * @param id Sprite id (NG_Sprites)
  */
-void NG_Sprite_VRAM_Init(u16 id);
+
+extern void (*NG_Sprite_VRAM_Init_ptr)(u16);
+#define NG_Sprite_VRAM_Init (*NG_Sprite_VRAM_Init_ptr)
 
 /**
  * @brief Updates a sprite.
@@ -484,10 +500,13 @@ void NG_Sprite_Update_N(u16 n);
 
 /**
  * @brief Updates a sprite tiles data to VRAM.
- *
+ *        void NG_Sprite_Tiles_Update(u16 id);
+ * 
  * @param id Sprite id (NG_Sprites)
  */
-void NG_Sprite_Tiles_Update(u16 id);
+
+extern void (*NG_Sprite_Tiles_Update_ptr)(u16);
+#define NG_Sprite_Tiles_Update (*NG_Sprite_Tiles_Update_ptr)
 
 /**
  * @brief Updates a sprite zoom to VRAM.
